@@ -1,0 +1,55 @@
+Algoritmo para tomar banho
+Início
+
+Pegar a maçaneta da porta com a mão adequada
+Virar a mão firmemente num ângulo de 90 graus
+Jogar força na maçaneta empurrando a maçaneta para dentro do banheiro
+Soltar a mão da maçaneta
+
+funcao verificar_item(itens):
+    Para cada item em itens:
+        Se não houver ITEM no banheiro:
+            Vá ao lugar de pegar o ITEM
+            Pegue o ITEM
+            Leve até o banheiro
+        Se não houver ITEM na casa:
+            Vá até o mercado
+            Compre o item
+        Se não:
+            Volte para casa
+            Leve até o banheiro
+
+verificar_item([toalha, sabonete, shampoo])
+
+Pegue uma roupa limpa de acordo com o clima
+Coloque no banheiro
+
+Tire a roupa
+Ir até o box do chuveiro
+Ligar o chuveiro com sua maçaneta, com os mesmos passos da linha 4 até 7
+
+Verificar a temperatura
+Se (estiver muito quente e clima for quente) ou (Se estiver muito frio e clima for frio):
+    Ajuste a uma temperatura adequada
+
+Entre dentro do box
+
+Pegue o sabonete com uma mão adequada
+Passe o shampoo pelo corpo durante 1 minuto suavemente
+Coloque o sabonete no seu devido lugar
+
+Pegue o shampoo com uma mão adequada
+Abra a tampa do shampoo se possível
+Passe um pouco do shampoo na mão
+Coloque o shampoo no devido lugar
+Pegue a mão do shampoo e passe no cabelo
+Esfregue o cabelo com as duas mãos durante 20 segundos
+
+Feche o chuveiro
+Pegue a toalha
+Seque o próprio corpo
+
+Abra a porta do box
+Vista-se com a roupa limpa
+
+Fim

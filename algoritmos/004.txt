@@ -1,0 +1,11 @@
+Algoritmo para enviar um email
+
+Início
+
+Abrir o gmail
+Clicar no botão "Escrever email"
+Especificar para quem vai enviar
+Colocar o conteúdo que deseja
+Clicar no botão de enviar
+
+Fim

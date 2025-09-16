@@ -1,0 +1,17 @@
+Algoritmo para trocar o pneu de um carro
+
+Início
+
+Pegar as ferramentas necessárias
+Remover o pneu velho
+Colocar o pneu novo
+Testar o novo pneu
+
+Se o pneu novo for ruim
+    Retire o pneu recentemente colocado
+    Coloque outro pneu novo
+
+    Se o pneu for ruim novamente
+        Execute novamente da linha  3 até 8
+
+Fim

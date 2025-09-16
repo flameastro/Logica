@@ -1,0 +1,43 @@
+Algoritmo para comer uma pizza
+
+Início
+
+Pegar um prato na estante
+
+Se não tiver prato na estante
+    Lave um prato
+    Seque o prato
+
+Coloque na mesa
+Pegar garfo
+Pegar faca
+
+Se não tiver garfo
+    Lave um garfo
+    Seque o garfo
+
+Se não tiver faca
+    Lave a faca
+    Seque a faca
+
+Coloque ambos em cima da mesa
+Abrir a geladeira
+Pegar a pizza
+Colocar a pizza no prato
+Esquentar no microondas
+Retirar
+Colocar no prato
+Comer
+
+Enquanto pizza não acaba
+    Comer a pizza
+    Mastigar bem
+
+Lavar o prato
+Colocar o prato na estante
+Lavar o garfo
+Colocar o garfo na gaveta
+Lavar a faca
+Colocar a faca na gaveta
+
+Fim

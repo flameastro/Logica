@@ -1,0 +1,26 @@
+Algoritmo para somar dois números num papel
+
+Início
+
+Pegar um lápis
+Escrever o primeiro número
+
+No lado direito
+    Escrever um sinal de mais
+
+No lado direito do sinal de mais
+    Escrever o outro número
+
+No lado direito do segundo número
+    Colocar um sinal de igual
+
+Olhar para o problema de adição
+Calcular utilizando a mente
+
+Se o problema de adição for muito difícil
+    Escrever num rascunho a conta de adição
+
+Obter a soma dos dois números
+Colocar o resultado da soma no lado direito do sinal de igual
+
+Fim

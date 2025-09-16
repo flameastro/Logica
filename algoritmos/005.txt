@@ -1,0 +1,22 @@
+Algoritmo para escovar os dentes
+
+Início
+
+Pegue a escova
+Pegue a pasta de dente
+
+Se não tem pasta de dente
+    Verificar e procurar em outros lugares
+    Se não tem
+        Ir ao mercado comprar
+
+Coloque a pasta de dente nas cerdas da escova
+Esfregue a escova de dente nos dentes
+
+Se escovou por 60 segundos
+    Tire a pasta de dente da boca
+    Lave a boca
+    Cuspa a pasta
+    Coloque a escova e a pasta nos devidos lugares
+
+Fim

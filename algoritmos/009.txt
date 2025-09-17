@@ -1,0 +1,22 @@
+Algoritmo para colocar o lixo para fora
+
+Início
+
+Pegue a sacola do lixo com a mão direita
+Vá até a porta da saída
+
+Se a porta estiver trancada
+    Pegue a chave com a mão esquerda
+    Coloque no buraco da porta
+    Gire a chave para a esquerda até sair a trava de segurança
+    Tire a chave do buraco da porta
+    Coloque em cima da mesa
+
+Com a mão esquerda, abra a porta
+Vá até o local de despejo de lixo
+Coloque a sacola de lixo no seu devido lugar
+
+Volte para casa
+Feche a porta da saída
+
+Fim

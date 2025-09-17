@@ -1,0 +1,39 @@
+Algoritmo para assistir a um vídeo do youtube pelo computador
+
+Início
+
+Abra o navegador de preferência
+Se houver popups na tela
+    Desative todos
+
+Clique na barra de pesquisa do motor de busca
+Digite "youtube.com"
+Pressioner Enter
+
+Se não houver sinal de Wi-Fi
+    Aproxime-se de algum local com Wi-Fi
+
+Se o aparelho Wi-Fi não estiver conectado à tomada
+    Conecte o aparelho Wi-Fi na tomada
+
+Se a opção de Wi-Fi do computador estiver desativada
+    Conecte ao seu Wi-Fi
+
+    Enquanto pedir senha
+        Digite a senha do Wi-Fi se lembrar
+
+        Se a senha estiver incorreta
+            Tente outra senha
+
+        Se a tentativa de senhas for maior que 5
+            Peça ajuda a alguém
+
+Clique na barra de pesquisa do YouTube
+Digite "Curso de Python"
+Pressione Enter
+
+Clique no primeiro vídeo
+Pegue uma pipoca
+E aprenda a programar em Python!
+
+Fim

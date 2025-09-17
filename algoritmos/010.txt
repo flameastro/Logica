@@ -1,0 +1,17 @@
+Algoritmo para ligar um notebook desligado
+
+Início
+
+Com a mão direita, segure firmemente na parte superior do notebook
+Com a mão esquerda, segure firmemente na parte inferior di notebook
+Com a mão direita, empurre a parte superior
+
+Clique no botão de ligar
+Insira sua senha
+Enquanto a senha for incorreta
+    Insira sua senha novamente
+
+    Se tentou mais de 3 vezes
+        Aguarde 30 segundos
+
+Fim

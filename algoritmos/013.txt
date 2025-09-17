@@ -1,0 +1,21 @@
+Algoritmo para abrir um navegador e ver fotos de gatos
+
+Início 
+
+Abra um navegador de preferência
+Pesquise por "Gatos" na barra de pesquisa do motor de busca
+Presione Enter
+
+Se ocorrer uma mensagem de sem conexão ao Wi-Fi
+    Ligue o aparelho Wi-Fi
+
+Se o Wi-Fi do computador estiver desligado
+    Ligue o Wi-Fi do computador
+
+Se não tiver pago o Wi-Fi
+    Pague o Wi-Fi
+
+Vá até a aba de Imagens
+Veja fotos de Gatos!
+
+Fim

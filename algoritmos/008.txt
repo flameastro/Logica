@@ -1,0 +1,23 @@
+Algoritmo para escrever "Hello, World!" em Python, no VSCode - considerando que VSCode está fechado e que é o primeiro programa
+
+Início
+
+Abrir o VSCode
+
+Clique no explorador de arquivos
+Clique em abrir pasta
+Selecione uma pasta
+Clique em selecionar
+
+Clique na Seção "Explorador"
+Clique em "Novo arquivo" ou no ícone de um arquivo com um +
+Digite main.py
+Clique Enter
+
+Escreva "print("Hello, World!)"
+Tecle ctrl + T ou abra o Terminal manualmente
+Digite "python main.py"
+Veja o resultado...
+Hello, World!
+
+Fim

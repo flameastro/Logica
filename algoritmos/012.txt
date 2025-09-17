@@ -1,0 +1,27 @@
+Algoritmo para Ligar a televisão
+
+Início
+
+Pegue o controle da televisão com a mão direita
+
+funcao parte_desnecessaria()
+    Se não tiver mão direita
+        Pegue o controle da televisão com a mão esquerda
+
+        Se não tiver mão esquerda
+            Pegue com o pé direito
+            ...
+parte_desnecessaria()
+
+
+Olhe para o controle e identifique em que posição está o botão de ligar
+Pressione o botão de ligar
+Enquanto não ligar
+    Se não estiver conectado à rede Wi-Fi
+         Conecte o cabo da televisão na rede Wi-Fi
+    Se não pagou o acesso a Wi-Fi
+        Pague o acesso ao Wi-Fi
+    Se não ligar
+        Aguarde 15 minutos e tente novamente
+
+Fim

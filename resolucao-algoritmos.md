@@ -5,7 +5,6 @@ Passos para resolução de problemas:
 • Utilizar a descrição narrativa
 • Utilizar uma linguagem de programação
 
-
 Abstração: reconhecer o que é mais importante na situação-problema, para deixar de lado o que não for essencial;
 Decomposição: dividir o seu desafio em problemas menores, para facilitar a sua compreensão;
 Reconhecimento de padrão: o que se assemelha no problema, quais as repetições e similaridades que ele tem e que podem auxiliar na sua resolução;

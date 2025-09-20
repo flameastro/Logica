@@ -2,19 +2,29 @@ Algoritmo para trocar a lâmpada
 
 Início
 
-Pegar uma escada
-Posicionar a escada abaixo da luz
+Ligue a lâmpada
+Se a lâmpada emitir luz
+    Fim
 
-Se a luz estiver ligada
-    desligar a luz pelo interruptor
-Pegar a nova lâmpada
-Ir em direção a escada
+Pegue uma escada
+Posicione a escada abaixo da lâmpada
+Desligue a luz pelo interruptor
 
-Enquanto não estiver no último degrau
-    Subir mais um degrau
+Enquanto não alcançar a lâmpada
+    Suba mais um degrau
 
 Desenrroscar a lâmpada velha até sair
-Colocar a nova lâmpada até se fixar no teto
+Pegue a lâmpada velha com a mão esquerda
+Desça da escada
+Coloque a lâmpada velha em cima da mesa
+
+Pegue a lâmpada nova com a mão direita
+Vá em direção a escada
+
+Enquanto não alcançar a lâmpada
+    Suba mais um degrau
+
+Colocar a nova lâmpada até se encaixar bem
 
 Enquanto não chegar no chão
     Desça mais um degrau
@@ -22,11 +32,6 @@ Enquanto não chegar no chão
 Ligue a luz pelo interruptor
 
 Se a lâmpada não ligar
-    Desligar a luz
-
-    Repita os passos
-        5 até 14, 2 vezes
-        Se não ligar
-            Ficará sem luz
+    Volte ao passo "Desligue a luz pelo interruptor"
 
 Fim

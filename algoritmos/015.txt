@@ -1,0 +1,21 @@
+Algoritmo para Atravessar a rua
+
+Início
+
+Pare numa faixa de pedestres, ainda na calçada
+
+Olhe para o lado esquerdo
+Calcule se ele pode chegar na faixa de pedestres em 10 segundos
+
+Se faltar mais de 10 segundos para o carro chegar na faixa de pedestre
+    Olhe para o lado direito
+    Calcule se ele pode chegar na faixa de pedestres em 10 segundos
+
+    Se faltar mais de 10 segundos para o carro chegar na faixa de pedestre
+        Atravesse na faixa de pedestre
+    Se não
+        Volte ao passo 2 (Olhe para o lado esquerdo)
+Se não
+    Volte ao passo 2 (Olhe para o lado esquerdo)
+
+Fim

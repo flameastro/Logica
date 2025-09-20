@@ -1,0 +1,55 @@
+Algoritmo para fazer uma compra na Amazon (windows)
+
+Início
+
+Acesse o seu navegador de preferência
+Digite "amazon.com" no mecanismo de busca
+Aperte Enter
+
+Se aparecer uma mensagem de "sem conexão"
+    Saia do navegador
+
+    Se o botão de Wi-Fi estiver desligado
+        Pressione Win + I
+        Na barra de pesquisa, pesquise por Configurações de Wi-Fi
+        Clique no botão de ativar o Wi-Fi
+        Aguarde 10 segundos
+
+    Se o Wi-Fi não foi pago
+        Vá até a plataforma de preferência de sua operadora de Internet
+        Selecione um plano adequado
+        Clique no botão do plano
+
+        Se não tiver suas credenciais
+            Digite suas credenciais
+
+        Pague usando algum método de pagamento
+        Aguarde 10 minutos
+
+    Se o cabo de Wi-Fi estiver desconectado da tomada
+        Vá até ao cabo de Wi-Fi
+        Conecte na tomada
+
+        Aguarde 3 minutos
+
+    Volte ao passo 1
+
+Na barra de pesquisa da Amazon digite "Clean Code: A Handbook of Agile Software Craftsmanship"
+Aperte Enter
+Clique no primeiro produto
+Clique no botão de "Comprar Agora"
+
+Se você for menor de idade
+    Tente
+        Chamar um responsável
+    Se não
+        Sair do site
+        Fim
+
+Insira suas credenciais
+Aguarde o pagamento ser realizado e processado
+
+Se o saldo for insuficiente
+    Tente: Pedir dinheiro emprestado; Fazer um serviço; Esperar até o seu saldo for maior ou igual ao preço do produto
+
+Fim

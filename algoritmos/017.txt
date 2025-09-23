@@ -1,0 +1,22 @@
+Algoritmo para acertar o número escolhido pelo computador
+
+Notas
+O computador escolherá um número de 1 a 10 e o usuário precisará adivinhar qual o número que o computador escolheu. Enquanto o usuário não acertar, o usuário terá mais chances.
+
+Início
+
+NUMERO SORTEADO = [NUMERO ALEATÓRIO SORTEADO PELO COMPUTADOR ENTRE 1 A 10]
+NUMERO ESCOLHIDO = 0
+
+Enquanto NUMERO ESCOLHIDO for diferente do NUMERO SORTEADO
+    NUMERO ESCOLHIDO = Insira um número
+
+    Enquanto NUMERO ESCOLHIDO for maior que 10 ou NUMERO ESCOLHIDO for menor que 1
+        Exiba "Você deve digitar um número entre 1 a 10!"
+        NUMERO ESCOLHIDO = Insira um número
+
+    Exiba "Você errou, tente novamente!"
+
+Exiba "Você acertou!"
+
+Fim

@@ -1,0 +1,21 @@
+Algoritmo para fazer login em um site
+
+Anotações
+Preciso verificar se o usuário está conectado a Internet
+
+Início
+
+Se estiver desconectado da Internet ou se estiver sem conexão
+    Ative/Ligue o seu Wi-Fi
+
+Entre no site "https://exemplo.com.br"
+
+No campo de nome de usuário, escolha um nome de usuário
+Enquanto os requisitor de nome de usuário não forem satisfeitos
+    Insira outro nome de usuário no campo de nome de usuário
+
+No campo de e-mail, insira seu e-mail
+No campo de senha, insira uma senha com mais de 8 caracteres, com letras e números, contendo maiúsculas e minúsculas com símbolos especiais
+Clique no botão de fazer login
+
+Fim

@@ -1,17 +1,26 @@
-Algoritmo para trocar o pneu de um carro
+Algoritmo retornar o valor hora de um funcionário com base no salário mensal e horas trabalhadas por mês
+
+Comentários / Anotações / Notas
+Para retornar o valor hora de um funcionário, precisamos saber seu salário e horas trabalhadas num mês. Para obter a resposta, apenas dividimos o salário mensal e as horas trabalhadas. Se diminuirmos isso para: Salário diário e horas diárias, o valor por hora que este funcionário ganha é seu salário diário dividido pelas horas diárias.
+
+Caso 1:
+Salário mensal: 3250;
+Horas trabalhadas: A pessoa diz que trabalha 8 horas por dia, mas não sabe as horas trabalhadas por mês.
+Temos ~4 semanas (28 dias) por mês, que são ~20 dias úteis. Logo, multiplicamos 20 * 8 (160), pois são 20 dias que a pessoa trabalhou em 8 horas.
+Horas trabalhadas: 160
+VALOR HORA = 3250 / 160
+VALOR HORA = 20,3125
+
+Logo, concluímos que: A pessoa recebe R$3250 mensalmente, trabalha 8 horas por dia em 20 dias, que resulta em 160 horas, e recebe R$20,3125 por hora.
 
 Início
 
-Pegar as ferramentas necessárias
-Remover o pneu velho
-Colocar o pneu novo
-Testar o novo pneu
+Perguntar o salário mensal
+Perguntar as horas trabalhadas num mês
 
-Se o pneu novo for ruim
-    Retire o pneu recentemente colocado
-    Coloque outro pneu novo
+Fazer o cálculo:
+VALOR HORA = SALÁRIO MENSAL / HORAS MENSAIS
 
-    Se o pneu for ruim novamente
-        Execute novamente da linha  3 até 8
+retornar o VALOR HORA
 
 Fim

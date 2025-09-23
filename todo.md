@@ -1,4 +1,3 @@
-
 Recolocar um novo quadro
 Fazer login em um site
 Trocar a pilha do controle remoto

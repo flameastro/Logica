@@ -1,11 +1,18 @@
-Algoritmo para enviar um email
+Algoritmo para enviar um email (considerando que o app é Gmail)
 
 Início
 
-Abrir o gmail
-Clicar no botão "Escrever email"
-Especificar para quem vai enviar
-Colocar o conteúdo que deseja
-Clicar no botão de enviar
+Abra o gmail
+Se não tiver conexão a internet
+    Se conecte a internet
+
+Se não tiver conectado à conta do Google
+    Faça seu login
+
+Clique no botão "Escrever email"
+Insira o gmail do destinatário
+Insira o título da mensagem
+Insira o conteúdo que deseja
+Clique no botão de enviar
 
 Fim

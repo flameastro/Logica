@@ -1,0 +1,16 @@
+Algoritmo para beber água
+
+Início
+
+Se aproxime ao local aonde há um copo
+Estenda o seu braço
+Pegue o copo
+Se o buraco do copo não estiver para cima
+    Coloque o buraco do copo para cima e a parte debaixo para baixo
+
+Se aproxime de um local aonde há água potável
+Encha o copo de água
+Abra a boca
+Tome água de forma adequada e devagar
+
+Fim

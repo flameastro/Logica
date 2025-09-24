@@ -1,0 +1,34 @@
+Algoritmo para comentar em um vídeo do YouTube
+
+Notas
+Preciso verificar se o usuário tem acesso à Internet, e irei usar o vídeo do curso de Python do Guanabara como referência.
+
+Início
+
+Se estiver sem conexão Wi-Fi
+    Se conecte ao Wi-Fi
+
+Se o aparelho Wi-Fi estiver desligado
+    Ligue o aparelho Wi-Fi
+    Espere 5 minutos
+    Volte ao passo 1
+
+Abra o navegador
+Espere 1 segundo
+Clique na barra de mecanismo de busca
+Digite "youtube.com"
+Pressione Enter
+
+Espere 5 segundos
+Clique na barra de pesquisa do YouTube
+Digite "Curso de Python Gustavo Guanabara"
+Pressione Enter
+
+Enquanto o canal não for "Gustavo Guanabara"
+    Vá para o próximo vídeo
+
+Clique no vídeo
+... E... Aprenda Python!
+Não esqueça de fazer TODOS os exercícios
+
+Fim

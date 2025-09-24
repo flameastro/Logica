@@ -1,0 +1,25 @@
+Algoritmo para somar uma sequência de idades fornecidas pelo usuário
+
+Notas
+O programa deve pedir ao usuário quantas idades deseja serem somadas. Logo em seguida, o programa deve perguntar a idade de n pessoas, onde n é a quantidade de pessoas.
+
+Início
+
+QUANTIDADE = Digite a quantidade de pessoas que deseja somar a idade
+Se QUANTIDADE for maior que 100 ou QUANTIDADE for menor que 1
+    Exiba "Ops, você entrou com dados exagerados, tente inserir uma quantidade equilibrada entre 1 a 100."
+Se não
+    SOMA = 0
+    QUANTIDADE ATUAL = 0
+    Enquanto QUANTIDADE for maior ou igual a QUANTIDADE ATUAL
+        IDADE = Digite a idade da pessoa [QUANTIDADE ATUAL]
+
+        Enquanto IDADE for maior que 120 ou IDADE for menor que 0
+            Exiba "Ops, você entrou com dados exagerados, tente inserir uma quantidade equilibrada entre 0 a 120."
+
+        SOMA = SOMA + IDADE
+        QUANTIDADE ATUAL = QUANTIDADE ATUAL + 1
+
+    Exiba "A soma das idade é [SOMA]"
+
+Fim

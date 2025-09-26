@@ -1,0 +1,35 @@
+Algoritmo para pedir comida pelo Ifood
+
+Notas
+Considerando que o usuário esteja usando um android, e sua bateria esteja acima de 10%
+
+Início
+
+Se o aparelho Wi-Fi estiver desconectado da tomada
+    Ligue o aparelho Wi-Fi na tomada
+
+Se o botão de Wi-Fi estiver desconectado do celular
+    Ative o botão de Wi-Fi
+
+Se não tiver o app do Ifood
+    Vá até o centro de aplicativos
+    Clique na barra de pesquisa
+    Digite Ifood
+    Instale o Ifood
+
+Clique no app do Ifood
+Se não tem cadastro
+    Cadastre-se e coloque as informações requiridas.
+
+Explore os alimentos do Ifood até enqontrar um alimento que custe menor que seu saldo e que seja gostoso
+Clique no alimento
+Clique no botão de comprar
+Coloque as informações de cadastro necessários
+Enquanto o entregador/delivery não chegar
+    Espere
+
+Vá até o seu portão/local aonde se recebe as entregas
+Pegue seu alimento
+Coma!
+
+Fim

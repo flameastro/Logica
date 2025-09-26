@@ -1,0 +1,25 @@
+Algoritmo para trocar a pilha do controle remoto
+
+Notas
+Considerando que:
+1. A pessoa tenha pilhas infinitas (simulação)
+2. A pessoa tenha a pilha correta (AA/AAA, ...)
+3. A pessoa tenha uma televisão
+
+Início
+
+Pegue o controle
+Se aproxime de uma televisão
+Clique no botão de ligar
+Espere 5 segundos
+
+Enquanto a televisão não ligar
+    Pegue uma pilha nova
+    Tire a capa do controle
+    Tire a pilha antiga
+    Coloque a pilha nova
+
+Coloque a capa do controle
+Assista televisão com a pilha nova!
+
+Fim

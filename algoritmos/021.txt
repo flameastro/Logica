@@ -1,0 +1,25 @@
+Algoritmo para instalar um app no celular
+
+Início
+
+Localize o app central de aplicativos (Google Play Store, App Store)
+Clique no app central de aplicativos
+Aguarde 3 segundos
+
+Clique na barra de pesquisa
+Digite "Duolingo"
+Pressione o "Enter" do teclado do celular ou pressione o ícone de pesquisa
+
+Leia o nome do aplicativo
+Enquanto o nome do aplicativo não for "Duolingo"
+    Pule
+
+Clique no ícone do Duolingo
+Clique no botão de Instalar/Download
+Aguarde 1 minuto
+Volte à tela inicial do celular
+Encontre o app Duolingo
+Clique no Duolingo
+E... Aprenda idiomas!
+
+Fim

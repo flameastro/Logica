@@ -16,9 +16,8 @@
 ---
 
 ### Decomposição
-> A decomposição é basicamente o processo de **dividir o problema em suas partes menores**.  
-> *Exemplo*  
-* Maria comprou *duas camisas* por *R$75*, com *10%* de *frete* aplicado sobre o valor de R$75. Calcule o *valor unitário* de uma camisa.  
+> A decomposição é basicamente o processo de **dividir o problema em suas partes menores**.
+* *Exemplo*: Maria comprou *duas camisas* por *R$75*, com *10%* de *frete* aplicado sobre o valor de R$75. Calcule o *valor unitário* de uma camisa.  
 1. Primeiro, preciso remover o frete de 10%, revelando o preço das duas camisas  
 ``` python
 valor = 75
@@ -60,5 +59,3 @@ print(valor_unitario)  # 33.75
 ---
 
 *Última atualização: 05/10/2025*
-
----

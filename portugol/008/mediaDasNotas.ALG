@@ -2,15 +2,15 @@ algoritmo "mediaDasNotas"
 var nota1, nota2, media: real
 
 inicio
-      // Pede ao usu·rio inserir a primeira nota
+      // Pede ao usu√°rio inserir a primeira nota
       Escreva("Por favor, insira a sua primeira nota: ")
       leia(nota1)
 
-      // Pede ao usu·rio inserir a segunda nota
+      // Pede ao usu√°rio inserir a segunda nota
       Escreva("Por favor, insira a sua segunda nota: ")
       leia(nota2)
 
-      // Calcula a mÈdia entre as notas e guarda na vari·vel media
+      // Calcula a m√©dia entre as notas e guarda na vari√°vel media
       media <- (nota1 + nota2) / 2
-      Escreva("A sua mÈdia È ", media)
+      Escreva("A sua m√©dia √© ", media)
 fimalgoritmo

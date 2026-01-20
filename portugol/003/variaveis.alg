@@ -1,7 +1,8 @@
 algoritmo "variaveis"
-var nome: caractere
+var
+  nome: caractere
 
 inicio
-  nome <- "Felipe"
-  Escreva("Meu nome é ", nome)
+    nome <- "Felipe"
+    Escreva("Meu nome é ", nome)
 fimalgoritmo

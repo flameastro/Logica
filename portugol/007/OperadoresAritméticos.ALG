@@ -3,17 +3,17 @@ var
    a, b, c: inteiro
 
 inicio
-      // Os operadores AritmÈticos
-      // AdiÁ„o -> +
-      // SubtraÁ„o -> -
-      // MultiplicaÁ„o -> *
-      // Divis„o -> /
-      // Divis„o Inteira -> \
-      // ExponenciaÁ„o -> ^
-      // MÛdulo -> %
+      // Os operadores Aritm√©ticos
+      // Adi√ß√£oo -> +
+      // Subtra√ß√£oo -> -
+      // Multiplica√ß√£o -> *
+      // Divis√£o -> /
+      // Divis√£o Inteira -> \
+      // Exponencia√ß√£o -> ^
+      // M√≥dulo -> %
 
-      // A ordem de precedÍncia - A ordem dos operadores com os parÍnteses faz diferenÁa!
-      // Regra: ParÍnteses -> ExponenciaÁ„o -> MultiplicaÁ„o e Divis„o -> AdiÁ„o e SubtraÁ„o
+      // A ordem de preced√™ncia - A ordem dos operadores com os par√™nteses faz diferen√ßa!
+      // Regra: Par√™nteses -> Exponencia√ß√£o -> Multiplica√ß√£o e Divis√£o -> Adi√ß√£o e Subtra√ß√£o
       a <- 5
       b <- 3
       c <- 2

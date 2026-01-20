@@ -13,7 +13,7 @@ inicio
       Escreva("Por favor, digite o valor de B: ")
       Leia(b)
       
-      // Soma o valor de a + b e guarda na vari·vel soma
+      // Soma o valor de a + b e guarda na vari√°vel soma
       soma <- a + b
-      Escreva("A soma de ", a, " + ", b, " È ", soma) // mostra o resultado ao usu·riod
+      Escreva("A soma de ", a, " + ", b, " √© ", soma) // mostra o resultado ao usu√°rio
 fimalgoritmo

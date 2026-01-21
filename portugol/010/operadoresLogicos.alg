@@ -4,7 +4,7 @@ var
    clima: caractere
 
 inicio
-      // Vari�veis do programa
+      // Variáveis do programa
       a <- 2
       b <- 3
       c <- 5
@@ -17,7 +17,7 @@ inicio
       Escreval((a+5 > c) e (c < b)) // falso
       Escreval((12+3 <> a) e (15-7 >= b)) // verdadeiro
 
-      // Uma pequena l�gica utilizando o 'se'
+      // Uma pequena lógica utilizando o 'se'
       se (clima = "ensolarado") entao
          Escreva("O clima está ensolarado")
       senao

@@ -4,7 +4,7 @@ var
    EQ, ES: logico
 
 inicio
-      // Pede ao usu·rio digitar os trÍs lados
+      // Pede ao usu√°rio digitar os tr√™s lados
       Escreva("Digite o primeiro lado: ")
       Leia(l1)
       
@@ -17,6 +17,6 @@ inicio
       EQ <- (L1 = L2) e (L2 = L3)
       ES <- (L1 <> l2) e (l2 <> l3) e (l1 <> l3)
       
-      Escreval("O tri‚ngulo È EQUILATERO? ", EQ)
-      Escreva("O tri‚ngulo È ESCALENO? ", ES)
+      Escreval("O tri√¢ngulo √© EQUILATERO? ", EQ)
+      Escreva("O tri√¢ngulo √© ESCALENO? ", ES)
 fimalgoritmo

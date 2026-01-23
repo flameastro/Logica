@@ -22,10 +22,10 @@ inicio
          se (numero % contador = 0) entao
             divisores <- divisores + 1
 
-            se (divisores > 2) ou (numero = 2) entao
-               primo <- verdadeiro
-            senao
+            se (divisores > 2) ou (numero <> 2) entao
                primo <- falso
+            senao
+               primo <- verdadeiro
             fimse
          fimse
       fimenquanto

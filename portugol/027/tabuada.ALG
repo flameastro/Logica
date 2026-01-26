@@ -2,17 +2,20 @@ algoritmo "tabuada"
 var contador, numero: inteiro
 
 inicio
-      Escreva("De qual n�mero voc� quer fazer a tabuada? ")
+      // Pede ao usuário um número
+      Escreva("De qual número você quer fazer a tabuada? ")
       Leia(numero)
-      
+
+      // Exibe a mensagem de tabuada
       Escreval("-------------------------")
-      Escreval("TABUADA DO N�MERO: ", numero)
+      Escreval("TABUADA DO NÚMERO: ", numero)
       Escreval("-------------------------")
-      
+
+      // Exibe a tabuada formatada
       Repita
-            Escreval(numero, " x ", contador, " = ", numero * contador)
+            Escreval(numero, " x ", contador, " = ", numero * contador) // Multiplica o numero pelo contador
             contador <- contador + 1
-      Ate (contador > 10)
-      
+      Ate (contador > 10) // Para até o contador chegar a 10
+
       Escreva("-------------------------")
 fimalgoritmo

@@ -15,9 +15,9 @@ inicio
       Escreva("Por favor, insira sua segunda nota: ")
       leia(nota2)
       
-      // Calcula e exibe a média
+      // Calcula e exibe a mÃ©dia
       media <- (nota1 + nota2) / 2
-      Escreval("A sua média é ", media)
+      Escreval("A sua mÃ©dia Ã© ", media)
 
       // Exibe a mensagem de aprovado ou reprovado
       se (media > 6) entao

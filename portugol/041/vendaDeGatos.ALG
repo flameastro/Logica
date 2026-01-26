@@ -2,7 +2,7 @@ algoritmo "vendaDeGatos"
 var idade, cor, personalidade, preco: inteiro
 
 inicio
-      // Define o preço inicialmente como 0
+      // Define o preÃ§o inicialmente como 0
       preco <- 0
 
       // Exibe a mensagem
@@ -10,14 +10,14 @@ inicio
       Escreva("QUAL IDADE DESEJADA? [ENTRE 0 a 15] ")
       Leia(idade)
 
-      // Verifica se a idade é negativa ou maior que 15
+      // Verifica se a idade Ã© negativa ou maior que 15
       enquanto (idade < 0) ou (idade > 15) faca
          // Exibe mensagem de erro e tenta novamente
          Escreval("Por favor, insira um valor correto")
          Escreva("QUAL IDADE DESEJADA? ")
          Leia(idade)
       fimenquanto
-      
+
       // Verifica a idade e adiciona pontos para determinada faixa
       se (idade >= 0) e (idade <= 3) entao
          preco <- preco + 50
@@ -28,7 +28,7 @@ inicio
             preco <- preco + 100
          fimse
       fimse
-      
+
       // Exibe os valores corretos
       Escreval("QUAL COR DESEJADA? ")
       Escreval("[1]: Marrom")
@@ -38,8 +38,8 @@ inicio
       Escreval("[5]: Laranja")
       Escreval("[6]: Tigrado")
       Leia(cor)
-      
-      // Verifica se a cor é negativa ou maior que 6
+
+      // Verifica se a cor Ã© negativa ou maior que 6
       enquanto (cor < 1) ou (cor > 6) faca
          Escreval("Por favor, insira um valor correto")
          Escreval("QUAL COR DESEJADA? ")
@@ -51,7 +51,7 @@ inicio
          Escreval("[6]: Tigrado")
          Leia(cor)
       fimenquanto
-      
+
       // Verifica a cor e adiciona pontos para determinada faixa
       se (cor >= 1) e (cor <= 4) entao
          preco <- preco + 100
@@ -66,38 +66,38 @@ inicio
       // Exibe os valores corretos
       Escreval("QUAL PERSONALIDADE DESEJADA?")
       Escreval("[1]: Calmo")
-      Escreval("[2]: Brincalhão")
+      Escreval("[2]: BrincalhÃ£o")
       Escreval("[3]: Carinhoso")
       Escreval("[4]: Curioso")
-      Escreval("[5]: Tímido")
-      Escreval("[6]: Preguiçoso")
+      Escreval("[5]: TÃ­mido")
+      Escreval("[6]: PreguiÃ§oso")
       Escreval("[7]: Social")
       Escreval("[8]: Protetor")
       Leia(personalidade)
-      
-      // Verifica se a personalidade é negativa ou maior que 8
+
+      // Verifica se a personalidade Ã© negativa ou maior que 8
       enquanto (personalidade < 1) ou (personalidade > 8) faca
          Escreval("Por favor, insira um valor correto")
          Escreval("QUAL PERSONALIDADE DESEJADA?")
          Escreval("[1]: Calmo")
-         Escreval("[2]: Brincalhão")
+         Escreval("[2]: BrincalhÃ£o")
          Escreval("[3]: Carinhoso")
          Escreval("[4]: Curioso")
-         Escreval("[5]: Tímido")
-         Escreval("[6]: Preguiçoso")
+         Escreval("[5]: TÃ­mido")
+         Escreval("[6]: PreguiÃ§oso")
          Escreval("[7]: Social")
          Escreval("[8]: Protetor")
          Leia(personalidade)
       fimenquanto
-      
+
       // Verifica a personalidade e adiciona pontos para determinada faixa
       se (personalidade >= 1) e (personalidade <= 4) entao
          preco <- preco + 150
       senao
          preco <- preco + 215
       fimse
-      
+
       LimpaTela
-      
+
       Escreva("Total: R$", preco)
 fimalgoritmo

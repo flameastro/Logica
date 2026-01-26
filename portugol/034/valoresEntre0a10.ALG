@@ -2,15 +2,15 @@ algoritmo "valoresEntre0a10"
 var numero, valores, contador: inteiro
 
 inicio
-      // Vari·vel global
+      // Vari√°vel global
       valores <- 0
 
-      Para contador <- 1 ate 5 faca // Conta de 1 a 5, declarando a vari·vel
-         // Pede ao usu·rio um n˙mero
-         Escreva("N⁄MERO: ")
+      Para contador <- 1 ate 5 faca // Conta de 1 a 5, declarando a vari√°vel
+         // Pede ao usu√°rio um n√∫mero
+         Escreva("N√öMERO: ")
          Leia(numero)
 
-         // Se o n˙mero estiver entre 0 a 10, incrementa a vari·vel valores
+         // Se o n√∫mero estiver entre 0 a 10, incrementa a vari√°vel valores
          se (numero >= 0) e (numero <= 10) entao
             valores <- valores + 1
          fimse

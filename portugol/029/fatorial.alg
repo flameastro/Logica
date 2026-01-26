@@ -1,24 +1,24 @@
 algoritmo "fatorial"
-// Entendendo o que È fatorial
+// Entendendo o que √© o fatorial
 // !5 = 5 x 4 x 3 x 2 x 1
 // 5 x 4 = 20 x 3 = 60 x 2 = 120 x 1 = 120
 
 var contador, numero, resultado: inteiro
 
 inicio
-      // Vari·veis necess·rias
+      // Vari√°veis necess√°rias
       resultado <- 1
       contador <- 0
 
-      // Pede ao usu·rio o n˙mero desejado e guarda na vari·vel numero
-      Escreva("Por favor, insira o n˙mero que deseja saber o fatorial: ")
+      // Pede ao usu√°rio o n√∫mero desejado e guarda na vari√°vel numero
+      Escreva("Por favor, insira o n√∫mero que deseja saber o fatorial: ")
       Leia(numero)
 
-      Repita // A cada repetiÁ„o...
-            resultado <- resultado * numero // O resultado multiplica ele mesmo pelo n˙mero atual - que decrementa a cada repetiÁ„o
-            numero <- numero - 1 // O n˙mero decrementa
+      Repita // A cada repeti√ßao...
+            resultado <- resultado * numero // O resultado multiplica ele mesmo pelo n√∫mero atual - que decrementa a cada repeti√ßao
+            numero <- numero - 1 // O n√∫mero decrementa
             contador <- contador + 1 // O contador decrementa
-      Ate (numero < 1) // Repete atÈ o n˙mero for menor que 1 (0)
+      Ate (numero < 1) // Repete at√° o n√∫mero for menor que 1 (0)
 
-      Escreva("O fatorial de ", contador, " È ", resultado)
+      Escreva("O fatorial de ", contador, " √© ", resultado)
 fimalgoritmo

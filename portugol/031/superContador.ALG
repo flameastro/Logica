@@ -5,12 +5,12 @@ inicio
    Repita
       // Exibe o menu
       Escreval("----------- MENU -----------")
-      Escreval("[1]: 1 ATÉ 10")
-      Escreval("[2]: 10 ATÉ 1")
+      Escreval("[1]: 1 ATÃ‰ 10")
+      Escreval("[2]: 10 ATÃ‰ 1")
       Escreval("[3]: SAIR")
       Leia(resposta)
 
-      // se resposta for 1, exibe os números de 1 até 10
+      // se resposta for 1, exibe os nÃºmeros de 1 atÃ© 10
       se (resposta = 1) entao
          contador <- 1 // contador inicializa com 1
 
@@ -18,7 +18,7 @@ inicio
             Escreva(contador, "..")
             contador <- contador + 1
          fimenquanto
-      senao // se resposta for 2, exibe os números de 10 até 1
+      senao // se resposta for 2, exibe os nÃºmeros de 10 atÃ© 1
          se (resposta = 2) entao
             contador <- 10 // contador inicializa com 10
 

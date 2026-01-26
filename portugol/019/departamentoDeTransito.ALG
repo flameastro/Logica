@@ -2,30 +2,30 @@ algoritmo "departamentoDeTransito"
 var anoAtual, anoNascimento, idade: inteiro
 
 inicio
-      // Exibe a mensagem do Departamento de Tr‚nsito
+      // Exibe a mensagem do Departamento de Tr√¢nsito
       Escreval("----------------------------")
-      Escreval("  DEPARTAMENTO DE TR¬NSITO  ")
+      Escreval("  DEPARTAMENTO DE TR√ÇNSITO  ")
       Escreval("----------------------------")
 
-      // Pede ao usu·rio o ano atual
+      // Pede ao usu√°rio o ano atual
       Escreva("Ano atual (yyyy): ")
       Leia(anoAtual)
       
-      // Pede ao usu·rio o seu ano de nascimento
+      // Pede ao usu√°rio o seu ano de nascimento
       Escreva("Ano de Nascimento (yyyy): ")
       Leia(anoNascimento)
       
       idade <- anoAtual - anoNascimento // Calcula a idade
       
-      // Exibe ao usu·rio o status de sua idade e se pode dirigir
+      // Exibe ao usu√°rio o status de sua idade e se pode dirigir
       Escreval(" -------- STATUS -------- ")
       Escreval("IDADE: ", idade, " ANOS")
       
-      // Verifica se o usu·rio pode tirar a carteira
+      // Verifica se o usu√°rio pode tirar a carteira
       se (idade > 18) entao
          Escreval("APTO A TIRAR A CARTEIRA")
       senao entao
-         Escreval("N√O EST¡ APTO A TIRAR A CARTEIRA")
+         Escreval("N√ÉO EST√Å APTO A TIRAR A CARTEIRA")
       fimse
       
       Escreva("---------------------------")

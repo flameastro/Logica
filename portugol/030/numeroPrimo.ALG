@@ -3,16 +3,16 @@ var numero, contador, divisores: inteiro
     primo: logico
 
 inicio
-   // Vari·veis globais
+   // Vari√°veis globais
    divisores <- 1
    contador <- 0
 
-   // Pede ao usu·rio um n˙mero positivo
-   Escreva("N⁄MERO POSITIVO: ")
+   // Pede ao usu√°rio um n√∫mero positivo
+   Escreva("N√öMERO POSITIVO: ")
    Leia(numero)
 
    se (numero < 1) entao
-      Escreva("O n˙mero deve ser POSITIVO")
+      Escreva("O n√∫mero deve ser POSITIVO")
    senao
       Escreval("Calculando...")
 
@@ -30,7 +30,7 @@ inicio
          fimse
       fimenquanto
 
-      // Exibe os detalhes sobre o n˙mero
+      // Exibe os detalhes sobre o n√∫mero
       Escreval("-------  DETALHES  -------")
       Escreval("DIVISORES: ", divisores)
       Escreval("PRIMO: ", primo)

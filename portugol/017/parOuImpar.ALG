@@ -2,14 +2,14 @@ algoritmo "parOuImpar"
 var numero: inteiro
 
 inicio
-   // Pede ao usuário um número
-   Escreva("Por favor, insira um número inteiro qualquer: ")
+   // Pede ao usuÃ¡rio um nÃºmero
+   Escreva("Por favor, insira um nÃºmero inteiro qualquer: ")
    Leia(numero)
 
-   // Verifica se o número é divisível por 2 e exibe o resultado
+   // Verifica se o nÃºmero Ã© divisÃ­vel por 2 e exibe o resultado
    se (numero % 2 = 0) entao
-      Escreva("Seu número é par")
+      Escreva("Seu nÃºmero Ã© par")
    senao
-      Escreva("Seu número é ímpar")
+      Escreva("Seu nÃºmero Ã© Ã­mpar")
    fimse
 fimalgoritmo

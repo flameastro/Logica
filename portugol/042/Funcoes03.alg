@@ -1,4 +1,4 @@
-algoritmo "Funcao03"
+algoritmo "Funcoes03"
 var numero: inteiro
 
 funcao calculaFatorial(numero: inteiro): inteiro
@@ -11,13 +11,13 @@ inicio
          resultado <- resultado * contador
          contador <- contador - 1
       fimenquanto
-      
+
       retorne resultado
 fimfuncao
 
 inicio
-      Escreva("NÚMERO: ")
+      Escreva("NÃšMERO: ")
       Leia(numero)
 
-      Escreva("O fatorial de ", numero, " é ", calculaFatorial(numero))
+      Escreva("O fatorial de ", numero, " Ã© ", calculaFatorial(numero))
 fimalgoritmo

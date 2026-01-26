@@ -2,14 +2,14 @@ algoritmo "contaPares"
 var contador, valor: inteiro
 
 inicio
-      // Pede ao usu·rio inserir um valor
+      // Pede ao usu√°rio inserir um valor
       Escreva("Digite um valor: ")
       Leia(valor)
-      
-      // MÈtodo 01 - Passo de 2 em 2
+
+      // M√©todo 01 - Passo de 2 em 2
       // Para contador <- 0 ate valor passo 2 faca
-      
-      // MÈtodo 02 - Veriricando a cada execuÁ„o seo contador È par
+
+      // M√©todo 02 - Veriricando a cada execu√ß√£o se o contador √© par
       Para contador <- 0 ate valor faca
          se (contador % 2 = 0) entao
             Escreval(contador)

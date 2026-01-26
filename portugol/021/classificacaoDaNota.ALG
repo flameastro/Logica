@@ -2,33 +2,33 @@ algoritmo "classificacaoDaNota"
 var nota1, nota2, media: real
 
 inicio
-      // Pede ao usu·rio ambas as notas
+      // Pede ao usu√°rio ambas as notas
       Escreva("PRIMEIRA NOTA: ")
       Leia(nota1)
 
       Escreva("SEGUNDA NOTA: ")
       Leia(nota2)
 
-      media <- (nota1 + nota2) / 2 // Calcula a mÈdia
-      Escreval("Sua mÈdia foi ", media)
-      
-      // Verifica e exibe a classificaÁ„o ao usu·rio
+      media <- (nota1 + nota2) / 2 // Calcula a m√©dia
+      Escreval("Sua m√©dia foi ", media)
+
+      // Verifica e exibe a classifica√ß√£o ao usu√°rio
       se (media <= 10) e (media >= 9) entao
-         Escreva("CLASSIFICA«√O: A")
+         Escreva("CLASSIFICA√á√ÉO: A")
       senao
            se (media < 9) e (media >= 8) entao
-              Escreva("CLASSIFICA«√O: B")
+              Escreva("CLASSIFICA√á√ÉO: B")
            senao
                 se (media < 8) e (media >= 7) entao
-                   Escreva("CLASSIFICA«√O: C")
+                   Escreva("CLASSIFICA√á√ÉO: C")
                 senao
                      se (media < 7) e (media >= 6) entao
-                        Escreva("CLASSIFICA«√O: D")
+                        Escreva("CLASSIFICA√á√ÉO: D")
                      senao
                           se (media < 6) e (media >= 5) entao
-                             Escreva("CLASSIFICA«√O: E")
+                             Escreva("CLASSIFICA√á√ÉO: E")
                           senao
-                               Escreva("CLASSIFICA«√O: F")
+                               Escreva("CLASSIFICA√á√ÉO: F")
                           fimse
                      fimse
                 fimse

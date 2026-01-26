@@ -10,13 +10,13 @@ inicio
 fimfuncao
 
 inicio
-      Escreva("NÚMERO 1: ")
+      Escreva("NÃšMERO 1: ")
       Leia(N1)
 
-      Escreva("NÚMERO 2: ")
+      Escreva("NÃšMERO 2: ")
       Leia(N2)
       
       resposta <- N1 + N2
 
-      Escreva("A soma dos números é ", resposta)
+      Escreva("A soma dos nÃºmeros Ã© ", resposta)
 fimalgoritmo

@@ -2,12 +2,12 @@ algoritmo "estruturasCondicionais01"
 var dinheiro: real
 
 inicio
-      Escreva("Quanto dinheiro vocÍ tem? R$")
+      Escreva("Quanto dinheiro voc√™ tem? R$")
       Leia(dinheiro)
-      
-      se (dinheiro > 5000) ent„o
+
+      se (dinheiro > 5000) entao
          Escreva("Eu CONSIGO fazer uma viagem para a Disney")
       senao
-         Escreva("Eu N√O CONSIGO fazer uma viagem para a Disney")
+         Escreva("Eu N√ÉO CONSIGO fazer uma viagem para a Disney")
       fimse
 fimalgoritmo

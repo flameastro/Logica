@@ -4,14 +4,14 @@ var numero: inteiro
 Procedimento ParOuImpar(numero: inteiro)
 inicio
    se (numero % 2 = 0) entao
-      Escreva("O número é par")
+      Escreva("O nÃºmero Ã© par")
    senao
-      Escreva("O número é ímpar")
+      Escreva("O nÃºmero Ã© Ã­mpar")
    fimse
 FimProcedimento
 
 inicio
-   Escreva("Digite um número: ")
+   Escreva("Digite um nÃºmero: ")
    Leia(numero)
    
    ParOuImpar(numero)

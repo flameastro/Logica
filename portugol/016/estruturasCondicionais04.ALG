@@ -5,23 +5,25 @@ inicio
       // Pergunta ambas as notas
       Escreva("PRIMEIRA NOTA: ")
       leia(nota1)
-      
+
       Escreva("SEGUNDA NOTA: ")
       leia(nota2)
-      
+
+      // Calcula a m√©dia
       media <- (nota1 + nota2) / 2
-      Escreval("A sua mÈdia È ", media)
-      
+      Escreval("A sua m√©dia √© ", media)
+
+      // Exibe APROVADO, REPROVADO ou EM RECUPERA√á√ÉO de acordo com a m√©dia obtida
       se (media >= 7) entao
          Escreva("Aluno APROVADO")
       senao
          se (media >= 6) e (media < 7) entao
-            Escreva("Aluno EM RECUPERA«√O")
+            Escreva("Aluno EM RECUPERA√á√ÉO")
          senao
             se (media < 6) e (media >= 0) entao
                Escreva("Aluno REPROVADO")
             senao
-                 Escreva("Oops, a nota È inv·lida. Tente novamente")
+                 Escreva("Oops, a nota √© inv√°lida. Tente novamente")
             fimse
          fimse
       fimse

@@ -2,20 +2,20 @@ algoritmo "valoresEntre0a10_2"
 var numero, valores, contador, impares: inteiro
 
 inicio
-      // Vari·veis globais
+      // Vari√°veis globais
       valores <- 0
       impares <- 0
 
-      Para contador <- 1 ate 5 faca // Conta de 1 a 5, declarando a vari·vel
-         // Pede ao usu·rio um n˙mero
-         Escreva("N⁄MERO: ")
+      Para contador <- 1 ate 5 faca // Conta de 1 a 5, declarando a vari√°vel
+         // Pede ao usu√°rio um n√∫mero
+         Escreva("N√öMERO: ")
          Leia(numero)
 
-         // Se o n˙mero estiver entre 0 a 10, incrementa a vari·vel valores
+         // Se o n√∫mero estiver entre 0 a 10, incrementa a vari√°vel valores
          se (numero >= 0) e (numero <= 10) entao
             valores <- valores + 1
             
-            // Filtra os n˙meros Ìmpares inseridos
+            // Filtra os n√∫meros √≠mpares inseridos
             se (numero % 2 = 1) entao
                impares <- impares + numero
             fimse
@@ -23,5 +23,5 @@ inicio
       fimpara
 
       Escreval("Valores entre 0 a 10: ", valores)
-      Escreva("Soma dos n˙meros Ìmpares dentro de 0 a 10: ", impares)
+      Escreva("Soma dos n√∫meros √≠mpares dentro de 0 a 10: ", impares)
 fimalgoritmo

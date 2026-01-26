@@ -3,21 +3,21 @@ var a, b: inteiro
 
 Procedimento soma(a, b: inteiro)
 Inicio
-      Escreval("Recebi o valor A: ", a)
-      Escreval("Recebi o valor B: ", b)
-      Escreval("A soma È ", a + b)
+   Escreval("Recebi o valor A: ", a)
+   Escreval("Recebi o valor B: ", b)
+   Escreval("A soma √© ", a + b)
 FimProcedimento
 
 inicio
       // Inserindo valores
       soma(12, 4)
-      
-      // Pedindo ao usu·rio
+
+      // Pedindo ao usu√°rio
       Escreva("VALOR DE A: ")
       Leia(a)
-      
+
       Escreva("VALOR DE B: ")
       Leia(b)
-      
+
       soma(a, b)
 fimalgoritmo

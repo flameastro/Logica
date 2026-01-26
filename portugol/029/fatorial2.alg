@@ -12,7 +12,7 @@ inicio
          resultado <- 1
          contador <- 0
 
-         // Pede ao usu�rio o n�mero desejado e guarda na vari�vel numero
+         // Pede ao usuário o n�mero desejado e guarda na vari�vel numero
          Escreva("Por favor, insira o n�mero que deseja saber o fatorial: ")
          Leia(numero)
 

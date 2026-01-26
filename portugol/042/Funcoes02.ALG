@@ -4,14 +4,14 @@ var numero: inteiro
 Funcao parOuImpar(numero: inteiro): caractere
 inicio
       se (numero % 2 = 0) entao
-         retorne "O número é par"
+         retorne "O nÃºmero Ã© par"
       senao
-         retorne "O número é ímpar"
+         retorne "O nÃºmero Ã© Ã­mpar"
       fimse
 fimfuncao
 
 inicio
-      Escreva("Insira um número qualquer: ")
+      Escreva("Insira um nÃºmero qualquer: ")
       Leia(numero)
       
       Escreva(parOuImpar(numero))

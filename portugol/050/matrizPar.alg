@@ -3,18 +3,18 @@ var mat: vetor[1..3, 1..3] de inteiro
     l, c, totalPares: inteiro
 
 inicio
-      // Vari·veis globais
+      // Vari√°veis globais
       totalPares <- 0
 
-      // Pede ao usu·rio 9 valores para guardar na matriz
+      // Pede ao usu√°rio 9 valores para guardar na matriz
       Para l <- 1 ate 3 faca
          Para c <- 1 ate 3 faca
             Escreva("Digite a matriz[", l, ",", c, "]: ")
             Leia(mat[l, c])
          fimpara
       fimpara
-      
-      // Mostra quais s„o pares ( que est„o dentro das chaves) e quais s„o Ìmpares, alÈm de incrementar a vari·vel totalPares
+
+      // Mostra quais s√£o pares ( que est√£o dentro das chaves) e quais s√£o √≠mpares, al√©m de incrementar a vari√°vel totalPares
       Para l <- 1 ate 3 faca
          Para c <- 1 ate 3 faca
             se (mat[l, c] % 2 = 0) entao
@@ -24,7 +24,7 @@ inicio
                Escreva(mat[l, c]:5)
             fimse
          fimpara
-         
+
          Escreval("") // Estrutura organizada
       fimpara
 fimalgoritmo

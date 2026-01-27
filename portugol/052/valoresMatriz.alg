@@ -3,36 +3,36 @@ var mat: vetor[1..4, 1..4] de inteiro
     l, c, somaDiagPrinc, produto2aLinha, maiorValor3aColuna: inteiro
 
 inicio
-      // Vari·veis globais
+      // Vari√°veis globais
       somaDiagPrinc <- 0
       produto2aLinha <- 1
       maiorValor3aColuna <- 0
 
-      // Pede 16 n˙meros ao todo
+      // Pede 16 n√∫meros ao todo
       Para l <- 1 ate 4 faca
          Para c <- 1 ate 4 faca
             Escreva("Digite o valor da matriz[", l, ",", c, "]: ")
             Leia(mat[l, c])
-            
-            // Se linha for igual a coluna, soma da diagonal principal È somada
+
+            // Se linha for igual a coluna, soma da diagonal principal √© somada
             se (l = c) entao
                somaDiagPrinc <- somaDiagPrinc + mat[l, c]
             fimse
-            
-            // Se a linha for a segunda, ent„o multiplica a linha e guarda na vari·vel
+
+            // Se a linha for a segunda, ent√£o multiplica a linha e guarda na vari√°vel
             se (l = 2) entao
                produto2aLinha <- produto2aLinha * mat[l, c]
             fimse
-            
-            // Se a coluna for a terceira, ent„o guarda o maior valor da 3a coluna na vari·vel
+
+            // Se a coluna for a terceira, ent√£o guarda o maior valor da 3a coluna na vari√°vel
             se (c = 3) e (c > maiorValor3aColuna) entao
                maiorValor3aColuna <- mat[l, c]
             fimse
          fimpara
       fimpara
-      
-      // Mostra as informaÁıes da matriz
-      Escreval("     I N F O R M A « ’ E S     ")
+
+      // Mostra as informa√ß√µes da matriz
+      Escreval("     I N F O R M A √á √ï E S     ")
       Escreval("--------------------------------")
 
       // Exibe a matriz corretamente
@@ -45,11 +45,11 @@ inicio
       fimpara
       
       Escreval("--------------------------------")
-      Escreval(" I N F O R M A « ’ E S   A D I C I O N A I S ")
+      Escreval(" I N F O R M A √á √ï E S   A D I C I O N A I S ")
       Escreval("------------------------------------------------")
-      // InformaÁıes adicionais da matriz
-      Escreval("A soma dos valores da diagonal principal È ", somaDiagPrinc)
-      Escreval("O produto entre os valores da segunda linha È ", produto2aLinha)
-      Escreval("O maior valor da terceira coluna È ", maiorValor3aColuna)
+      // Informa√ß√µes adicionais da matriz
+      Escreval("A soma dos valores da diagonal principal √© ", somaDiagPrinc)
+      Escreval("O produto entre os valores da segunda linha √© ", produto2aLinha)
+      Escreval("O maior valor da terceira coluna √© ", maiorValor3aColuna)
       Escreval("------------------------------------------------")
 fimalgoritmo

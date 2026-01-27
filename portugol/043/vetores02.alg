@@ -7,7 +7,7 @@ inicio
          Escreva("Digite o valor ", c, ": ")
          Leia(v[c])
       fimpara
-      
+
       Para c <- 1 ate 6 faca
          Escreval(v[c])
       fimpara

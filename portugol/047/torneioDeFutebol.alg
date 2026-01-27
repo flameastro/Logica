@@ -6,30 +6,30 @@ var questoesCorretas, questoesAluno: vetor[1..5] de caractere
     media: real
 
 inicio
-      // DeclaraÁ„o de vari·veis
+      // Declara√ß√£o de vari√°veis
       media <- 0
       numeroAlunos <- 0
 
-      // Pede ao usu·rio para cadastrar as respostas corretas do gabarito
+      // Pede ao usu√°rio para cadastrar as respostas corretas do gabarito
       Escreval("PASSO 1: Cadastro de Gabarito")
 
       Para contador <- 1 ate 5 faca
-         Escreva("QUEST√O CORRETA ", contador, ": ")
+         Escreva("QUEST√ÉO CORRETA ", contador, ": ")
          Leia(questoesCorretas[contador])
       fimpara
       
       LimpaTela
 
-      // Conta atÈ 3 (n˙mero de alunos)
+      // Conta at√© 3 (n√∫mero de alunos)
       Para numeroAlunos <- 1 ate 3 faca
-         nota <- 0 // Reseta a vari·vel nota a cada repetiÁ„o
+         nota <- 0 // Reseta a vari√°vel nota a cada repeti√ß√£o
 
          // Exibe o aluno atual
          Escreval("---------------------------")
          Escreval("ALUNO ", numeroAlunos)
          Escreval("---------------------------")
          
-         // Pede o nome do aluno e guarda na vari·vel
+         // Pede o nome do aluno e guarda na vari√°vel
          Escreva("NOME DO ALUNO: ")
          Leia(nomeAlunos[numeroAlunos])
          
@@ -37,13 +37,13 @@ inicio
          Escreval("RESPOSTAS DO(A) ", nomeAlunos[numeroAlunos])
          
          Para contador <- 1 ate 5 faca
-            Escreva("QUEST√O", contador, ": ")
+            Escreva("QUEST√ÉO", contador, ": ")
             Leia(questoesAluno[contador])
             
-            // Verifica se a resposta est· correta
+            // Verifica se a resposta est√° correta
             se (questoesAluno[contador] = questoesCorretas[contador]) entao
-               nota <- nota + 2 // Adiciona + 2 na vari·vel nota (nota = aluno atual)
-               notas <- notas + 2  // Adiciona + 2 na vari·vel notas (notas = todos os alunos)
+               nota <- nota + 2 // Adiciona + 2 na vari√°vel nota (nota = aluno atual)
+               notas <- notas + 2  // Adiciona + 2 na vari√°vel notas (notas = todos os alunos)
             fimse
          fimpara
          
@@ -55,7 +55,7 @@ inicio
       
       LimpaTela
       
-      // Calcula e guarda a mÈdia
+      // Calcula e guarda a m√©dia
       media <- notas / 3
       
       // Exibe o nome do aluno e sua respectiva nota
@@ -66,7 +66,7 @@ inicio
          Escreval(nomeAlunos[contador], notaAlunos[contador])
       fimpara
 
-      // Exibe a mÈdia da turma
+      // Exibe a m√©dia da turma
       Escreval("----------------------------")
-      Escreval("MÈdia da turma: ", media)
+      Escreval("M√©dia da turma: ", media)
 fimalgoritmo

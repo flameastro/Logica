@@ -3,22 +3,22 @@ var valores: vetor[1..7] de inteiro
     contador, pares: inteiro
 
 inicio
-      // Define a variável pares como 0
+      // Define a variÃ¡vel pares como 0
       pares <- 0
 
-      // Conta de 1 até 7
+      // Conta de 1 atÃ© 7
       Para contador <- 1 ate 7 faca
-         Escreva("Insira o número ", contador, ": ")
+         Escreva("Insira o nÃºmero ", contador, ": ")
          Leia(valores[contador]) // Guarda no vetor o valor inserido
       fimpara
-      
-      // Conta de 1 até 7, agora para saber quais números são pares
+
+      // Conta de 1 atÃ© 7, agora para saber quais nÃºmeros sÃ£o pares
       Para contador <- 1 ate 7 faca
          se (valores[contador] % 2 = 0) entao
-            pares <- pares + 1 // Incrementa +1 na variável pares se o valor do vetor é par
+            pares <- pares + 1 // Incrementa +1 na variÃ¡vel pares se o valor do vetor Ã© par
          fimse
       fimpara
-      
-      // Exibe a quantidade de números pares do vetor
-      Escreva("Há ", pares, " números pares no vetor")
+
+      // Exibe a quantidade de nÃºmeros pares do vetor
+      Escreva("HÃ¡ ", pares, " nÃºmeros pares no vetor")
 fimalgoritmo

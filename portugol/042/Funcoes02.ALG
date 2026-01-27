@@ -13,6 +13,6 @@ fimfuncao
 inicio
       Escreva("Insira um número qualquer: ")
       Leia(numero)
-      
+
       Escreva(parOuImpar(numero))
 fimalgoritmo

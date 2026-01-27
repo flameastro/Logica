@@ -3,18 +3,18 @@ var soma, contador: inteiro
     valores: vetor[1..5] de inteiro
 
 inicio
-      // Vari·vel global
+      // Vari√°vel global
       soma <- 0
 
-      // Conta de 1 atÈ 5 (range dos vetores)
+      // Conta de 1 at√© 5 (range dos vetores)
       Para contador <- 1 ate 5 faca
          Escreva("Por favor, insira o valor ", contador, ": ")
          Leia(valores[contador])
-         
-         // Adiciona na vari·vel soma ela mesmo + o valor atual
+
+         // Adiciona na vari√°vel soma ela mesmo + o valor atual
          soma <- soma + valores[contador]
       fimpara
-      
+
       // Exibe a soma
-      Escreva("A soma È ", soma)
+      Escreva("A soma √© ", soma)
 fimalgoritmo

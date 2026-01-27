@@ -9,12 +9,12 @@ inicio
             Leia(m[l, c])
          fimpara
       fimpara
-      
+
       Para l <- 1 ate 3 faca
          Para c <- 1 ate 2 faca
             Escreva(m[l, c])
          fimpara
-         
+
          Escreval("")
       fimpara
 fimalgoritmo

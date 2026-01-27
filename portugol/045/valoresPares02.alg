@@ -3,25 +3,25 @@ var valores: vetor[1..7] de inteiro
     contador, pares: inteiro
 
 inicio
-      // Define a variável pares como 0
+      // Define a variÃ¡vel pares como 0
       pares <- 0
 
-      // Conta de 1 até 7
+      // Conta de 1 atÃ© 7
       Para contador <- 1 ate 7 faca
-         Escreva("Insira o número ", contador, ": ")
+         Escreva("Insira o nÃºmero ", contador, ": ")
          Leia(valores[contador]) // Guarda no vetor o valor inserido
          
          se (valores[contador] % 2 = 0) entao
-            pares <- pares + 1 // Incrementa +1 na variável pares se o valor do vetor é par
-         fimse
-      fimpara
-      
-      Para contador <- 1 ate 7 faca
-         se (valores[contador] % 2 = 0) entao
-            Escreval("Valor PAR na posição ", contador)
+            pares <- pares + 1 // Incrementa +1 na variÃ¡vel pares se o valor do vetor Ã© par
          fimse
       fimpara
 
-      // Exibe a quantidade de números pares e em que posições eles estão no vetor
-      Escreval("Há ", pares, " números pares no vetor")
+      Para contador <- 1 ate 7 faca
+         se (valores[contador] % 2 = 0) entao
+            Escreval("Valor PAR na posiÃ§Ã£o ", contador)
+         fimse
+      fimpara
+
+      // Exibe a quantidade de nÃºmeros pares e em que posiÃ§Ãµes eles estÃ£o no vetor
+      Escreval("HÃ¡ ", pares, " nÃºmeros pares no vetor")
 fimalgoritmo

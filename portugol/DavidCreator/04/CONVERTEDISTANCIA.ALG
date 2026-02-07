@@ -1,12 +1,12 @@
 algoritmo "converteDistancia"
-// Escreva um algoritmo que leia uma medida em metros e converta para centímetros.
+// Escreva um algoritmo que leia uma medida em metros e converta para centï¿½metros.
 var metros, centimetros: real
 
 inicio
-      // Pede o valor em metros
-      Escreva("METROS: ")
+      // Pede o valor em metros ao usuï¿½rio
+      Escreva("Digite o valor em metros: ")
       Leia(metros)
       
-      centimetros <- metros * 100 // Converte e guarda na variável centímetros
-      Escreva(metros, " metros equivalem a ", centimetros, " centímetros") // Exibe os centímetros
+      centimetros <- metros * 100 // Converte e guarda na variï¿½vel centï¿½metros
+      Escreva(metros, " metros equivalem a ", centimetros, " centï¿½metros") // Exibe os centï¿½metros
 fimalgoritmo

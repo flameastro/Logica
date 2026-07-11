@@ -1,23 +1,35 @@
-# Logica
+# Logica 🧠
 
----
+Repositório onde publico exercícios para melhorar a lógica de programação por meio de representações de algoritmos como descrição narrativa, fluxogramas, portugol e scratch.
 
-## Sobre
+## Estrutura do repositório
+```txt
+├─Logica
+│   ├───descricao-narrativa
+│   │   ├───[exercícios]
+│   │   └───exercises.md
+│   ├───fluxogramas
+│   │   ├───[exercícios]
+│   │   └───exercises.md
+│   ├───portugol
+│   │   ├───CursoEmVideo
+│   │       └───[exercícios]
+│   │   ├───DavidCreator
+│   │       └───[exercícios]
+│   │   ├───Outros
+│   │       └───[exercícios]
+│   ├───scratch
+│   │   └───[exercícios]
+```
 
-Um repositório onde dedico meu tempo estudando e compartilhando a resolução de algoritmos para treinar a lógica.
-Entre as ferramentas que eu utilizo incluem: **Portugol**, **Fluxogramas**, **Scratch** e **Descrição Narrativa**.
+### [descricao-narrativa](descricao-narrativa)
+A descrição narrativa é um algoritmo escrito em linguagem natural (português). São simples e muito fáceis de serem criadas.
 
-## Explorando o repositório
+### [fluxograma](fluxograma)
+O Fluxograma é uma representação visual por por meio de figuras visuais com setas. Seguem uma "sintaxe" que deve ser seguida.
 
-### Algoritmos
-Na área de algoritmos, você pode encontrar exercícios que eu fiz utilizando [Descrição Narrativa](https://oliveiraweb.com.br/descricao-narrativa-algoritmos/), que nada mais é que pegar uma situação real do cotidiano e transformar isso em um algoritmo lógico de passos. Atualmente possuem 23 exercícios feitos.
-No arquivo *exercises.md*, você pode encontrar todos os exercícios e seus títulos, deixando a sua exploração mais fácil.
+### [portugol](portugol)
+Portugol é uma pseudo-linguagem para facilitar o aprendizado da lógica de programação por meio de comandos semelhantes a uma linguagem de programação. Foi criada especialmente para ensinar lógica de programação.
 
-### Fluxogramas
-Na área de [fluxogramas](https://miro.com/pt/fluxograma/o-que-e-fluxograma/), você encontra exercícios feitos utilizando o *fluxograma*, uma ferramenta muito conhecida que utiliza figuras conectadas com setas para representar a lógica. O arquivo *exercises.md* pode te guiar através de cada exercício.
-
-### Portugol
-Na área de [portugol](https://visualg.com.br/), utilizo o *portugol*  para criar lógicas semelhantes a linguagens de programação reais como python e javascript e o programa *VisualG* como editor de código. O *portugol* foi feito especialmente para treinar a lógica de programação e é amplamente aceito e recomendado. 
-
-### Scratch
-Na área de [scratch](https://scratch.mit.edu/), crio pequenos programas com figuras e blocos interativos a fim de treinar minha lógica sem escrever nenhuma linha de código. O *scratch* foi feito pelo [MIT](https://web.mit.edu/) e é indicado especialmente para crianças por ser uma plataforma interativa e educacional.
+### [scratch](scratch)
+O Scratch é uma linguagem de programação visual de blocos de arrastar e soltar, projetado para crianças e jovens que querem aprender lógica de programação.

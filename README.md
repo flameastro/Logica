@@ -190,6 +190,15 @@ Observe que nosso algoritmo segue um **passo a passo ordenado** (1, 2, 3...). Es
 Observe a instrução 1.3, em que diz *"Transfira a massa para uma forma untada e ..."*, se nós trocassemos de posição com a instrução 1.1, teriamos um **erro lógico**, já que necessitamos **obrigatoriamente primeiro fazer a ação 1.1 para depois fazer a ação 1.3**.    
 Uma última característica de algoritmos é que ele deve ser **finito**, isso é, ele deve ter um **fim**, ele precisa **acabar** alguma hora. Se um algoritmo é **infinito**, então ele **não é um algoritmo**.
 
+## Os 4 pilares: Resumo
+Como resumo, teremos um **breve resumo** de o que cada pilar.
+
+* Decomposição: Dividir o problema em partes menores.
+* Reconhecimento de Padrões: Reconhecer padrões de problemas já feitos anteriormente.
+* Abstração: Focar em aspectos úteis e esconder detalhes inúteis ou esclarecer detalhes importantes.
+* Algoritmos: Sequência de passos finitos, ordenados e sem [ambiguidade](#ambiguidade).
+
+
 # Saiba mais
 
 ## 📰 Artigos

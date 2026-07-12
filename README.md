@@ -160,3 +160,38 @@ Pule para o próximo botão
 ```
 
 O **nível de abstração** que realizamos num algoritmo é **importante**, porque ele deve ficar num **meio termo**, ou seja, nem **muito abstraído**, nem **pouco abstraído**.
+
+
+
+
+
+
+# Saiba mais
+
+## 📰 Artigos
+
+* [[Alura] - Pensamento Computacional: o que é, benefícios e ferramentas](https://www.alura.com.br/artigos/pensamento-computacional)
+* [[FreeCodeCamp] - Como pensar como um programador — lições de resolução de problemas](https://www.freecodecamp.org/portuguese/news/como-pensar-como-um-programador-licoes-de-resolucao-de-problemas/)
+* [[Reddit] - Como Treinar a Si Mesmo Para Pensar Como um Programador?](http://reddit.com/r/learnprogramming/comments/1ihjpss/how_do_you_train_yourself_to_think_like_a/?tl=pt-br)
+* [[WikiPedia] - Pensamento computacional](https://pt.wikipedia.org/wiki/Pensamento_computacional)
+
+## 📽️ Vídeos
+
+* [⭐ [YouTube] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)
+* [[YouTube] - Aprendendo a Pensar Como Um Programador! 👨‍💻💡](https://www.youtube.com/watch?v=Lkm3-hA2TZo)
+* [[YouTube] - Como Pensar Como Um Programador - Desvendando o Mundo da Lógica e Resolução de Problemas](https://www.youtube.com/watch?v=Jrt5-pTKv7U)
+* [(Espanhol) [YouTube] - Curso COMPLETO de LÓGICA xDE PROGRAMACIÓN Desde Cero](https://www.youtube.com/watch?v=TdITcVD64zI&t=1s)
+* [[YouTube] - Curso de Lógica de programação](https://www.youtube.com/playlist?list=PLfzRxaru7YPtu8TPQChFnLN9rGXoXfNUQ)
+* [[YouTube] - Curso Completo de Lógica de Programação com Português Estruturado do Zero ao Avançado](https://www.youtube.com/watch?v=XzkZO2qjgec&t=17958s)
+* [[YouTube] - Lógica da Programação - Curso Completo - 2026](https://www.youtube.com/watch?v=Og8dQstQcf0&t=244s)
+* [[YouTube] - Curso - Lógica de Programação](https://www.youtube.com/playlist?list=PLfdDa19nz5SpJMLiGkRSctLH7QBr44goY)
+* [[YouTube] - Curso de Algoritmos e Lógica de Programação](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
+* [[YouTube] - Curso Lógica de Programação 2026 – Aprenda em 3 Horas (De Verdade!)](https://www.youtube.com/watch?v=epf-WQdVis0&t=9760s)
+
+## 📖 Livros
+* [Algoritmos e estrutura de Dados I](assets/books/Algoritmos%20e%20estrutura%20de%20Dados%20I.pdf)
+* [apostilaufpr](assets/books/apostilaufpr.pdf)
+* [Estrutura de Dados](assets/books/ESTRUTURA%20DE%20DADOS.pdf)
+* [Estrutura-de-Dados-2014](assets/books/Estrutura-de-Dados-2014.pdf)
+* [FFerrari Introducao a algoritmos](assets/books/FFerrari%20Introducao%20a%20algoritmos.pdf)
+* [logica de programacao](assets/books/logica-de-programacao.pdf)

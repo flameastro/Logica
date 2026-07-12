@@ -100,3 +100,13 @@ A imagem acima representa uma *decomposição de um número*. Isso serve igualme
 #### Resumo
 A *decomposição* acontece quando você **divide um problema em problemas menores**, assim facilitando a **resolução de cada problema menor**. Cada problema menor forma uma **solução pequena**, ou seja, **uma parte do problema maior**.
 
+### Reconhecimento de padrões
+É a habilidade de **reconhecer padrões**, ou seja, **identificar similaridades de problemas já resolvidos antes**. Essa habilidade exige *prática*, porque para você *identificar padrões* de *problemas anteriores*... Você tem que ter feito algum *problema anterior* para tentar encontrar **similaridades** em um outro problema. 
+
+<div align="center">
+    <img width="750" alt="reconhecimento de padrões" src="assets/images/reconhecimento-de-padroes.png" />
+</div>
+
+No exemplo acima, podemos ver que todos os *três veículos* (**carro, bicicleta e moto**) possuem algo em comum: **rodas**. Então se nós criassemos um *carro*, uma *bicicleta* ou uma *moto*, poderiamos utilizar nossa *memória* para **reconhecer um padrão** que já foi resolvido anteriormente - a **roda**. Isso nos permite **resolver problemas** de uma maneira mais **rápida** porque já sabemos exatamente o que fazer, e não será necessário *pensar novamente*.
+
+É claro que nesse exemplo e em outros, o você irá *reconhecer padrões*, mas na maioria das vezes irá precisar **alterar algumas coisas**. Por exemplo, nessa situação da imagem, os **materiais** e as **proporções** são **diferentes**, mas a **ideia** é a mesma.

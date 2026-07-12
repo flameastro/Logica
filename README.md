@@ -161,10 +161,34 @@ Pule para o próximo botão
 
 O **nível de abstração** que realizamos num algoritmo é **importante**, porque ele deve ficar num **meio termo**, ou seja, nem **muito abstraído**, nem **pouco abstraído**.
 
+### Algoritmos
+Algoritmos são **sequências de passos ordenados e finitos que resolvem um problema**. Utilizamos os três pilares vistos anteriormente (*decomposição*, *reconhecimento de padrões* e *abstração*) para a criação de um algoritmo.   
+> [!NOTE]
+> **Observação**: Um algoritmo não é um termo somente da *computação*. Utilizamos algoritmos em várias **situações de nossas vidas**, **todos os dias**.
 
+Vamos ver um exemplo de algoritmo: A criação de um bolo
 
+<div align="center">
+    <img width="750" alt="algoritmos" src="assets/images/algoritmo.png" />
+</div>
 
+No exemplo acima, podemos observar que os ingredientes obtidos (**ovo**, **açúcar**, **leite**, **fermento** e **farinha de trigo**) levam à resolução do problema (fazer um bolo). É claro que nesse caso, abstraímos bastante o algoritmo. Não levamos em consideração uma panela, um fogão, uma colher, uma xícara, etc, etc, etc... Mas o importante aqui é pegar a ideia: O algoritmo é uma sequência de passos, esse é o resumo mais sucinto possível de um algoritmo.
 
+Agora, vamos ver um exemplo de um algoritmo para a criação de um bolo real.  
+[Fonte: https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-chocolate-facil.ghtml](https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-chocolate-facil.ghtml)
+
+#### Exemplo de algoritmo: Fazer um bolo
+1. **Massa**
+   1. Em uma tigela, coloque 3 ovos, 1 e meia xícara de chá de açúcar, meia xícara de chá de óleo, 1 xícara de chá de chocolate em pó e 2 xícaras de chá de farinha de trigo. Misture delicadamente os ingredientes.
+   2. Em seguida, adicione 1 xícara de chá de água quente, 1 colher de sopa de fermento em pó e bata até ficar homogêneo.
+   3. Transfira a massa para uma forma untada e enfarinhada com uma mistura de farinha de trigo e chocolate em pó. Leve para assar em forno preaquecido a 180 graus Celsius por 40 minutos.
+2. **Cobertura**
+   1. Em uma panela, coloque 1 e meia xícara de chá de leite, meia xícara de chá de chocolate em pó, 1 colher de sopa de manteiga e 1 xícara de chá de açúcar. Misture, ligue o fogo e deixe ferver.
+   2. Despeje a calda no bolo ainda quente e sirva em seguida.
+
+Observe que nosso algoritmo segue um **passo a passo ordenado** (1, 2, 3...). Essa já é uma **característica** de um algoritmo. Outra característica de um algoritmo é que ele não pode ter suas **intruções fora de lugar**.  
+Observe a instrução 1.3, em que diz *"Transfira a massa para uma forma untada e ..."*, se nós trocassemos de posição com a instrução 1.1, teriamos um **erro lógico**, já que necessitamos **obrigatoriamente primeiro fazer a ação 1.1 para depois fazer a ação 1.3**.    
+Uma última característica de algoritmos é que ele deve ser **finito**, isso é, ele deve ter um **fim**, ele precisa **acabar** alguma hora. Se um algoritmo é **infinito**, então ele **não é um algoritmo**.
 
 # Saiba mais
 

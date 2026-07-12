@@ -2,6 +2,12 @@
 
 Repositório onde publico **exercícios para melhorar a lógica de programação** por meio de **representações de algoritmos** como **descrição narrativa, fluxogramas, portugol e scratch**.
 
+## Glossário
+
+### Ambiguidade
+Propriedade de uma palavra ou frase que permite duas ou mais interpretações. Essa propriedade pode causar mal-entendimentos e dificulta a interpretação.
+[Saiba Mais](https://www.todamateria.com.br/ambiguidade/)
+
 ## Estrutura do repositório
 ```txt
 ├─Logica

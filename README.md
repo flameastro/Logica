@@ -110,3 +110,47 @@ A *decomposição* acontece quando você **divide um problema em problemas menor
 No exemplo acima, podemos ver que todos os *três veículos* (**carro, bicicleta e moto**) possuem algo em comum: **rodas**. Então se nós criassemos um *carro*, uma *bicicleta* ou uma *moto*, poderiamos utilizar nossa *memória* para **reconhecer um padrão** que já foi resolvido anteriormente - a **roda**. Isso nos permite **resolver problemas** de uma maneira mais **rápida** porque já sabemos exatamente o que fazer, e não será necessário *pensar novamente*.
 
 É claro que nesse exemplo e em outros, o você irá *reconhecer padrões*, mas na maioria das vezes irá precisar **alterar algumas coisas**. Por exemplo, nessa situação da imagem, os **materiais** e as **proporções** são **diferentes**, mas a **ideia** é a mesma.
+
+### Abstração
+É a habilidade de **focar apenas nos aspectos úteis/importantes**. Por exemplo, Na **criação de um bolo**, a **cor da panela não importa**; Mas **verificar se os ingredientes do bolo ainda estão dentro da validade é importante**; Num *algoritmo*, a abstração é muito útil porque você pode se perguntar: *Será que minha instrução está pouco abstraída ou muito abstraída? Ou seja, será que a instrução que eu coloquei está clara demais, ou ainda preciso ser ainda mais detalhado?*
+
+<div align="center">
+    <img width="750" alt="abstração" src="assets/images/abstracao.png" />
+</div>
+
+Visualize a imagem a cima. Agora se pergunte: *Será que, um passageiro do carro, precisaria verificar esses detalhes para visualizar um carro?* Quando você imagina um carro, você imagina ele *pronto*, ou pensa em cada *parafuso*, em cada *banco*, em cada *janela*, em cada *pneu*, ou no *motor*?
+
+Todos nós imaginamos um *carro pronto*. E isso importa para a criação de um algoritmo, porque o *nível de abstração* é importante para não haver [ambiguidades](#ambiguidade) no nosso algoritmo.
+
+#### Nível de Abstração
+O nível de abstração pode depender entre muito abstraído até pouco abstraído. Veja exemplos:
+
+##### Muita abstração
+```txt
+Ligar o carro
+```
+
+##### Abstração ideal
+```txt
+Pegar a chave do carro
+Ir perto do carro
+Clicar no botão de ligar
+```
+
+###### Pouca abstração
+```
+Ir até a chave do carro
+Verificar se a chave do carro é a sua
+Se for
+Pegar a chave do carro
+Se não
+Pule para a próxima chave
+Vá até o carro
+Verifique cada botão da chave
+Se o botão for o de ligar
+Aperte no botão
+Se não
+Pule para o próximo botão
+```
+
+O **nível de abstração** que realizamos num algoritmo é **importante**, porque ele deve ficar num **meio termo**, ou seja, nem **muito abstraído**, nem **pouco abstraído**.

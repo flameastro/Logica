@@ -2,11 +2,37 @@
 
 Repositório onde publico **exercícios para melhorar a lógica de programação** por meio de **representações de algoritmos** como **descrição narrativa, fluxogramas, portugol e scratch**.
 
+---
+
 ## Glossário
 
-### Ambiguidade
+### `Ambiguidade`
 Propriedade de uma palavra ou frase que permite duas ou mais interpretações. Essa propriedade pode causar mal-entendimentos e dificulta a interpretação.
 [Saiba Mais](https://www.todamateria.com.br/ambiguidade/)
+
+### `Sintaxe`
+No caso da programação, é um conjunto de regras que determina a estrutura e escrita correta das instruções/códigos.  
+A sintaxe e a lógica estão muito correlacionados, porque enquanto a sintaxe seria a escrita de uma instrução, a lógica seria a validação dessa sintaxe.  
+Um exemplo simples em linguagem natural:
+
+#### Sintaxe incorreta
+`soamr dois números`
+
+#### Sintaxe correta
+`somar dois números`
+
+#### Lógica incorreta
+`somar duas letras`
+
+#### Lógica correta
+`somar dois números`
+
+[Saiba Mais](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+
+#### Resumo
+Sintaxe foca na gramática, ou nas regras de uma instrução, e lógica foca no raciocínio, se aquela instrução faz sentido
+
+---
 
 ## Estrutura do repositório
 ```txt
@@ -29,11 +55,13 @@ Propriedade de uma palavra ou frase que permite duas ou mais interpretações. E
 │   ├───README.md
 ```
 
+---
+
 ### [descricao-narrativa](descricao-narrativa)
 A **descrição narrativa** é um algoritmo escrito em **linguagem natural** (português). São simples e muito fáceis de serem criadas.
 
 ### [fluxograma](fluxograma)
-O **fluxograma** é uma representação visual por por meio de figuras visuais com setas. Seguem uma "sintaxe" que deve ser seguida.
+O **fluxograma** é uma representação visual por por meio de figuras visuais com setas. Seguem um tipo de ["sintaxe"](#sintaxe) que deve ser seguida.
 
 ### [portugol](portugol)
 **Portugol** é uma **pseudo-linguagem** para facilitar o aprendizado da *lógica de programação* por meio de comandos semelhantes a uma linguagem de programação. Foi criada especialmente para ensinar lógica de programação.
@@ -43,8 +71,7 @@ O **Scratch** é uma linguagem de **programação visual de blocos de arrastar e
 
 Saiba mais na seção [Como representar algoritmos](#formas-de-representação-de-algoritmos)
 
-
-# Algoritmos e Lógica de programação
+# Lógica de programação
 
 ## Os 4 pilares
 Na lógica de programação, temos uma subárea que chamamos de **Pensamento Computacional**, responsável por dividir um problema em 4 pilares menores, que quando dominados, dão a capacidade ao desenvolvedor a resolver problemas de uma forma mais efetiva. A seguir, serão apresentados esses quatro pilares: **Decomposição**, **Reconhecimento de Padrões**, **Abstração** e **Algoritmos**
@@ -53,10 +80,10 @@ Na lógica de programação, temos uma subárea que chamamos de **Pensamento Com
     <a href="https://pt.wikipedia.org/wiki/Pensamento_computacional"><img width="750" alt="Os 4 pilares do pensamento computacional" src="assets/images/os-quatro-pilares-do-pc.png" /></a>
 </div>
 
-Recomendo a leitura [deste artigo (em inglês)](https://dev.to/dev_frank/how-to-think-like-a-programmer-29a8), dizendo mais sobre como pensar como um programador - uma habilidade que é destaque, que separa programadores que apenas decoram sintaxe de aqueles que pensam em como resolver problemas.
+Recomendo a leitura [deste artigo (em inglês)](https://dev.to/dev_frank/how-to-think-like-a-programmer-29a8), dizendo mais sobre como pensar como um programador - uma habilidade que é destaque, que separa programadores que apenas decoram [sintaxe](#sintaxe) de aqueles que pensam em como resolver problemas.
 
 > [!IMPORTANT]
-> Antes de começarmos, um rápido alerta.    
+> Antes de começarmos, um aviso importante.    
 > Eu utilizo a palavra *algoritmo* diversas vezes ao longo dos quatro pilares, porém ele é o último pilar do *Pensamento Computacional*. Então aqui vai um breve resumo do que é um algoritmo   
 > Um algoritmo basicamente é um passo a passo de instruções ordenadas e finito. É como seguir uma receita culinária ou ler um manual. É um passo a passo lógico.
 
@@ -198,8 +225,69 @@ Como resumo, teremos um **breve resumo** de o que cada pilar.
 * Abstração: Focar em aspectos úteis e esconder detalhes inúteis ou esclarecer detalhes importantes.
 * Algoritmos: Sequência de passos finitos, ordenados e sem [ambiguidade](#ambiguidade).
 
+# Algoritmos
 
-# Saiba mais
+## Formas de representação de algoritmos
+Como vimos anteriormente, [algoritmo são **sequências de passos ordenados e finitos que resolvem um problema**](#algoritmos). Agora, vamos ver sobre como **representá-los**, não apenas em **código** ou em uma **linguagem de programação**, mas sim em outras **formas visuais** ou mais **fáceis** de serem **compreendidas**.
+
+Aqui vão algumas formas de representação:
+
+### Pseudo-linguagem ou Pseudo-código
+**Pseudo-linguagem** é uma forma de representação semelhante a uma **linguagem de programação**, mas como seu próprio nome diz (*pseudo*), ela é *"falsa"*. Isso porque pseudo-linguagens **não são utilizadas mundialmente** (em um ambiente sério), mas sim **exclusivamente para aprender lógica**. Em outras palavras, é uma **linguagem informal**.
+
+#### Pontos positivos
+* Você aprende uma linguagem que é muito **semelhante** a uma linguagem normal, se adequando mais facilmente posteriormente.
+* Uma pseudo-linguagem tem sua própria [sintaxe](#sintaxe), isso é bom porque você segue aquelas **regras** da própria linguagem e não deixa espaços para [ambiguidades](#ambiguidade).
+
+#### Pontos negativos
+* É necessário aprender a [sintaxe](#sintaxe) da linguagem, o que pode ser meio **desnecessário** para quem quer aprender **apenas a lógica**. É por isso que muitas pessoas preferem partir logo para uma linguagem de programação, justamente porque as vezes é **desnecessário** aprender uma linguagem em que você não irá utilizar **profissionalmente**. Seria mais fácil aprender uma linguagem com [sintaxe](#sintaxe) mas ao menos essa for utilizada **mundialmente**.
+
+#### Exemplo de Pseudo-linguagem (Portugol)
+O exemplo mais famoso de *pseudo-linguagem* no Brasil é o [**Portugol versão VisuAlg/Português Estruturado**](https://pt.wikipedia.org/wiki/Portugol). Veja um exemplo bem simples da pseudo-linguagem abaixo.
+
+<div align="center">
+    <img width="750" alt="portugol" src="assets/images/examples/exemplo-portugol.png" />
+</div>
+
+Perceba a [sintaxe](#sintaxe) do Portugol. Ele utiliza palavras como *algoritmo*, *var*, *inicio*, ...  
+Essas palavras são as "**regras**" da pseudo-linguagem, e devem **ser seguidas**, caso contrário ocasionará em **erros de [sintaxe](#sintaxe)**.
+
+### Fluxograma
+O Fluxograma é uma **representação visual** de um algoritmo. São utilizadas **formas geométricas** que seus significados variam de **forma para forma**. O fluxograma, assim como o *pseudo-código*, segue um **padrão que precisa ser seguido**, de acordo com a **[ISO 5807](https://www.abenge.org.br/cobenge/legado/arquivos/20/st/q/q162.pdf)**.  
+[Símbolos do fluxograma](https://zeev.it/blog/5-passos-para-criacao-de-um-fluxograma/#9)
+
+#### Pontos positivos
+* Facilita a **compreensão do fluxo lógico**, pois utiliza **setas** que representam o **fluxo de execução** do programa.
+* Serve como **ponte de comunicação entre desenvolvedores**, e é um **padrão** muito utilizado profissionalmente, **facilitando a comunicação**.
+
+#### Pontos negativos
+* Dependendo do crescimento do fluxograma, a lógica pode ficar **extremamente confusa** de se entender.
+* **Alterar** a lógica de um programa pode exigir o **redesenho **completo do fluxograma, o que consome **bastante tempo**.
+* Geralmente é utilizado um **software** dedicado à criação de fluxograma, como *[Lucidchart](https://lucid.co/pt/lucidchart)* ou *[Draw.io](https://app.diagrams.net/)*, pois **desenhar à mão é inviável**.
+
+#### Exemplo de fluxograma
+
+<div align="center">
+    <img width="750" alt="fluxograma" src="assets/images/examples/exemplo-fluxograma.png" />
+</div>
+
+### Descrição Narrativa ou linguagem natural
+A descrição narrativa é uma forma **textual** de se representar um algoritmo. É muito **fácil** de se fazer a representação porque você simplesmente usa **apenas a lógica** e suas próprias palavras, e não precisa seguir uma **sintaxe rígida**.
+
+#### Pontos positivos
+* Não é necessário seguir uma sintaxe rígida, você cria sua própria sintaxe (mas precisa ao menos seguir um padrão mínimo, por exemplo as intruções `se` e `enquanto`, que são utilizadas para condição e repetição respectivamente).
+* Não precisa de nenhuma ferramenta extra, pode ser desde uma folha de papel até o notepad.
+
+#### Pontos negativos
+* Tem mais chance do algoritmo ter [ambiguidades](#ambiguidade), pois como vimos anteriormente, a linguagem natural não tem uma sintaxe propriamente definida, então estará mais suscetível a más interpretações/[ambiguidades](#ambiguidade)
+
+#### Exemplo de descrição narrativa
+
+<div align="center">
+    <img width="750" alt="Descrição Narrativa" src="assets/images/examples/exemplo-descricao-narrativa.png" />
+</div>
+
+# ⭐ Saiba mais
 
 ## 📰 Artigos
 

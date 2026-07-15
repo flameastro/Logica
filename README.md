@@ -387,7 +387,131 @@ saldo = 4556.34
 tem_pet = False
 ```
 
+## Operadores
+Existem diversos operadores: Os **aritméticos**, os de **comparação**, e os **lógicos**. Eles possuem esse nome porque **operam com dois valores**, chamados de **operandos**. Veremos cada um a seguir.
 
+<div align="center">
+    <img width="500" src="assets/images/operador-operandos.png">
+</div>
+
+### Operadores aritméticos
+Os operadores aritméticos são os **clássicos da matemática**. Entre eles estão o operador de **adição**, de **subtração**, de **multiplicação**, de **divisão**, e outros "**especiais**" do Python, como você pode ver na seguinte tabela:
+
+| Operador | Nome                     | Exemplo  | Resultado |
+|----------:|--------------------------|----------|-----------|
+| `+`       | Adição                   | `5 + 3`  | `8`       |
+| `-`       | Subtração                | `5 - 3`  | `2`       |
+| `*`       | Multiplicação            | `5 * 3`  | `15`      |
+| `/`       | Divisão                  | `5 / 2`  | `2.5`     |
+| `//`      | Divisão inteira          | `5 // 2` | `2`       |
+| `%`       | Módulo (resto da divisão)| `5 % 2`  | `1`       |
+| `**`      | Exponenciação            | `5 ** 2` | `25`      |
+
+```py
+5 + 3
+5 - 3
+5 * 3
+5 / 2
+5 // 2
+5 % 2
+5 ** 2
+```
+
+### Operadores de comparação
+Os operadores de comparação são usados para comparar operandos. A saída da comparação retorna um valor lógico (`True` ou `False`).
+
+
+| Operador | Nome             | Exemplo  | Resultado |
+| :------- | :--------------- | :------- | :-------- |
+| `>`      | Maior que        | `5 > 3`  | `True`    |
+| `<`      | Menor que        | `5 < 3`  | `False`   |
+| `>=`     | Maior ou igual a | `5 >= 5` | `True`    |
+| `<=`     | Menor ou igual a | `5 <= 3` | `False`   |
+| `!=`     | Diferente de     | `5 != 3` | `True`    |
+| `==`     | Igual a          | `5 == 3` | `False`   |
+
+
+Vamos ver um exemplo simples: 5 é maior que 2?
+```py
+5 > 2  # True
+```
+
+Nesse caso, sim, então retornará `True`.  
+Com todos os operadores:
+
+```py
+5 > 3  # True
+5 < 3  # False
+5 >= 5  # True
+5 <= 3  # False
+5 != 3  # True
+5 == 3  # False
+```
+
+### Operadores lógicos
+Os operadores lógicos agrupam operações e comparam entre dois valores lógicos.
+
+| Operador | Nome       | Exemplo          | Resultado |
+| :------- | :--------- | :--------------- | :-------- |
+| `and`    | E lógico   | `True and False` | `False`   |
+| `or`     | Ou lógico  | `True or False`  | `True`    |
+| `not`    | Não lógico | `not True`       | `False`   |
+
+```py
+operacao1 = 6 > 3
+operacao2 = 12 > 9
+print(operacao1 and operacao2)
+```
+
+Nós estamos comparando duas operações: `operacao1` e `operacao2`. Ambas as operações retornam True, mas inha seguinte declaramos `print(operacao1 and operacao2)`, que pode ser entendido como `True and True`. Agora ficou mais fácil, é como dizer: "*verdadeiro e verdadeiro*", que resulta em verdadeiro (`True`).
+
+Veja a seguir sobre a tabela verdade.
+
+#### Tabela verdade
+A **tabela verdade** é uma tabela que mostra **todas as combinações possíveis de valores lógicos** (`True` e `False`) e o resultado de uma **operação lógica** para cada uma delas.
+
+##### `and` (E lógico)
+
+|    A    |    B    | `A and B` |
+| :-----: | :-----: | :-------: |
+| `False` | `False` |  `False`  |
+| `False` |  `True` |  `False`  |
+|  `True` | `False` |  `False`  |
+|  `True` |  `True` |   `True`  |
+
+##### `or` (Ou lógico)
+
+|    A    |    B    | `A or B` |
+| :-----: | :-----: | :------: |
+| `False` | `False` |  `False` |
+| `False` |  `True` |  `True`  |
+|  `True` | `False` |  `True`  |
+|  `True` |  `True` |  `True`  |
+
+##### `not` (Não lógico)
+
+|    A    | `not A` |
+| :-----: | :-----: |
+| `False` |  `True` |
+|  `True` | `False` |
+
+#### and
+Só retorna `True` se ambos os operandos forem `True`. Caso o operando da direita, ou o da esquerda, ou ambos forem `False`, então o `and` retornará `False`.
+
+É como dizer: "*Se João e Maria forem para a festa, eu vou*".   
+Você só vai para a festa se ambos forem
+
+#### or
+Retorna `True` quando tem ao menos um operando que retorna `True`, e retorna `False` se ambos forem `False.`
+
+É como dizer: "*Se João ou Maria forem para a festa, eu vou*".   
+Você só vai para a festa se ao menos um dos dois forem
+
+#### not
+Sempre retorna o valor contrário. `True` vira `False`, e `False` vira `True`
+
+`not True` -> `False`
+`not False` -> `True`
 
 
 ---

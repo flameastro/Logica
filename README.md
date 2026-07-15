@@ -334,6 +334,60 @@ GRAVIDADE = 9.8
 VELOCIDADE_DA_LUZ = 299792458
 ```
 
+## Tipos de dados
+Os tipos de dados representam o **tipo que o valor** de uma variável possui. Você lembra da sintaxe da declaração de uma variável, que vimos anteriormente? O `valor_da_variavel` que apresentei anteriormente, **possui obrigatoriamente um tipo**. Pode ser `caractere`, `número` ou `lógico`. A seguir: O que cada tipo significa
+
+### Caractere
+Representa um texto, uma frase ou qualquer outra coisa que seja relacionados a texto. Alguns exemplos são:
+
+```py
+nome_de_usuario = "flameastro"
+descricao_repositorio = "🧠 Treino e aprendizado de lógica"
+email = "exemplo@dominio.com"
+```
+
+### Número
+Representa um número, seja ele **inteiro** ou **decimal**.
+
+#### Inteiro
+São números inteiros que não possuem vírgula (nesse caso, ponto)
+
+```py
+estrelas = 15
+repositorios = 26
+contribuicoes = 876
+```
+
+#### Flutuantes ou Decimais
+Representa um número que possui números após a vírgula, os famosos números quebrados
+
+```py
+frete = 12.5
+area = 6.245
+imposto = 25.63
+```
+
+### Lógico
+Os valores lógicos podem ter apenas um de dois valores: `True` ou `False`, representam **verdadeiro**/**ligado**/**aceso** e **falso**/**desligado**/**apagado**, respectivamente
+
+```py
+porta_aberta = True  # porta aberta
+luz_acessa = False  # luz apagada
+maior_idade = True  # Tem mais de 18 anos
+```
+
+### Exemplos de cada tipo
+
+Vamos ver a alguns exemplos de declarações de variáveis com cada um dos tipos:
+
+```py
+nome = "Matheus"
+idade = 27
+saldo = 4556.34
+tem_pet = False
+```
+
+
 
 
 ---

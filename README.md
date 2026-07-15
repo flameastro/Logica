@@ -58,7 +58,7 @@ Sintaxe foca na gramática, ou nas regras de uma instrução, e lógica foca no 
 ---
 
 ### [descricao-narrativa](descricao-narrativa)
-A **descrição narrativa** é um algoritmo escrito em **linguagem natural** (português). São simples e muito fáceis de serem criadas.
+A **descrição narrativa** é um algoritmo escrito em **linguagem natural** (*português*). São simples e muito fáceis de serem criadas.
 
 ### [fluxograma](fluxograma)
 O **fluxograma** é uma representação visual por por meio de figuras visuais com setas. Seguem um tipo de ["sintaxe"](#sintaxe) que deve ser seguida.
@@ -74,13 +74,13 @@ Saiba mais na seção [Como representar algoritmos](#formas-de-representação-d
 # Lógica de programação
 
 ## Os 4 pilares
-Na lógica de programação, temos uma subárea que chamamos de **Pensamento Computacional**, responsável por dividir um problema em 4 pilares menores, que quando dominados, dão a capacidade ao desenvolvedor a resolver problemas de uma forma mais efetiva. A seguir, serão apresentados esses quatro pilares: **Decomposição**, **Reconhecimento de Padrões**, **Abstração** e **Algoritmos**
+Na lógica de programação, temos uma subárea que chamamos de **Pensamento Computacional**, responsável por dividir um problema em 4 pilares menores, que quando dominados, dão a capacidade ao desenvolvedor a **resolver problemas** de uma forma mais efetiva. A seguir, serão apresentados esses quatro pilares: **Decomposição**, **Reconhecimento de Padrões**, **Abstração** e **Algoritmos**
 
 <div align="center">
     <a href="https://pt.wikipedia.org/wiki/Pensamento_computacional"><img width="750" alt="Os 4 pilares do pensamento computacional" src="assets/images/os-quatro-pilares-do-pc.png" /></a>
 </div>
 
-Recomendo a leitura [deste artigo (em inglês)](https://dev.to/dev_frank/how-to-think-like-a-programmer-29a8), dizendo mais sobre como pensar como um programador - uma habilidade que é destaque, que separa programadores que apenas decoram [sintaxe](#sintaxe) de aqueles que pensam em como resolver problemas.
+Recomendo a leitura *[deste artigo (em inglês)](https://dev.to/dev_frank/how-to-think-like-a-programmer-29a8)*, dizendo mais sobre como **pensar como um programador** - uma habilidade que é **destaque**, que separa programadores que apenas **decoram [sintaxe](#sintaxe)** de aqueles que pensam em como **resolver problemas**.
 
 > [!IMPORTANT]
 > Antes de começarmos, um aviso importante.    
@@ -156,7 +156,7 @@ Visualize a imagem a cima. Agora se pergunte: *Será que, um passageiro do carro
 Todos nós imaginamos um *carro pronto*. E isso importa para a criação de um algoritmo, porque o *nível de abstração* é importante para não haver [ambiguidades](#ambiguidade) no nosso algoritmo.
 
 #### Nível de Abstração
-O nível de abstração pode depender entre muito abstraído até pouco abstraído. Veja exemplos:
+O nível de abstração pode depender entre **muito abstraído** até **pouco abstraído**. Veja exemplos:
 
 ##### Muita abstração
 ```txt
@@ -193,13 +193,13 @@ Algoritmos são **sequências de passos ordenados e finitos que resolvem um prob
 > [!NOTE]
 > **Observação**: Um algoritmo não é um termo somente da *computação*. Utilizamos algoritmos em várias **situações de nossas vidas**, **todos os dias**.
 
-Vamos ver um exemplo de algoritmo: A criação de um bolo
+Vamos ver um exemplo de algoritmo: **A criação de um bolo**
 
 <div align="center">
     <img width="750" alt="algoritmos" src="assets/images/algoritmo.png" />
 </div>
 
-No exemplo acima, podemos observar que os ingredientes obtidos (**ovo**, **açúcar**, **leite**, **fermento** e **farinha de trigo**) levam à resolução do problema (fazer um bolo). É claro que nesse caso, abstraímos bastante o algoritmo. Não levamos em consideração uma panela, um fogão, uma colher, uma xícara, etc, etc, etc... Mas o importante aqui é pegar a ideia: O algoritmo é uma sequência de passos, esse é o resumo mais sucinto possível de um algoritmo.
+No exemplo acima, podemos observar que os ingredientes obtidos (**ovo**, **açúcar**, **leite**, **fermento** e **farinha de trigo**) levam à **resolução do problema** (*fazer um bolo*). É claro que nesse caso, abstraímos bastante o algoritmo. Não levamos em consideração uma **panela**, um **fogão**, uma **colher**, uma **xícara**, etc, etc, etc... Mas o importante aqui é pegar a ideia: O **algoritmo é uma sequência de passos**, esse é o resumo mais sucinto possível de um algoritmo.
 
 Agora, vamos ver um exemplo de um algoritmo para a criação de um bolo real.  
 [Fonte: https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-chocolate-facil.ghtml](https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-chocolate-facil.ghtml)
@@ -214,7 +214,7 @@ Agora, vamos ver um exemplo de um algoritmo para a criação de um bolo real.
    2. Despeje a calda no bolo ainda quente e sirva em seguida.
 
 Observe que nosso algoritmo segue um **passo a passo ordenado** (1, 2, 3...). Essa já é uma **característica** de um algoritmo. Outra característica de um algoritmo é que ele não pode ter suas **intruções fora de lugar**.  
-Observe a instrução 1.3, em que diz *"Transfira a massa para uma forma untada e ..."*, se nós trocassemos de posição com a instrução 1.1, teriamos um **erro lógico**, já que necessitamos **obrigatoriamente primeiro fazer a ação 1.1 para depois fazer a ação 1.3**.    
+Observe a instrução 1.3, em que diz *"Transfira a massa para uma forma untada e ..."*, se nós trocassemos de posição com a instrução 1.1, teriamos um **erro lógico**, já que necessitamos **obrigatoriamente primeiro fazer a ação 1.1 para depois fazer a ação 1.3**.  
 Uma última característica de algoritmos é que ele deve ser **finito**, isso é, ele deve ter um **fim**, ele precisa **acabar** alguma hora. Se um algoritmo é **infinito**, então ele **não é um algoritmo**.
 
 ## Os 4 pilares: Resumo
@@ -275,11 +275,11 @@ O Fluxograma é uma **representação visual** de um algoritmo. São utilizadas 
 A descrição narrativa é uma forma **textual** de se representar um algoritmo. É muito **fácil** de se fazer a representação porque você simplesmente usa **apenas a lógica** e suas próprias palavras, e não precisa seguir uma **sintaxe rígida**.
 
 #### Pontos positivos
-* Não é necessário seguir uma sintaxe rígida, você cria sua própria sintaxe (mas precisa ao menos seguir um padrão mínimo, por exemplo as intruções `se` e `enquanto`, que são utilizadas para condição e repetição respectivamente).
-* Não precisa de nenhuma ferramenta extra, pode ser desde uma folha de papel até o notepad.
+* Não é necessário seguir uma **sintaxe rígida**, você cria sua própria sintaxe (mas precisa ao menos seguir um padrão mínimo, por exemplo as intruções `se` e `enquanto`, que são utilizadas para condição e repetição respectivamente).
+* Não precisa de **nenhuma ferramenta extra**, pode ser desde uma **folha de papel** até o **notepad**.
 
 #### Pontos negativos
-* Tem mais chance do algoritmo ter [ambiguidades](#ambiguidade), pois como vimos anteriormente, a linguagem natural não tem uma sintaxe propriamente definida, então estará mais suscetível a más interpretações/[ambiguidades](#ambiguidade)
+* Tem mais chance do algoritmo ter **[ambiguidades](#ambiguidade)**, pois como vimos anteriormente, a linguagem natural não tem uma sintaxe propriamente definida, então estará mais **suscetível a más interpretações/[ambiguidades](#ambiguidade)**
 
 #### Exemplo de descrição narrativa
 
@@ -287,16 +287,73 @@ A descrição narrativa é uma forma **textual** de se representar um algoritmo.
     <img width="750" alt="Descrição Narrativa" src="assets/images/examples/exemplo-descricao-narrativa.png" />
 </div>
 
+---
+
+# Conceitos de lógica de programação
+Os conceitos de lógica de programação são **essenciais** para todo desenvolvedor, que verá isso mais cerdo ou mais tarde. Com esses conceitos, a **lógica é a mesma** em todas e em qualquer linguagem de programação. A única coisa que muda é a **[sintaxe](#sintaxe)** de cada linguagem. Exemplos de linguagens são **C**, **Java**, **Python**, **Go** e **Ruby**. A lógica utilizadas nelas são as mesmas, a única diferença é que cada terá uma **regra diferente de declaração de instruções**.
+
+Para os exemplos abaixo, utilizaremos a linguagem *Python*, mas os comandos pdoerão ser replicados em qualquer outra linguagem. Para acompanhar aos exemplos abaixo, recomendo utilizar o [online-python](https://www.online-python.com/) como **interpretador** por enquanto se você ainda não tem/não sabe fazer a instalação do python ainda.
+
+Lembrando que esse repositório não substitui nenhum curso de python. Para se especializar em Python, recomendo que vá até a seção [Python](#python)
+
+## Variáveis e constantes
+As variáveis são **valores armazenados na memória do computador**, que poderão ser utilizados **posteriormente** no algoritmo. A forma mais fácil de se entender uma variável é no código.
+
+Vamos supor que queremos armazenar uma variável chamada idade, e com qualquer valor, por exemplo, 23.
+```py
+idade = 23
+```
+
+Como podemos ver, `idade` é o nome da variável, e `23` é o valor que ela guarda.  
+Observe que a **declaração de uma variável** segue a seguinte [sintaxe](#sintaxe):
+
+```py
+nome_da_variavel = valor_da_variavel
+```
+
+Agora, mais exemplos de declaração de variáveis:
+```py
+nome = "flameastro"  # Observe que utilizamos aspas duplas para armazenar textos. Veremos isso adiante
+quantidade_clientes = 450
+total_vendas = 125
+saldo = 76500.54  # Usamos o ponto (.) ao invés da vírgula (,) para representar números decimais
+```
+
+Perceba que sempre utilizo o padrão [snake_case](https://en.wikipedia.org/wiki/Snake_case), um padrão recomendado para o python, em que você sustitui os espaços do nome de uma variável (se ela tiver) por underlines (_).
+
+<div align="center">
+    <img width="500" src="assets/images/snake_case.png">
+    <p><a href="https://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/#Snake-case">Fonte</a></p>
+</div>
+
+Uma **constante é uma variável**, mas a única diferença é que o **seu valor não pode ser alterado**. O python **não tem um suporte nativo com constantes**, mas declaramos o nome da variável como **uppercase** (maiúsculas).
+
+```py
+PI = 3.1415
+GRAVIDADE = 9.8
+VELOCIDADE_DA_LUZ = 299792458
+```
+
+
+
+---
+
 # ⭐ Saiba mais
 
-## 📰 Artigos
+## Python
+
+[Em breve]
+
+## Pensamento Computacional
+
+### 📰 Artigos
 
 * [[Alura] - Pensamento Computacional: o que é, benefícios e ferramentas](https://www.alura.com.br/artigos/pensamento-computacional)
 * [[FreeCodeCamp] - Como pensar como um programador — lições de resolução de problemas](https://www.freecodecamp.org/portuguese/news/como-pensar-como-um-programador-licoes-de-resolucao-de-problemas/)
 * [[Reddit] - Como Treinar a Si Mesmo Para Pensar Como um Programador?](http://reddit.com/r/learnprogramming/comments/1ihjpss/how_do_you_train_yourself_to_think_like_a/?tl=pt-br)
 * [[WikiPedia] - Pensamento computacional](https://pt.wikipedia.org/wiki/Pensamento_computacional)
-
-## 📽️ Vídeos
+\
+### 📽️ Vídeos
 
 * [⭐ [YouTube] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)
 * [[YouTube] - Aprendendo a Pensar Como Um Programador! 👨‍💻💡](https://www.youtube.com/watch?v=Lkm3-hA2TZo)
@@ -309,7 +366,7 @@ A descrição narrativa é uma forma **textual** de se representar um algoritmo.
 * [[YouTube] - Curso de Algoritmos e Lógica de Programação](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 * [[YouTube] - Curso Lógica de Programação 2026 – Aprenda em 3 Horas (De Verdade!)](https://www.youtube.com/watch?v=epf-WQdVis0&t=9760s)
 
-## 📖 Livros
+### 📖 Livros
 * [Algoritmos e estrutura de Dados I](assets/books/Algoritmos%20e%20estrutura%20de%20Dados%20I.pdf)
 * [apostilaufpr](assets/books/apostilaufpr.pdf)
 * [Estrutura de Dados](assets/books/ESTRUTURA%20DE%20DADOS.pdf)

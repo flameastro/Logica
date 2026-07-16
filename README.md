@@ -1,5 +1,7 @@
 # Logica 🧠
 
+🧠 Treino e aprendizado de lógica
+
 Repositório onde publico **exercícios para melhorar a lógica de programação** por meio de **representações de algoritmos** como **descrição narrativa, fluxogramas, portugol e scratch**.
 
 ---
@@ -12,7 +14,7 @@ Propriedade de uma palavra ou frase que permite duas ou mais interpretações. E
 
 ### `Sintaxe`
 No caso da programação, é um conjunto de regras que determina a estrutura e escrita correta das instruções/códigos.  
-A sintaxe e a lógica estão muito correlacionados, porque enquanto a sintaxe seria a escrita de uma instrução, a lógica seria a validação dessa sintaxe.  
+A sintaxe e a lógica estão muito correlacionadas, porque enquanto a sintaxe seria a escrita de uma instrução, a lógica seria a validação dessa sintaxe.  
 Um exemplo simples em linguagem natural:
 
 #### Sintaxe incorreta
@@ -71,7 +73,7 @@ Repare que cada indentação, representa que aquele bloco de código está dentr
 A **descrição narrativa** é um algoritmo escrito em **linguagem natural** (*português*). São simples e muito fáceis de serem criadas.
 
 ### [fluxograma](fluxograma)
-O **fluxograma** é uma representação visual por por meio de figuras visuais com setas. Seguem um tipo de ["sintaxe"](#sintaxe) que deve ser seguida.
+O **fluxograma** é uma representação visual por meio de figuras visuais com setas. Seguem um tipo de ["sintaxe"](#sintaxe) que deve ser seguida.
 
 ### [portugol](portugol)
 **Portugol** é uma **pseudo-linguagem** para facilitar o aprendizado da *lógica de programação* por meio de comandos semelhantes a uma linguagem de programação. Foi criada especialmente para ensinar lógica de programação.
@@ -98,7 +100,7 @@ Recomendo a leitura *[deste artigo (em inglês)](https://dev.to/dev_frank/how-to
 > Um algoritmo basicamente é um passo a passo de instruções ordenadas e finito. É como seguir uma receita culinária ou ler um manual. É um passo a passo lógico.
 
 ### Decomposição
-É a habilidade de **dividir um problema grande em problemas menores**. Essa é a habilidade mais *importante* de um programador. Consiste em simplesmente pegar um **problema maior** e **transforma-lo** em um **subproblema menor** de acordo com algumas **perguntas** e **análises**.
+É a habilidade de **dividir um problema grande em problemas menores**. Essa é a habilidade mais *importante* de um programador. Consiste em simplesmente pegar um **problema maior** e **transformá-lo** em um **subproblema menor** de acordo com algumas **perguntas** e **análises**.
 
 <div align="center">
     <img width="750" alt="decomposição" src="assets/images/decomposicao.png" />
@@ -123,7 +125,7 @@ Carro
     Bancos
         Aço
         Espuma
-        Técido
+        Tecido
             Nylon
                 Petróleo
             Poliéster
@@ -150,9 +152,9 @@ A *decomposição* acontece quando você **divide um problema em problemas menor
     <img width="750" alt="reconhecimento de padrões" src="assets/images/reconhecimento-de-padroes.png" />
 </div>
 
-No exemplo acima, podemos ver que todos os *três veículos* (**carro, bicicleta e moto**) possuem algo em comum: **rodas**. Então se nós criassemos um *carro*, uma *bicicleta* ou uma *moto*, poderiamos utilizar nossa *memória* para **reconhecer um padrão** que já foi resolvido anteriormente - a **roda**. Isso nos permite **resolver problemas** de uma maneira mais **rápida** porque já sabemos exatamente o que fazer, e não será necessário *pensar novamente*.
+No exemplo acima, podemos ver que todos os *três veículos* (**carro, bicicleta e moto**) possuem algo em comum: **rodas**. Então se nós criássemos um *carro*, uma *bicicleta* ou uma *moto*, poderíamos utilizar nossa *memória* para **reconhecer um padrão** que já foi resolvido anteriormente - a **roda**. Isso nos permite **resolver problemas** de uma maneira mais **rápida** porque já sabemos exatamente o que fazer, e não será necessário *pensar novamente*.
 
-É claro que nesse exemplo e em outros, o você irá *reconhecer padrões*, mas na maioria das vezes irá precisar **alterar algumas coisas**. Por exemplo, nessa situação da imagem, os **materiais** e as **proporções** são **diferentes**, mas a **ideia** é a mesma.
+É claro que nesse exemplo e em outros, você irá *reconhecer padrões*, mas na maioria das vezes irá precisar **alterar algumas coisas**. Por exemplo, nessa situação da imagem, os **materiais** e as **proporções** são **diferentes**, mas a **ideia** é a mesma.
 
 ### Abstração
 É a habilidade de **focar apenas nos aspectos úteis/importantes**. Por exemplo, Na **criação de um bolo**, a **cor da panela não importa**; Mas **verificar se os ingredientes do bolo ainda estão dentro da validade é importante**; Num *algoritmo*, a abstração é muito útil porque você pode se perguntar: *Será que minha instrução está pouco abstraída ou muito abstraída? Ou seja, será que a instrução que eu coloquei está clara demais, ou ainda preciso ser ainda mais detalhado?*
@@ -161,7 +163,7 @@ No exemplo acima, podemos ver que todos os *três veículos* (**carro, bicicleta
     <img width="750" alt="abstração" src="assets/images/abstracao.png" />
 </div>
 
-Visualize a imagem a cima. Agora se pergunte: *Será que, um passageiro do carro, precisaria verificar esses detalhes para visualizar um carro?* Quando você imagina um carro, você imagina ele *pronto*, ou pensa em cada *parafuso*, em cada *banco*, em cada *janela*, em cada *pneu*, ou no *motor*?
+Visualize a imagem acima. Agora se pergunte: *Será que, um passageiro do carro, precisaria verificar esses detalhes para visualizar um carro?* Quando você imagina um carro, você imagina ele *pronto*, ou pensa em cada *parafuso*, em cada *banco*, em cada *janela*, em cada *pneu*, ou no *motor*?
 
 Todos nós imaginamos um *carro pronto*. E isso importa para a criação de um algoritmo, porque o *nível de abstração* é importante para não haver [ambiguidades](#ambiguidade) no nosso algoritmo.
 
@@ -223,12 +225,12 @@ Agora, vamos ver um exemplo de um algoritmo para a criação de um bolo real.
    1. Em uma panela, coloque 1 e meia xícara de chá de leite, meia xícara de chá de chocolate em pó, 1 colher de sopa de manteiga e 1 xícara de chá de açúcar. Misture, ligue o fogo e deixe ferver.
    2. Despeje a calda no bolo ainda quente e sirva em seguida.
 
-Observe que nosso algoritmo segue um **passo a passo ordenado** (1, 2, 3...). Essa já é uma **característica** de um algoritmo. Outra característica de um algoritmo é que ele não pode ter suas **intruções fora de lugar**.  
-Observe a instrução 1.3, em que diz *"Transfira a massa para uma forma untada e ..."*, se nós trocassemos de posição com a instrução 1.1, teriamos um **erro lógico**, já que necessitamos **obrigatoriamente primeiro fazer a ação 1.1 para depois fazer a ação 1.3**.  
+Observe que nosso algoritmo segue um **passo a passo ordenado** (1, 2, 3...). Essa já é uma **característica** de um algoritmo. Outra característica de um algoritmo é que ele não pode ter suas **instruções fora de lugar**.  
+Observe a instrução 1.3, em que diz *"Transfira a massa para uma forma untada e ..."*, se nós trocássemos de posição com a instrução 1.1, teríamos um **erro lógico**, já que necessitamos **obrigatoriamente primeiro fazer a ação 1.1 para depois fazer a ação 1.3**.  
 Uma última característica de algoritmos é que ele deve ser **finito**, isso é, ele deve ter um **fim**, ele precisa **acabar** alguma hora. Se um algoritmo é **infinito**, então ele **não é um algoritmo**.
 
 ## Os 4 pilares: Resumo
-Como resumo, teremos um **breve resumo** de o que cada pilar.
+Como resumo, teremos um **breve resumo** do que é cada pilar.
 
 * Decomposição: Dividir o problema em partes menores.
 * Reconhecimento de Padrões: Reconhecer padrões de problemas já feitos anteriormente.
@@ -238,7 +240,7 @@ Como resumo, teremos um **breve resumo** de o que cada pilar.
 # Algoritmos
 
 ## Formas de representação de algoritmos
-Como vimos anteriormente, [algoritmo são **sequências de passos ordenados e finitos que resolvem um problema**](#algoritmos). Agora, vamos ver sobre como **representá-los**, não apenas em **código** ou em uma **linguagem de programação**, mas sim em outras **formas visuais** ou mais **fáceis** de serem **compreendidas**.
+Como vimos anteriormente, [algoritmos são **sequências de passos ordenados e finitos que resolvem um problema**](#algoritmos). Agora, vamos ver sobre como **representá-los**, não apenas em **código** ou em uma **linguagem de programação**, mas sim em outras **formas visuais** ou mais **fáceis** de serem **compreendidas**.
 
 Aqui vão algumas formas de representação:
 
@@ -250,7 +252,7 @@ Aqui vão algumas formas de representação:
 * Uma pseudo-linguagem tem sua própria [sintaxe](#sintaxe), isso é bom porque você segue aquelas **regras** da própria linguagem e não deixa espaços para [ambiguidades](#ambiguidade).
 
 #### Pontos negativos
-* É necessário aprender a [sintaxe](#sintaxe) da linguagem, o que pode ser meio **desnecessário** para quem quer aprender **apenas a lógica**. É por isso que muitas pessoas preferem partir logo para uma linguagem de programação, justamente porque as vezes é **desnecessário** aprender uma linguagem em que você não irá utilizar **profissionalmente**. Seria mais fácil aprender uma linguagem com [sintaxe](#sintaxe) mas ao menos essa for utilizada **mundialmente**.
+* É necessário aprender a [sintaxe](#sintaxe) da linguagem, o que pode ser meio **desnecessário** para quem quer aprender **apenas a lógica**. É por isso que muitas pessoas preferem partir logo para uma linguagem de programação, justamente porque às vezes é **desnecessário** aprender uma linguagem em que você não irá utilizar **profissionalmente**. Seria mais fácil aprender uma linguagem com [sintaxe](#sintaxe) mas ao menos essa for utilizada **mundialmente**.
 
 #### Exemplo de Pseudo-linguagem (Portugol)
 O exemplo mais famoso de *pseudo-linguagem* no Brasil é o [**Portugol versão VisuAlg/Português Estruturado**](https://pt.wikipedia.org/wiki/Portugol). Veja um exemplo bem simples da pseudo-linguagem abaixo.
@@ -272,7 +274,7 @@ O Fluxograma é uma **representação visual** de um algoritmo. São utilizadas 
 
 #### Pontos negativos
 * Dependendo do crescimento do fluxograma, a lógica pode ficar **extremamente confusa** de se entender.
-* **Alterar** a lógica de um programa pode exigir o **redesenho **completo do fluxograma, o que consome **bastante tempo**.
+* **Alterar** a lógica de um programa pode exigir o **redesenho completo do fluxograma, o que consome bastante tempo**.
 * Geralmente é utilizado um **software** dedicado à criação de fluxograma, como *[Lucidchart](https://lucid.co/pt/lucidchart)* ou *[Draw.io](https://app.diagrams.net/)*, pois **desenhar à mão é inviável**.
 
 #### Exemplo de fluxograma
@@ -285,7 +287,7 @@ O Fluxograma é uma **representação visual** de um algoritmo. São utilizadas 
 A descrição narrativa é uma forma **textual** de se representar um algoritmo. É muito **fácil** de se fazer a representação porque você simplesmente usa **apenas a lógica** e suas próprias palavras, e não precisa seguir uma **sintaxe rígida**.
 
 #### Pontos positivos
-* Não é necessário seguir uma **sintaxe rígida**, você cria sua própria sintaxe (mas precisa ao menos seguir um padrão mínimo, por exemplo as intruções `se` e `enquanto`, que são utilizadas para condição e repetição respectivamente).
+* Não é necessário seguir uma **sintaxe rígida**, você cria sua própria sintaxe (mas precisa ao menos seguir um padrão mínimo, por exemplo as instruções `se` e `enquanto`, que são utilizadas para condição e repetição respectivamente).
 * Não precisa de **nenhuma ferramenta extra**, pode ser desde uma **folha de papel** até o **notepad**.
 
 #### Pontos negativos
@@ -300,11 +302,11 @@ A descrição narrativa é uma forma **textual** de se representar um algoritmo.
 ---
 
 # Conceitos de lógica de programação
-Os conceitos de lógica de programação são **essenciais** para todo desenvolvedor, que verá isso mais cerdo ou mais tarde. Com esses conceitos, a **lógica é a mesma** em todas e em qualquer linguagem de programação. A única coisa que muda é a **[sintaxe](#sintaxe)** de cada linguagem. Exemplos de linguagens são **C**, **Java**, **Python**, **Go** e **Ruby**. A lógica utilizadas nelas são as mesmas, a única diferença é que cada terá uma **regra diferente de declaração de instruções**.
+Os conceitos de lógica de programação são **essenciais** para todo desenvolvedor, que verá isso mais cedo ou mais tarde. Com esses conceitos, a **lógica é a mesma** em todas e em qualquer linguagem de programação. A única coisa que muda é a **[sintaxe](#sintaxe)** de cada linguagem. Exemplos de linguagens são **C**, **Java**, **Python**, **Go** e **Ruby**. A lógica utilizada nelas são as mesmas, a única diferença é que cada uma terá uma **regra diferente de declaração de instruções**.
 
-Para os exemplos abaixo, utilizaremos a linguagem *Python*, mas os comandos pdoerão ser replicados em qualquer outra linguagem. Para acompanhar aos exemplos abaixo, recomendo utilizar o [online-python](https://www.online-python.com/) como **interpretador** por enquanto se você ainda não tem/não sabe fazer a instalação do python ainda.
+Para os exemplos abaixo, utilizaremos a linguagem *Python*, mas os comandos **poderão ser replicados em qualquer outra linguagem**. Para acompanhar aos exemplos abaixo, recomendo utilizar o [online-python](https://www.online-python.com/) como **interpretador** por enquanto se você ainda não tem/não sabe fazer a instalação do python.
 
-Lembrando que esse repositório não substitui nenhum curso de python. Para se especializar em Python, recomendo que vá até a seção [Python](#python)
+Lembrando que esse repositório **não substitui nenhum curso de python**. Para se especializar em Python, recomendo que vá até a seção [Python](#python)
 
 ## Variáveis e constantes
 As variáveis são **valores armazenados na memória do computador**, que poderão ser utilizados **posteriormente** no algoritmo. A forma mais fácil de se entender uma variável é no código.
@@ -329,14 +331,14 @@ total_vendas = 125
 saldo = 76500.54  # Usamos o ponto (.) ao invés da vírgula (,) para representar números decimais
 ```
 
-Perceba que sempre utilizo o padrão [snake_case](https://en.wikipedia.org/wiki/Snake_case), um padrão recomendado para o python, em que você sustitui os espaços do nome de uma variável (se ela tiver) por underlines (_).
+Perceba que sempre utilizo o padrão **[snake_case](https://en.wikipedia.org/wiki/Snake_case)**, um padrão recomendado para o python, em que você **substitui os espaços do nome de uma variável (se ela tiver) por underlines (_)**.
 
 <div align="center">
     <img width="500" src="assets/images/snake_case.png">
     <p><a href="https://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/#Snake-case">Fonte</a></p>
 </div>
 
-Uma **constante é uma variável**, mas a única diferença é que o **seu valor não pode ser alterado**. O python **não tem um suporte nativo com constantes**, mas declaramos o nome da variável como **uppercase** (maiúsculas).
+Uma **constante é uma variável**, mas a única diferença é que o **seu valor não pode ser alterado**. O python **não tem um suporte nativo com constantes**, mas declaramos o nome da variável como **uppercase** (*maiúsculas*).
 
 ```py
 PI = 3.1415
@@ -345,10 +347,10 @@ VELOCIDADE_DA_LUZ = 299792458
 ```
 
 ## Tipos de dados
-Os tipos de dados representam o **tipo que o valor** de uma variável possui. Você lembra da sintaxe da declaração de uma variável, que vimos anteriormente? O `valor_da_variavel` que apresentei anteriormente, **possui obrigatoriamente um tipo**. Pode ser `caractere`, `número` ou `lógico`. A seguir: O que cada tipo significa
+Os tipos de dados representam o **tipo que o valor** de uma variável possui. Você lembra da sintaxe da declaração de uma variável, que vimos anteriormente? O `valor_da_variavel` que apresentei anteriormente, **possui obrigatoriamente um tipo**. Pode ser `caractere`, `número` ou `lógico`. A seguir: O que cada tipo significa.
 
 ### Caractere
-Representa um texto, uma frase ou qualquer outra coisa que seja relacionados a texto. Alguns exemplos são:
+Representa um **texto**, uma **frase** ou qualquer outra coisa que seja **relacionados a texto**. Alguns exemplos são:
 
 ```py
 nome_de_usuario = "flameastro"
@@ -357,10 +359,10 @@ email = "exemplo@dominio.com"
 ```
 
 ### Número
-Representa um número, seja ele **inteiro** ou **decimal**.
+Representa um **número**, seja ele **inteiro** ou **decimal**.
 
 #### Inteiro
-São números inteiros que não possuem vírgula (nesse caso, ponto)
+São **números inteiros que não possuem vírgula**, ou seja, ponto em Python.
 
 ```py
 estrelas = 15
@@ -369,7 +371,7 @@ contribuicoes = 876
 ```
 
 #### Flutuantes ou Decimais
-Representa um número que possui números após a vírgula, os famosos números quebrados
+Representa um número que possui **números após a vírgula**, os famosos **números quebrados**.
 
 ```py
 frete = 12.5
@@ -378,17 +380,16 @@ imposto = 25.63
 ```
 
 ### Lógico
-Os valores lógicos podem ter apenas um de dois valores: `True` ou `False`, representam **verdadeiro**/**ligado**/**aceso** e **falso**/**desligado**/**apagado**, respectivamente
+Os valores lógicos podem ter apenas um de dois valores: **`True` ou `False`**, representam **verdadeiro**/**ligado**/**aceso** e **falso**/**desligado**/**apagado**, respectivamente.
 
 ```py
 porta_aberta = True  # porta aberta
-luz_acessa = False  # luz apagada
+luz_acesa = False  # luz apagada
 maior_idade = True  # Tem mais de 18 anos
 ```
 
 ### Exemplos de cada tipo
-
-Vamos ver a alguns exemplos de declarações de variáveis com cada um dos tipos:
+Vamos ver alguns exemplos de declarações de variáveis com cada um dos tipos:
 
 ```py
 nome = "Matheus"
@@ -428,8 +429,7 @@ Os operadores aritméticos são os **clássicos da matemática**. Entre eles est
 ```
 
 ### Operadores de comparação
-Os operadores de comparação são usados para comparar operandos. A saída da comparação retorna um valor lógico (`True` ou `False`).
-
+Os operadores de comparação são usados para **comparar operandos**. A **saída da comparação retorna um valor lógico (`True` ou `False`)**.
 
 | Operador | Nome             | Exemplo  | Resultado |
 | :------- | :--------------- | :------- | :-------- |
@@ -441,7 +441,7 @@ Os operadores de comparação são usados para comparar operandos. A saída da c
 | `==`     | Igual a          | `5 == 3` | `False`   |
 
 
-Vamos ver um exemplo simples: 5 é maior que 2?
+Vamos ver um exemplo simples: *5 é maior que 2*?
 ```py
 5 > 2  # True
 ```
@@ -459,7 +459,7 @@ Com todos os operadores:
 ```
 
 ### Operadores lógicos
-Os operadores lógicos agrupam operações e comparam entre dois valores lógicos.
+Os operadores lógicos **agrupam operações e comparam entre dois valores lógicos**.
 
 | Operador | Nome       | Exemplo          | Resultado |
 | :------- | :--------- | :--------------- | :-------- |
@@ -473,9 +473,9 @@ operacao2 = 12 > 9
 print(operacao1 and operacao2)
 ```
 
-Nós estamos comparando duas operações: `operacao1` e `operacao2`. Ambas as operações retornam True, mas inha seguinte declaramos `print(operacao1 and operacao2)`, que pode ser entendido como `True and True`. Agora ficou mais fácil, é como dizer: "*verdadeiro e verdadeiro*", que resulta em verdadeiro (`True`).
+Nós estamos comparando duas operações: `operacao1` e `operacao2`. Ambas as operações retornam `True`, mas na linha seguinte declaramos `print(operacao1 and operacao2)`, que pode ser entendido como `True and True`. Agora ficou mais fácil, é como dizer: "*verdadeiro e verdadeiro*", que resulta em verdadeiro (`True`).
 
-Veja a seguir sobre a tabela verdade.
+Veja a seguir sobre a **[tabela verdade](#tabela-verdade)**.
 
 #### Tabela verdade
 A **tabela verdade** é uma tabela que mostra **todas as combinações possíveis de valores lógicos** (`True` e `False`) e o resultado de uma **operação lógica** para cada uma delas.
@@ -506,19 +506,19 @@ A **tabela verdade** é uma tabela que mostra **todas as combinações possívei
 |  `True` | `False` |
 
 #### and
-Só retorna `True` se ambos os operandos forem `True`. Caso o operando da direita, ou o da esquerda, ou ambos forem `False`, então o `and` retornará `False`.
+Só retorna `True` se **ambos os operandos forem `True`**. Caso o operando da direita, ou o da esquerda, ou ambos forem `False`, então o `and` retornará `False`.
 
 É como dizer: "*Se João e Maria forem para a festa, eu vou*".   
 Você só vai para a festa se ambos forem
 
 #### or
-Retorna `True` quando tem ao menos um operando que retorna `True`, e retorna `False` se ambos forem `False.`
+Retorna `True` quando tem **ao menos um operando que retorna `True`**, e retorna `False` se ambos forem `False.`
 
 É como dizer: "*Se João ou Maria forem para a festa, eu vou*".   
 Você só vai para a festa se ao menos um dos dois forem
 
 #### not
-Sempre retorna o valor contrário. `True` vira `False`, e `False` vira `True`
+Sempre **retorna o valor contrário**. `True` vira `False`, e `False` vira `True`
 
 `not True` -> `False`
 `not False` -> `True`
@@ -585,7 +585,7 @@ else:
 
 Lê-se: *Se a condição for verdadeira, execute o `bloco de código 1`, senão, execute o `bloco de código 2`*.
 
-Agora, temos mais "liberdade" de condições, porque sempre será executado alguma coisa. Vamos ver um exemplo:
+Agora, temos mais "liberdade" de condições, porque **sempre será executado alguma coisa**. Vamos ver um exemplo:
 
 ```py
 idade = 19
@@ -609,7 +609,7 @@ else:
     print("Olá, convidado!")
 ```
 
-Agora a situação é um pouco diferente. Verificamos se `user == "admin"` e `password == "admin"`. Se for, imprimimos `Olá, admin!`, senão, `Olá, convidado!`. Perceba que agora **não tem como fugir**: o **programa sempre executará o primeiro ou o segundo bloco de código**, **porque se a primeira condição não for satisfeita, caíra no `else`**.
+Agora a situação é um pouco diferente. Verificamos se `user == "admin"` e `password == "admin"`. Se for, imprimimos `Olá, admin!`, senão, `Olá, convidado!`. Perceba que agora **não tem como fugir**: o **programa sempre executará o primeiro ou o segundo bloco de código**, **porque se a primeira condição não for satisfeita, cairá no `else`**.
 
 Com isso, podemos criar lógicas mais interessantes.
 
@@ -630,7 +630,7 @@ Vamos analisar o código. Primeiro declaramos a variável como `valor_produto`, 
 Mas ainda tem um tipo que é mais poderoso que o tipo composto, que veremos a seguir: A [encadeada](#encadeada)
 
 ### Encadeada
-O tipo encadeada é um tipo que possui diversas verificações. Antes tinhamos apenas duas opções, mas com o tipo encadeada, nossas possibilidades de condicionais se expandirão.
+O tipo encadeada é um tipo que possui **diversas verificações**. Antes tinhamos apenas duas opções, mas com o tipo encadeada, nossas possibilidades de condicionais se expandirão.
 
 ```py
 if condicao:
@@ -644,7 +644,7 @@ else:
 > [!NOTE]
 > Você pode usar quantos `elif`s forem necessários.
 
-Nossas possibilidades de condicionais se **multiplicaram** agora, porque podemos verificar quantas **condições precisarmos e executar um determinado bloco de código de acordo com uma condição correta**. Perceba que agora podemos verificar múltiplas condições.
+Nossas possibilidades de condicionais se **multiplicaram** agora, porque podemos verificar quantas **condições precisarmos e executar um determinado bloco de código de acordo com uma condição correta**. Perceba que agora podemos **verificar múltiplas condições**.
 
 Vamos ver um exemplo diferente agora. Pense assim: teremos um número, e temos que exibir como saída se esse número é `positivo`, `negativo` ou `nulo`.
 
@@ -674,7 +674,7 @@ elif cor == "vermelha":  # pode ser um else ou um elif
 ```
 
 Declaramos uma variável chamada `cor` e atribuímos o seu valor como `amarela`. Dentro da **estrutura condicional**, primeiro verificamos se a cor é `verde`, então resultará em `Vá!`, depois verificamos se a cor é `amarela`, e nesse caso é, resultando então em `Atenção!`, mas caso não fosse, resultaria em `Espere!`.  
-Perceba que nessa estrutura que defini, **não possui um `else`**, já que ele **não é obrigatório**, lembre-se. Porém, nesse caso poderiamos sim ter **colocado apenas um `else`**.
+Perceba que nessa estrutura que defini, **não possui um `else`**, já que ele **não é obrigatório**, lembre-se. Porém, nesse caso poderíamos sim ter **colocado apenas um `else`**.
 
 A seguir, vamos verificar um outro tipo de estrutura condicional: a **[aninhada](#aninhada)**.
 
@@ -683,7 +683,7 @@ Esse tipo se chama `aninhada` justamente porque conseguimos **aninhar** outras e
 
 Imagine a **estrutura aninhada** como aquelas bonecas russas (*matrioska*) que **uma cabe dentro da outra**, basicamente é isso que uma estrutura de tipo [aninhada](#aninhada) é.
 
-Veja a seguir a comparação das matrioskas com um código python usando o tipo [aninhado](#aninhada).
+Veja a seguir a comparação das *matrioskas* com um código python usando o tipo [aninhado](#aninhada).
 
 #### Matrioska
 <div align="center">
@@ -695,7 +695,7 @@ Veja a seguir a comparação das matrioskas com um código python usando o tipo 
     <img width="500" src="assets/images/if-matrioska.png">
 </div>
 
-Como podemos ver, o tipo encadeado é muito semelhante às matrioskas, porque uma condição está **sob outra**.    
+Como podemos ver, o tipo encadeado é muito semelhante às *matrioskas*, porque uma condição está **sob outra**.  
 Um exemplo em Python seria:
 
 ```py
@@ -712,9 +712,11 @@ else:
     print("Você é menor de idade, não pode dirigir")
 ```
 
-Vamos entender o código. Declaramos as variáveis `idade` e `tem_carteira`, como `20` e `True`, respectivamente. Logo em seguida, verificamos se a `idade` é maior que `18`, então imprimirá `Você é maior de idade`, logo verificamos se `tem_carteira` é `True`, e é, logo, imprimirá `Pode dirigir!`. Se o usuário tivesse uma `idade` menor que `iria` logo imprimir `Você é menor de idade, não pode dirigir`. E se o usuário tivesse uma idade maior que `18` porém não tiver carteira, então imprimiria `Não pode dirigir, pois não tem carteira`.
+Vamos entender o código. Declaramos as variáveis `idade` e `tem_carteira`, como `20` e `True`, respectivamente. Logo em seguida, verificamos se a `idade` é maior que `18`, então imprimirá `Você é maior de idade`, logo verificamos se `tem_carteira` é `True`, e é, logo, imprimirá `Pode dirigir!`. Se o usuário tivesse uma `idade` menor que `18`, iria logo imprimir `Você é menor de idade, não pode dirigir`. E se o usuário tivesse uma idade maior que `18` porém não tiver carteira, então imprimiria `Não pode dirigir, pois não tem carteira`.
 
-Lembre-se de que podemos colocar quantas estruturas condicionais e de qualquer tipo aqui.
+
+> [!NOTE]
+> Lembre-se de que podemos colocar quantas estruturas condicionais e de qualquer tipo aqui.
 
 ## Estruturas de Repetição
 As estruturas de Repetição são **estruturas semelhantes a que vimos anteriormente**, as condicionais. Elas também possuem uma **condição**, mas ao invés de executarem um bloco de código apenas uma vez, elas **repetem um determinado bloco de código até que a condição seja falsa**.    
@@ -729,10 +731,10 @@ for <variavel> in range(inicio, fim-1, passos):
 ```
 
 > [!NOTE]
-> Costumamos utilizar apenas o fim num for, ficando assim: `for <variavel> in range(fim): ...`. Se por exemplo quisessemos começar do 0 e ir até o 10, poderiamos simplesmente fazer `range(11)`, isso conta de 0 até 10. Também omitimos o `passos`, já que ele é automaticamente definido como `1` (vai de 1 em 1).
+> Costumamos utilizar apenas o fim num for, ficando assim: `for <variavel> in range(fim): ...`. Se por exemplo quisessemos começar do 0 e ir até o 10, poderíamos simplesmente fazer `range(11)`, isso conta de 0 até 10. Também omitimos o `passos`, já que ele é automaticamente definido como `1` (vai de 1 em 1).
 
 > [!NOTE]
-> Outra observação que quero deixar é que a variável fim sempre irá do início até o fim-1, ou seja, se você coloca `range(1, 10)`, na verdade, vai de 1 até 9. Por isso que nos exemplos sempre adiciono + 1 no ligar de fim.
+> Outra observação que quero deixar é que a variável fim sempre irá do início até o fim-1, ou seja, se você coloca `range(1, 10)`, na verdade, vai de 1 até 9. Por isso que nos exemplos sempre adiciono + 1 no lugar de fim.
 
 > [!NOTE]
 > E por último, mais uma observação rápida. Normalmente, na definição de uma variável contadora, definimos seu nome com um padrão. Variáveis como `i`, `j`, `c` e `k` são algumas das variáveis contadoras mais utilizadas. Você pode usar estas ou pode criar suas próprias variáveis, você que decide.
@@ -759,7 +761,7 @@ Isso resultará em 0-100 pulando de 2 em 2 (**0, 2, 4, 6, 8, ...**).
 
 Vamos a outro exemplo agora.
 
-Vamos supor que queremos contar até o limite de uma variável chamado `limite`. Como poderiamos fazer isso? Por exemplo, se a variável `limite` for 50, temos que contar de 1 até 50, indo de 1 em 1.
+Vamos supor que queremos contar até o limite de uma variável chamado `limite`. Como poderíamos fazer isso? Por exemplo, se a variável `limite` for 50, temos que contar de 1 até 50, indo de 1 em 1.
 
 ```py
 limite = 50
@@ -768,7 +770,7 @@ for i in range(1, limite+1):
     print(i)
 ```
 
-Perfeito. Agora, vamos misturar um pouco as coisas (aqui está a verdadeira magia da programação). Vamos supor que agora queremos parar de contar quando o `i` estiver na metade da variável `limite`. Por exemplo, se definimos `limite` como `100`, teremos que parar de contar em `50`, pois a metade de `100` é `2` (`100 / 2`). Para esse problema, devemos utilizar uma estrutura de repetição seguida de uma estrutura condicional.
+Perfeito. Agora, vamos misturar um pouco as coisas (aqui está a verdadeira magia da programação). Vamos supor que agora queremos parar de contar quando o `i` estiver na metade da variável `limite`. Por exemplo, se definimos `limite` como `100`, teremos que parar de contar em `50`, pois a metade de `100` é `50` (`100 / 2`). Para esse problema, devemos utilizar uma estrutura de repetição seguida de uma estrutura condicional.
 
 ```py
 limite = 60
@@ -781,24 +783,24 @@ for i in range(1, limite+1):
 ```
 
 > [!IMPORTANT]
-> Sim, eu poderia ter declarado simplesmente `for i in range(1, metade+1): ...`, porém quis usar dessa forma para demosntrar o `if` junto com o `for`.
+> Sim, eu poderia ter declarado simplesmente `for i in range(1, metade+1): ...`, porém quis usar dessa forma para demonstrar o `if` junto com o `for`.
 
 > [!NOTE]
 > Repare que defini 60+1 porque se eu colocasse apenas `limite`, então iria até 59.
 
-Então definimos `limite` com `60`, e declaramos a `metade` como limite divido por 2 (inteiro). Isso garante que por exemplo, se o número fosse ímpar, por exemplo, `15`, a metade daria `7.5`, porém perceba que o `i` sempre será inteiro, logo nunca chegariamos a essa metade. Por isso é importante a divisão inteira. Logo após, defini um `for` que vai de 1 até o `limite+1` (60, nesse caso), e executa o bloco de código dentro do `for`.
+Então definimos `limite` com `60`, e declaramos a `metade` como `limite` dividido por 2 (inteiro). Isso garante que, se o número fosse ímpar, por exemplo, `15`, a metade daria `7.5`, porém perceba que o `i` sempre será inteiro, logo nunca chegaríamos a essa metade. Por isso é importante a divisão inteira. Logo após, defini um `for` que vai de 1 até o `limite+1` (60, nesse caso), e executa o bloco de código dentro do `for`.
 
 Então podemos ler dessa maneira: *Para 1 até 60, imprima `i`, e se `i` for igual a `metade` do `limite`, para de executar*.
 
 ### While
-O while é uma estrutura de repetição mais "parruda" e mais direta. Usamos ela quando não temos previamente o número de repetições que será executado. Por isso que é usado geralmente o `while True`, que é um comando para executar infinitamente o bloco de código dentro do while. Mas ainda sim podemos usar números inteiros igual no `for`, porém devemos declarar a variável antes do `while`.
+O while é uma estrutura de repetição mais "**parruda**" e mais **direta**. Usamos ela quando não temos **previamente o número de repetições que será executado**. Por isso que é usado geralmente o `while True`, que é um comando para executar infinitamente o bloco de código dentro do while. Mas ainda sim podemos usar números inteiros igual no `for`, porém devemos declarar a variável antes do `while`.
 
 ```py
 while condicao:
     <bloco de codigo>
 ```
 
-No `while`, devemos **criar uma variável previamente**, além de que precisamos **INCREMENTAR** essa variável a cada repetição obrigatóriamente. Caso contrário, teremos um **loop infinito** (veremos mais adiante um exemplo de **loop infinito**). Aqui vai um simples exemplo do `while`.
+No `while`, devemos **criar uma variável previamente**, além de que precisamos **INCREMENTAR** essa variável a cada repetição obrigatoriamente. Caso contrário, teremos um **loop infinito** (veremos mais adiante um exemplo de **loop infinito**). Aqui vai um simples exemplo do `while`.
 
 ```py
 i = 1
@@ -837,10 +839,10 @@ while True:
         break
 ```
 
-Esse loop é colocado como `True` propositalmente para executar o bloco de código dentro do `while` "inifinitas" vezes, até que algo o pare.
+Esse loop é colocado como `True` propositalmente para executar o bloco de código dentro do `while` "infinitas" vezes, até que algo o pare.
 
 ## Funções
-Funções são blocos de código que podem ser reutilizados. Guarde essa palavra: Reutilização. Com funções, podemos reutilizar um determinado bloco de código quantas vezes quisermos. Aqui, não abordarei conceitos avançados de funções como **recursividade**, **yield**, **return**, **escopo** e **callbacks**. A ideia é entender lógica.
+Funções são **blocos de código que podem ser reutilizados**. Guarde essa palavra: **Reutilização**. Com funções, podemos **reutilizar um determinado bloco de código quantas vezes quisermos**. Aqui, não abordarei conceitos avançados de funções como **recursividade**, **yield**, **return**, **escopo** e **callbacks**. A ideia é entender lógica.
 
 ```py
 # definindo a função
@@ -851,7 +853,7 @@ def nome_da_funcao(parametro):
 nome_da_funcao(argumento)
 ```
 
-Como podemos ver a cima, a função tem o nome de `nome_da_funcao` (como exemplo), e dentro dela temos um `<bloco de código>`, que será executado a cada vez que aquela função for **CHAMADA**. Depois, chamamos a função, passando o argumento, se necessário.
+Como podemos ver acima, a função tem o nome de `nome_da_funcao` (como exemplo), e dentro dela temos um `<bloco de código>`, que será executado a cada vez que aquela função for **CHAMADA**. Depois, chamamos a função, passando o argumento, se necessário.
 
 Vamos ver um exemplo bem simples. A ideia é criar uma função que toda vez que ela for chamada, retorna "Oi".
 
@@ -863,9 +865,9 @@ def dizer_ola():
 dizer_ola()
 ```
 
-No exemplo acima, criamos uma função chamada `dizer_ola()`, sem parâmetros, e depois imprimimos `Oi`. Mas lembre-se de uma coisa: Enquanto não chamamos a função, ela não é executada. Então sée não tivessemos chamado a função com `dizer_ola()`, o bloco de código dentro da função não seria executada, mas como chamamos, então a saída foi `Oi`.
+No exemplo acima, criamos uma função chamada `dizer_ola()`, sem parâmetros, e depois imprimimos `Oi`. Mas lembre-se de uma coisa: Enquanto não chamamos a função, ela não é executada. Então se não tivessemos chamado a função com `dizer_ola()`, o bloco de código dentro da função não seria executado, mas como chamamos, então a saída foi `Oi`.
 
-Agora vamos ver um exemplo um pouco diferente, usando os parâmetros. O exemplo dessa vez será o seguinte: A função receberá um parâmetro chamado `nome` e a função deve imprimir 
+Agora vamos ver um exemplo um pouco diferente, usando os parâmetros. O exemplo dessa vez será o seguinte: A função receberá um parâmetro chamado `nome` e a função deve imprimir "Oi, <e o nome da pessoa>"
 
 ```py
 def dizer_ola(nome):
@@ -876,7 +878,7 @@ dizer_ola("Matheus")
 dizer_ola("Jorge")
 ```
 
-Podemos perceber que chamei a função `dizer_ola` 3 vezes seguidas, cada uma com um argumento diferente. Na primeira chamada, o argumento foi `Lucas`, resultando em `Oi, Lucas!`, e o mesmo acontece com os argumentos `Matheus` e `Jorge`. Agora, você consegui ver as possibilidades de uma função?
+Podemos perceber que chamei a função `dizer_ola` 3 vezes seguidas, cada uma com um argumento diferente. Na primeira chamada, o argumento foi `Lucas`, resultando em `Oi, Lucas!`, e o mesmo acontece com os argumentos `Matheus` e `Jorge`. Agora, você conseguiu ver as possibilidades de uma função?
 
 Vamos criar um outro exemplo: Uma função que recebe um número como parâmetro e imprime a metade do número.
 
@@ -898,7 +900,14 @@ Criamos a função metade, que cria uma variável `metade_numero`, que calcula a
 
 ## Python
 
-[Em breve]
+[Reddit Learn Python](https://www.reddit.com/r/learnpython/wiki/index/)
+[Python Roadmap.Sh](https://roadmap.sh/python)
+[Gustavo Guanabara - Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+[Gustavo Guanabara - Mundo 2](https://www.youtube.com/watch?v=nJkVHusJp6E)
+[Gustavo Guanabara - Mundo 3](https://www.youtube.com/watch?v=VuKvR1J2LQE)
+[CS50 Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
+
+---
 
 ## Pensamento Computacional
 
@@ -914,7 +923,7 @@ Criamos a função metade, que cria uma variável `metade_numero`, que calcula a
 * [⭐ [YouTube] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)
 * [[YouTube] - Aprendendo a Pensar Como Um Programador! 👨‍💻💡](https://www.youtube.com/watch?v=Lkm3-hA2TZo)
 * [[YouTube] - Como Pensar Como Um Programador - Desvendando o Mundo da Lógica e Resolução de Problemas](https://www.youtube.com/watch?v=Jrt5-pTKv7U)
-* [(Espanhol) [YouTube] - Curso COMPLETO de LÓGICA xDE PROGRAMACIÓN Desde Cero](https://www.youtube.com/watch?v=TdITcVD64zI&t=1s)
+* [(Espanhol) [YouTube] - Curso COMPLETO de LÓGICA DE PROGRAMACIÓN Desde Cero](https://www.youtube.com/watch?v=TdITcVD64zI&t=1s)
 * [[YouTube] - Curso de Lógica de programação](https://www.youtube.com/playlist?list=PLfzRxaru7YPtu8TPQChFnLN9rGXoXfNUQ)
 * [[YouTube] - Curso Completo de Lógica de Programação com Português Estruturado do Zero ao Avançado](https://www.youtube.com/watch?v=XzkZO2qjgec&t=17958s)
 * [[YouTube] - Lógica da Programação - Curso Completo - 2026](https://www.youtube.com/watch?v=Og8dQstQcf0&t=244s)

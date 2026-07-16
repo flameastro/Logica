@@ -30,7 +30,17 @@ Um exemplo simples em linguagem natural:
 [Saiba Mais](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 
 #### Resumo
-Sintaxe foca na gramática, ou nas regras de uma instrução, e lógica foca no raciocínio, se aquela instrução faz sentido
+Sintaxe foca na gramática, ou nas regras de uma instrução, e lógica foca no raciocínio, se aquela instrução faz sentido.
+
+
+### `Indentação`
+Refere-se ao recuo no início de uma determinada linha de código, representando uma hierarquia visual. Quanto mais indentação, mais o código vai para a direita.
+
+<div align="center">
+    <img width="500" src="assets/images/indentacao.png">
+</div>
+
+Repare que cada indentação, representa que aquele bloco de código está dentro de uma estrutura, nesse caso, o `if`.
 
 ---
 
@@ -513,6 +523,200 @@ Sempre retorna o valor contrário. `True` vira `False`, e `False` vira `True`
 `not True` -> `False`
 `not False` -> `True`
 
+## Estruturas Condicionais
+São estruturas que executam um bloco de código **se uma condição for satisfeita**, ou seja, **verdadeira**.
+
+### Simples
+É o tipo **mais simples** de condicional. Ela só pode ter um `if`. Funciona desse jeito:
+
+```py
+if (condicao):  # Os parênteses podem ser omitidos ou declarados, não fará diferença
+    <bloco de código>
+```
+
+A **condição** significa uma **operação**, que vimos anteriormente. Essa operação tem que ser do tipo **lógico** (`True` ou `False`). No tipo de condição simples, o `<bloco de código>` só será executado caso a **`condicao` for `True`**.
+
+> [!NOTE]
+> **Indentação**    
+> Temos que notar uma coisa. O `<bloco de código>` está um pouco para a **direita em relação ao `if condicao:`**. O nome dessa **deslocação** é chamada de **[indentação](#indentação)**.
+
+Vamos aquecer mais um pouco e ir a um exemplo real.
+
+```py
+idade = 32
+if (idade >= 18):
+    print("Maior de idade")
+```
+
+Nesse caso, a saída do nosso código será `Maior de idade`, porque declaramos a idade como `32`, e na condição temos `idade >= 18` (Lê-se "*idade é maior ou igual a 18*")?, que ocasionará numa condição verdadeira.    
+Mas e se a idade fosse igual a `15`?
+
+```py
+idade = 15
+if (idade >= 18):
+    print("Maior de idade")
+```
+
+O python **não retornará nada** na saída, porque repare: O código só será executado **se a idade for maior ou igual a 18 anos, se for menor, então não fará nada**.
+
+Vamos ver mais alguns exemplos:
+
+```py
+user = "admin"
+password = "admin"
+
+if (user == "admin" and password == "admin"):
+    print("Olá, admin!")
+```
+
+Nesse caso, a saída será `Olá, admin!`, porque as **duas condições são satisfeitas** (são verdadeiras). Como podemos perceber, `user == "admin"` retorna `True`, e `password == "admin"` também. Juntando `True and True`, o resultado será `True`, e o bloco de código da estrutura condicional será **executado**.
+
+Mas aqui temos uma limitação. E se por exemplo, quisessemos dizer ao usuário que ele não era admin? É aí que partimos para outro tipo de estrutura condicional: A **[composta](#composta)**.
+
+### Composta
+O tipo composto apresenta apenas **dois fluxos que sempre serão executados**. Ou será executado o `bloco de código 1` ou o `bloco de código 2`.
+
+```py
+if condicao:
+    <bloco de código 1 ou bloco de código verdadeiro>
+else:
+    <bloco de código 2 ou bloco de código falso>
+```
+
+Lê-se: *Se a condição for verdadeira, execute o `bloco de código 1`, senão, execute o `bloco de código 2`*.
+
+Agora, temos mais "liberdade" de condições, porque sempre será executado alguma coisa. Vamos ver um exemplo:
+
+```py
+idade = 19
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+```
+
+Agora perceba que a idade é `19`, e na linha seguinte verificamos **se a idade é maior ou igual a `18`**. Nesse caso, é, mas se fosse, por exemplo, `12`, então a saída seria `Menor de Idade`, porque já que a condição é `False` (falsa), executará o `bloco de código 2` (`bloco de código falso`).
+
+Voltando ao exemplo que vimos anteriormente do `user` e o `password`, vamos refazê-lo.
+
+```py
+user = "admin"
+password = "admin"
+
+if (user == "admin" and password == "admin"):
+    print("Olá, admin!")
+else:
+    print("Olá, convidado!")
+```
+
+Agora a situação é um pouco diferente. Verificamos se `user == "admin"` e `password == "admin"`. Se for, imprimimos `Olá, admin!`, senão, `Olá, convidado!`. Perceba que agora **não tem como fugir**: o **programa sempre executará o primeiro ou o segundo bloco de código**, **porque se a primeira condição não for satisfeita, caíra no `else`**.
+
+Com isso, podemos criar lógicas mais interessantes.
+
+```py
+valor_produto = 26.99
+porcentagem_taxa = 15
+valor_final = valor_produto + (valor_produto * (porcentagem_taxa / 100))
+
+print(f"O valor final é de: R${valor_final}")  # Repare no "f" depois da abertura do parênteses, chamamos de f string, podemos incluir variáveis dentro dele
+if (valor_final >= 100):
+    print("Você ganhou um brinde!")
+else:
+    print("Você não ganhou um brinde")
+```
+
+Vamos analisar o código. Primeiro declaramos a variável como `valor_produto`, logo em seguida `porcentagem_taxa`, e depois fizemos o cálculo da taxa incluída sobre o valor do produto e colocamos na variável `valor_final`. Depois imprimimos o valor final, e logo em seguida verificamos se o `valor_final` é maior ou igual a `100`. Se for, imprimimos `Você ganhou um brinde!`, mas caso não for, imprimimos `Você não ganhou um brinde`.
+
+Mas ainda tem um tipo que é mais poderoso que o tipo composto, que veremos a seguir: A [encadeada](#encadeada)
+
+### Encadeada
+O tipo encadeada é um tipo que possui diversas verificações. Antes tinhamos apenas duas opções, mas com o tipo encadeada, nossas possibilidades de condicionais se expandirão.
+
+```py
+if condicao:
+    <bloco de código 1>
+elif condicao:
+    <bloco de código 2>
+else:
+    <bloco de código 3>
+```
+
+> [!NOTE]
+> Você pode usar quantos `elif`s forem necessários.
+
+Nossas possibilidades de condicionais se **multiplicaram** agora, porque podemos verificar quantas **condições precisarmos e executar um determinado bloco de código de acordo com uma condição correta**. Perceba que agora podemos verificar múltiplas condições.
+
+Vamos ver um exemplo diferente agora. Pense assim: teremos um número, e temos que exibir como saída se esse número é `positivo`, `negativo` ou `nulo`.
+
+```py
+numero = 15
+if (numero > 0):
+    print("Positivo")
+elif (numero < 0):
+    print("Negativo")
+else:
+    print("Nulo")
+```
+
+Perceba que o número é `15`, então verificamos no if se o número é maior que 0, resultando em `Positivo`, logo depois, verificamos se o número é menor que 0, resultando em `Negativo`, e caso contrário, se o número não for nem `Positivo` nem `Negativo`, então resultará em `Nulo`. Esse exemplo é simples mas é eficiente para observar o quão bom é o tipo **[encadeado](#encadeada)**.
+
+Outro exemplo que podemos ver é o exemplo do semáforo.
+
+```py
+cor = "amarela"
+
+if cor == "verde":
+    print("Vá!")
+elif cor == "amarela":
+    print("Atenção!")
+elif cor == "vermelha":  # pode ser um else ou um elif
+    print("Espere!")
+```
+
+Declaramos uma variável chamada `cor` e atribuímos o seu valor como `amarela`. Dentro da **estrutura condicional**, primeiro verificamos se a cor é `verde`, então resultará em `Vá!`, depois verificamos se a cor é `amarela`, e nesse caso é, resultando então em `Atenção!`, mas caso não fosse, resultaria em `Espere!`.  
+Perceba que nessa estrutura que defini, **não possui um `else`**, já que ele **não é obrigatório**, lembre-se. Porém, nesse caso poderiamos sim ter **colocado apenas um `else`**.
+
+A seguir, vamos verificar um outro tipo de estrutura condicional: a **[aninhada](#aninhada)**.
+
+### Aninhada
+Esse tipo se chama `aninhada` justamente porque conseguimos **aninhar** outras estruturas condicionais dentro dela. Podemos aninhar qualquer um dos **quatro tipos** que vimos: a **[simples](#simples)**, a **[composta](#composta)**, a **[encadeada](#encadeada)** e a **[aninhada](#aninhada)**, que veremos a seguir.
+
+Imagine a **estrutura aninhada** como aquelas bonecas russas (*matrioska*) que **uma cabe dentro da outra**, basicamente é isso que uma estrutura de tipo [aninhada](#aninhada) é.
+
+Veja a seguir a comparação das matrioskas com um código python usando o tipo [aninhado](#aninhada).
+
+#### Matrioska
+<div align="center">
+    <img width="500" src="assets/images/matrioska.png">
+</div>
+
+
+<div align="center">
+    <img width="500" src="assets/images/if-matrioska.png">
+</div>
+
+Como podemos ver, o tipo encadeado é muito semelhante às matrioskas, porque uma condição está **sob outra**.    
+Um exemplo em Python seria:
+
+```py
+idade = 20
+tem_carteira = True
+
+if idade >= 18:
+    print("Você é maior de idade")
+    if tem_carteira:
+        print("Pode dirigir!")
+    else:
+        print("Não pode dirigir, pois não tem carteira")
+else:
+    print("Você é menor de idade, não pode dirigir")
+```
+
+Vamos entender o código. Declaramos as variáveis `idade` e `tem_carteira`, como `20` e `True`, respectivamente. Logo em seguida, verificamos se a `idade` é maior que `18`, então imprimirá `Você é maior de idade`, logo verificamos se `tem_carteira` é `True`, e é, logo, imprimirá `Pode dirigir!`. Se o usuário tivesse uma `idade` menor que `iria` logo imprimir `Você é menor de idade, não pode dirigir`. E se o usuário tivesse uma idade maior que `18` porém não tiver carteira, então imprimiria `Não pode dirigir, pois não tem carteira`.
+
+Lembre-se de que podemos colocar quantas estruturas condicionais e de qualquer tipo aqui.
+
+
 
 ---
 
@@ -530,7 +734,7 @@ Sempre retorna o valor contrário. `True` vira `False`, e `False` vira `True`
 * [[FreeCodeCamp] - Como pensar como um programador — lições de resolução de problemas](https://www.freecodecamp.org/portuguese/news/como-pensar-como-um-programador-licoes-de-resolucao-de-problemas/)
 * [[Reddit] - Como Treinar a Si Mesmo Para Pensar Como um Programador?](http://reddit.com/r/learnprogramming/comments/1ihjpss/how_do_you_train_yourself_to_think_like_a/?tl=pt-br)
 * [[WikiPedia] - Pensamento computacional](https://pt.wikipedia.org/wiki/Pensamento_computacional)
-\
+
 ### 📽️ Vídeos
 
 * [⭐ [YouTube] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)

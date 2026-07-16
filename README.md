@@ -839,6 +839,59 @@ while True:
 
 Esse loop é colocado como `True` propositalmente para executar o bloco de código dentro do `while` "inifinitas" vezes, até que algo o pare.
 
+## Funções
+Funções são blocos de código que podem ser reutilizados. Guarde essa palavra: Reutilização. Com funções, podemos reutilizar um determinado bloco de código quantas vezes quisermos. Aqui, não abordarei conceitos avançados de funções como **recursividade**, **yield**, **return**, **escopo** e **callbacks**. A ideia é entender lógica.
+
+```py
+# definindo a função
+def nome_da_funcao(parametro):
+    <bloco de código>
+
+# executando/chamando a função
+nome_da_funcao(argumento)
+```
+
+Como podemos ver a cima, a função tem o nome de `nome_da_funcao` (como exemplo), e dentro dela temos um `<bloco de código>`, que será executado a cada vez que aquela função for **CHAMADA**. Depois, chamamos a função, passando o argumento, se necessário.
+
+Vamos ver um exemplo bem simples. A ideia é criar uma função que toda vez que ela for chamada, retorna "Oi".
+
+```py
+def dizer_ola():
+    print("Oi")
+
+# chamando a função
+dizer_ola()
+```
+
+No exemplo acima, criamos uma função chamada `dizer_ola()`, sem parâmetros, e depois imprimimos `Oi`. Mas lembre-se de uma coisa: Enquanto não chamamos a função, ela não é executada. Então sée não tivessemos chamado a função com `dizer_ola()`, o bloco de código dentro da função não seria executada, mas como chamamos, então a saída foi `Oi`.
+
+Agora vamos ver um exemplo um pouco diferente, usando os parâmetros. O exemplo dessa vez será o seguinte: A função receberá um parâmetro chamado `nome` e a função deve imprimir 
+
+```py
+def dizer_ola(nome):
+    print(f"Oi, {nome}!")
+
+dizer_ola("Lucas")
+dizer_ola("Matheus")
+dizer_ola("Jorge")
+```
+
+Podemos perceber que chamei a função `dizer_ola` 3 vezes seguidas, cada uma com um argumento diferente. Na primeira chamada, o argumento foi `Lucas`, resultando em `Oi, Lucas!`, e o mesmo acontece com os argumentos `Matheus` e `Jorge`. Agora, você consegui ver as possibilidades de uma função?
+
+Vamos criar um outro exemplo: Uma função que recebe um número como parâmetro e imprime a metade do número.
+
+```py
+def metade(numero):
+    metade_numero = numero / 2
+    print(metade_numero)
+
+metade(5)
+metade(12)
+metade(21)
+```
+
+Criamos a função metade, que cria uma variável `metade_numero`, que calcula a metade do número do argumento da função na sua chamada e imprime essa metade. A saída ficaria `2.5`, `6` e `10.5`
+
 ---
 
 # ⭐ Saiba mais

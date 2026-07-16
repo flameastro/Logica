@@ -716,7 +716,128 @@ Vamos entender o código. Declaramos as variáveis `idade` e `tem_carteira`, com
 
 Lembre-se de que podemos colocar quantas estruturas condicionais e de qualquer tipo aqui.
 
+## Estruturas de Repetição
+As estruturas de Repetição são **estruturas semelhantes a que vimos anteriormente**, as condicionais. Elas também possuem uma **condição**, mas ao invés de executarem um bloco de código apenas uma vez, elas **repetem um determinado bloco de código até que a condição seja falsa**.    
+Entre as estruturas de repetição, estão dois tipos principais: o `for` (para) e o `while` (enquanto). É comum chamar as estruturas de repetição como **`loops`**, então se acostume caso veja.
 
+### For
+O for é uma estrutura de repetição que é **mais simples** na sua sintaxe. Esse tipo de repetição é mais comum utilizar quando nós **sabemos previamente quantas vezes precisamos repetir um bloco de código**. Outra diferença é que não **precisamos declarar uma variável previamente** para executar o for.
+
+```py
+for <variavel> in range(inicio, fim-1, passos):
+    <bloco de código>
+```
+
+> [!NOTE]
+> Costumamos utilizar apenas o fim num for, ficando assim: `for <variavel> in range(fim): ...`. Se por exemplo quisessemos começar do 0 e ir até o 10, poderiamos simplesmente fazer `range(11)`, isso conta de 0 até 10. Também omitimos o `passos`, já que ele é automaticamente definido como `1` (vai de 1 em 1).
+
+> [!NOTE]
+> Outra observação que quero deixar é que a variável fim sempre irá do início até o fim-1, ou seja, se você coloca `range(1, 10)`, na verdade, vai de 1 até 9. Por isso que nos exemplos sempre adiciono + 1 no ligar de fim.
+
+> [!NOTE]
+> E por último, mais uma observação rápida. Normalmente, na definição de uma variável contadora, definimos seu nome com um padrão. Variáveis como `i`, `j`, `c` e `k` são algumas das variáveis contadoras mais utilizadas. Você pode usar estas ou pode criar suas próprias variáveis, você que decide.
+
+Contando de 1 até 10
+
+```py
+for i in range(1, 11):
+    print(i)
+```
+
+Esse código nada mais faz do que imprimir de 1 até 10. Além de contar, podemos percorrer objetos iteráveis como arrays e strings, mas não irei demonstrar aqui porque não é esse o nosso foco.
+
+Perceba que a cada *iteração* (repetição), o `for` faz uma verificação. Ele se auto-pergunta: `i` é igual a `11`? Se for, ele para de executar o bloco de código na mesma hora. É por isso que se declaramos `for i in range(1, 10)`, o `i` irá valer `10`, porém para de executar na mesma hora.
+
+Por enquanto, focaremos apenas em contar números. Vamos a outro exemplo: Contar de 0 até 100, mas apenas pares (pulando de dois em dois).
+
+```py
+for i in range(0, 101, 2):
+    print(i)
+```
+
+Isso resultará em 0-100 pulando de 2 em 2 (**0, 2, 4, 6, 8, ...**).
+
+Vamos a outro exemplo agora.
+
+Vamos supor que queremos contar até o limite de uma variável chamado `limite`. Como poderiamos fazer isso? Por exemplo, se a variável `limite` for 50, temos que contar de 1 até 50, indo de 1 em 1.
+
+```py
+limite = 50
+
+for i in range(1, limite+1):
+    print(i)
+```
+
+Perfeito. Agora, vamos misturar um pouco as coisas (aqui está a verdadeira magia da programação). Vamos supor que agora queremos parar de contar quando o `i` estiver na metade da variável `limite`. Por exemplo, se definimos `limite` como `100`, teremos que parar de contar em `50`, pois a metade de `100` é `2` (`100 / 2`). Para esse problema, devemos utilizar uma estrutura de repetição seguida de uma estrutura condicional.
+
+```py
+limite = 60
+metade = limite // 2
+
+for i in range(1, limite+1):
+    print(i)
+    if (i == metade):
+        break
+```
+
+> [!IMPORTANT]
+> Sim, eu poderia ter declarado simplesmente `for i in range(1, metade+1): ...`, porém quis usar dessa forma para demosntrar o `if` junto com o `for`.
+
+> [!NOTE]
+> Repare que defini 60+1 porque se eu colocasse apenas `limite`, então iria até 59.
+
+Então definimos `limite` com `60`, e declaramos a `metade` como limite divido por 2 (inteiro). Isso garante que por exemplo, se o número fosse ímpar, por exemplo, `15`, a metade daria `7.5`, porém perceba que o `i` sempre será inteiro, logo nunca chegariamos a essa metade. Por isso é importante a divisão inteira. Logo após, defini um `for` que vai de 1 até o `limite+1` (60, nesse caso), e executa o bloco de código dentro do `for`.
+
+Então podemos ler dessa maneira: *Para 1 até 60, imprima `i`, e se `i` for igual a `metade` do `limite`, para de executar*.
+
+### While
+O while é uma estrutura de repetição mais "parruda" e mais direta. Usamos ela quando não temos previamente o número de repetições que será executado. Por isso que é usado geralmente o `while True`, que é um comando para executar infinitamente o bloco de código dentro do while. Mas ainda sim podemos usar números inteiros igual no `for`, porém devemos declarar a variável antes do `while`.
+
+```py
+while condicao:
+    <bloco de codigo>
+```
+
+No `while`, devemos **criar uma variável previamente**, além de que precisamos **INCREMENTAR** essa variável a cada repetição obrigatóriamente. Caso contrário, teremos um **loop infinito** (veremos mais adiante um exemplo de **loop infinito**). Aqui vai um simples exemplo do `while`.
+
+```py
+i = 1
+
+while i < 10:
+    print(i)
+    i = i + 1  # Linha muito importante
+```
+
+Primeiro declaramos `i`, e definimos como `1`, depois vem o `while`, que tem uma condição: `i < 10`. Então imprimimos o `i` e logo após **INCREMENTAMOS** o `i` em +1. Essa linha é importante porque sem ela ocorreria justamente o Loop infinito.
+
+Como podemos ver, o `while` é basicamente a mesma coisa que o `for`, a única diferença é que geralmente usamos o `while` quando não sabemos o número de repetições, e o `for` quando sabemos.
+
+
+#### Loop Infinito
+Ocorre quando esquecemos de incrementar a variável contadora.
+
+```py
+i = 1
+
+while i <= 10:
+    print(i)
+```
+
+Como podemos ver, não incrementamos a variável `i`, logo, o `while` sempre será executado, porque `i` sempre será menor que `10`, já que `i` nunca aumenta.
+
+Outro loop infinito que posso citar é o `while True`. Que poderia ser algo como:
+
+```py
+i = 1
+
+while True:
+    print(i)
+    i = i + 1
+    if i == 50:
+        break
+```
+
+Esse loop é colocado como `True` propositalmente para executar o bloco de código dentro do `while` "inifinitas" vezes, até que algo o pare.
 
 ---
 

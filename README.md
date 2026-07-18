@@ -896,16 +896,98 @@ Criamos a função metade, que cria uma variável `metade_numero`, que calcula a
 
 ---
 
+# 💡 Como resolver problemas complexos na prática ✍🏻
+A parte mais importante de um desenvolvedor: Como resolver problemas?  
+Esse é um assunto muito delicado e que deve ser constantemente aprimorado, uma vez que os iniciantes costumam focar na sintaxe ao invés da lógica.  
+Segue um guia de como resolver problemas, englobando os conceitos aprendidos anteriormente.
+
+No final, também iremos resolver alguns problemas utilizando os métodos apresentados a seguir.
+
+## Entenda o problema
+Como já dizia *[George Pólya](https://en.wikipedia.org/wiki/George_P%C3%B3lya)*:
+> "Primeiro, compreenda o problema."
+
+Antes de escrever qualquer linha de código, tenha certeza de que você realmente entendeu o problema.
+
+Pergunte a si mesmo:
+
+* O que o problema está pedindo?
+* Quais são as entradas?
+* Qual deve ser a saída?
+* Existem restrições?
+* Consigo explicar o problema com minhas próprias palavras?
+
+Se você não consegue explicar o problema sem reler o enunciado, provavelmente ainda não o entendeu completamente.
+
+Antes mesmo de escrever uma linha de código sequer, entenda o problema. Releia ele várias vezes. Imagine ele de diferentes formas. Crie esboços iniciais, seja no papel ou em softwares específicos.
+
+## Decomponha o problema em partes menores
+Depois de entender o problema, decomponha ele em partes menores. Se o problema estiver se passando na forma de texto, você também pode dividi-lo em pequenos textos, e assim resolver cada pequeno texto. Dividir um problema significa quebrar eles em pequenas partes e resolver cada parte individualmente. Assim você consegue olhar para o mesmo problema de uma forma diferente e consegue encarar mais facilmente.
+
+Mas não só isso. Se você quebrou o problema em partes menores e mesmo assim está difícil, primeiro crie uma versão reduzida do problema que você consiga resolver.
+
+## Reconheça os padrões
+Depois de decompor o problema, tente reconhecer os padrões de cada problema menor. A chance de você já ter resolvido aquele problema anteriormente é muito maior. Além de que você não precisa refazer todos os passos novamente de decompor, asbtrair e criar um algoritmo, porque você já sabe o que precisa ser feito.
+
+Faça a seguinte pergunta: "*Esse problema se parece com algum que eu já resolvi?*"
+
+Como reconhecer padrões exige prática, recomendo que você dê uma olhada na seção [Praticar Programação](#praticar-programação), onde tem alguns sites muito bons para você praticar e ganhar experiência, aprimorando não só o seu reconhecimento de padrões, mas a resolução de problemas em geral.
+
+## Abstraia as partes menos importantes
+Foque apenas no que é necessário, deixe coisas que não importam de lado. Se você quebrou um problema e deixou ele MUITO pequeno, talvez é uma boa ideia desfazer isso ou simplesmente deixar de lado essa parte.
+
+## Crie um algoritmo
+Depois dos passos anteriores, represente o problema em algum algoritmo, que já vimos antes. Você pode utilizar as [formas de representação](#formas-de-representação-de-algoritmos) que já vimos antes, como o [pseudocódigo](#pseudo-linguagem-ou-pseudo-código), o [fluxograma](#fluxograma) ou a [descrição narrativa/linguagem natural](#descrição-narrativa-ou-linguagem-natural). Se possível, recrie os esboços.
+
+Mas não apenas crie o algoritmo, planeje ele. Faça algumas anotações se possível.
+
+## Implemente o algoritmo
+Depois da representar o algoritmo, implemente ele numa linguagem de programação.
+
+## Refaça o algoritmo caso necessário
+Um algoritmo que resolve um problema não significa que ele seja eficiente, só significa que através de um passo a passo, resolveu o problema, seja de forma rápida ou não, econômica ou não. Um algoritmo que resolve um problema em 5 segundos é bem diferente de um que resolve o mesmo problema em 5 horas. Ambos resolvem o mesmo problema, porém com uma quantidade de tempo absurda, É por isso que você deve:
+
+* Analisar novamente o algoritmo
+* Pensar se existe outra forma de resolver o mesmo problema
+* Verificar se esta outra forma é mais eficiente
+* Aplicar novamente o ciclo.
+
+---
+
 # ⭐ Saiba mais
 
 ## Python
 
-[Reddit Learn Python](https://www.reddit.com/r/learnpython/wiki/index/)
-[Python Roadmap.Sh](https://roadmap.sh/python)
-[Gustavo Guanabara - Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
-[Gustavo Guanabara - Mundo 2](https://www.youtube.com/watch?v=nJkVHusJp6E)
-[Gustavo Guanabara - Mundo 3](https://www.youtube.com/watch?v=VuKvR1J2LQE)
-[CS50 Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
+* [Gustavo Guanabara - Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+* [Gustavo Guanabara - Mundo 2](https://www.youtube.com/watch?v=nJkVHusJp6E)
+* [Gustavo Guanabara - Mundo 3](https://www.youtube.com/watch?v=VuKvR1J2LQE)
+* [Reddit Learn Python](https://www.reddit.com/r/learnpython/wiki/index/)
+* [Python - roadmap.sh](https://roadmap.sh/python)
+* [CS50 Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
+
+## Jogos para aprender programação
+
+### Android
+* [7 Billion Humans](https://play.google.com/store/apps/details?id=com.tomorrowcorporation.sevenbillionhumans&hl=en)
+* [while True: learn()](https://play.google.com/store/apps/details?id=com.nival.wtlm&hl=en)
+
+### Web
+* [Pensar como Dev](https://pensarcomo.dev/)
+* [Blockly Games](https://blockly.games/)
+* [Scratch](https://scratch.mit.edu/)
+* [CodeCombat](https://codecombat.com/)
+
+### Desktop
+* [The Farmer Was Replaced](https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/)
+* [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/)
+* [while True: learn()](https://store.steampowered.com/app/619150/while_True_learn/)
+
+## Praticar programação
+* [CodeWars](https://www.codewars.com/)
+* [BeeCrowd](https://judge.beecrowd.com/)
+* [LeetCode](https://leetcode.com/)
+* [HackerRank](https://www.hackerrank.com/)
+* [CodeForces](https://codeforces.com/)
 
 ---
 
@@ -920,7 +1002,7 @@ Criamos a função metade, que cria uma variável `metade_numero`, que calcula a
 
 ### 📽️ Vídeos
 
-* [⭐ [YouTube] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)
+* [[YouTube] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)
 * [[YouTube] - Aprendendo a Pensar Como Um Programador! 👨‍💻💡](https://www.youtube.com/watch?v=Lkm3-hA2TZo)
 * [[YouTube] - Como Pensar Como Um Programador - Desvendando o Mundo da Lógica e Resolução de Problemas](https://www.youtube.com/watch?v=Jrt5-pTKv7U)
 * [(Espanhol) [YouTube] - Curso COMPLETO de LÓGICA DE PROGRAMACIÓN Desde Cero](https://www.youtube.com/watch?v=TdITcVD64zI&t=1s)

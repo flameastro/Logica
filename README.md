@@ -894,6 +894,42 @@ metade(21)
 
 Criamos a função metade, que cria uma variável `metade_numero`, que calcula a metade do número do argumento da função na sua chamada e imprime essa metade. A saída ficaria `2.5`, `6` e `10.5`
 
+## Entrada de valores
+As entradas de valores nos permite receber dados através do usuário. Até agora, definimos os valores das nossas próprias variáveis, mas podemos deixar isso para o usuário escolher, deixando as coisas mais interativas.
+
+Para receber dados (entrada) por meio da escolha do usuário, utilizamos o comando `input()`, e dentro dos parênteses a mensagem que iremos exibir para o usuário. Veja um exemplo simples
+
+```py
+nome = input("Qual o seu nome? ")
+```
+
+Ao usuário executar o nosso programa, ele receberá isso como saida:
+
+```txt
+>> Qual o seu nome? 
+```
+
+Essa mensagem ficará assim até quando o usuário digitar o seu nome e apertar Enter. Mas repare numa coisa. Se o nome do usuário fosse `Lucas` e ele escrevesse `Lucas` e der Enter, o que será que iria acontecer? Nesse caso... Nada! Isso porque não mandamos uma instrução para exibir o nome do usuário na tela. É isso que iremos fazer agora:
+
+```py
+nome = input("Qual o seu nome? ")
+print(f"Seu nome é: {nome}")
+```
+
+Agora sim. Se o usuário digitr `Lucas` e pressionar Enter, então a saída será: `Seu nome é: Lucas`. Podemos receber também inputs do tipo número, mas para isso antes devemos colocar `int()` antes do `input()`, desse jeito:
+
+```py
+idade = int(input("Digite a sua idade: "))
+print(f"Sua idade é {idade}")
+```
+
+Se o usuário digitar `16`, por exemplo, e der Enter, então a saída será `Sua idade é 16`. o mesmo serve para números decimais. Você irá utilizar o `float()` antes do `input()`.
+
+```py
+peso = float(input("Digite o seu peso: "))
+print(f"Seu peso é {peso}")
+```
+
 ---
 
 # 💡 Como resolver problemas complexos na prática ✍🏻

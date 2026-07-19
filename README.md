@@ -714,12 +714,65 @@ else:
 
 Vamos entender o código. Declaramos as variáveis `idade` e `tem_carteira`, como `20` e `True`, respectivamente. Logo em seguida, verificamos se a `idade` é maior que `18`, então imprimirá `Você é maior de idade`, logo verificamos se `tem_carteira` é `True`, e é, logo, imprimirá `Pode dirigir!`. Se o usuário tivesse uma `idade` menor que `18`, iria logo imprimir `Você é menor de idade, não pode dirigir`. E se o usuário tivesse uma idade maior que `18` porém não tiver carteira, então imprimiria `Não pode dirigir, pois não tem carteira`.
 
-
 > [!NOTE]
 > Lembre-se de que podemos colocar quantas estruturas condicionais e de qualquer tipo aqui.
 
+## Listas
+As listas nada mais são do que uma variável que armazena múltiplos valores. Vamos supor que é necessário fazer a soma de 10 notas de alunos. Sem as listas, poderia ficar algo como:
+
+
+```py
+# Declarando as variáveis
+nota1 = 5
+nota2 = 2
+nota3 = 9
+nota4 = 10
+nota5 = 6
+nota6 = 3
+nota7 = 8
+nota8 = 8
+nota9 = 2
+nota10 = 0
+
+# Somando as variáveis
+soma = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10)
+
+# Exibir para o usuário
+print(f"A soma é {soma}")
+```
+
+Esse tipo de declaração não é boa, pois não é fácil de entender, e também ocupa um espaço desnecessário no algoritmo. Para isso que existem as listas. Com elas podemos declarar uma variável e depois adicionar valores a ela, assim:
+
+```py
+# Armazenando todos os valores numa única lista, chamada notas
+notas = [5, 2, 9, 10, 6, 3, 8, 8, 2, 0]
+
+# Somando as variáveis
+soma = 0
+for nota in notas:
+    soma += nota
+
+# Exibir para o usuário
+print(f"A soma é {soma}")
+```
+
+Entendendo o código acima, podemos ver que declaramos uma variável `soma` e depois declaramos uma lista `notas` com os valores que queremos somar. Depois, declaramos uma variável `soma` e definimos como `0`. Depois, declaramos um `for` que vai percorrer cada nota na lista, e adicionando o valor da nota à variável `soma`. Por fim, imprimimos a soma.
+
+Esse jeito é muito mais fácil de entender, e também é mais eficiente, pois não precisamos declarar uma variável para cada nota.
+
+Além de iterar sobre listas, podemos iterar sobre strings (caracteres). Para isso, utilizamos a mesma sintaxe que vimos anteriormente com a lista, porém a única diferença é que agora, nós estamos iterando sobre um caractere, e não sobre uma lista.
+
+```py
+palavra = "computador"
+
+for letra in palavra:
+    print(letra)
+```
+
+Agora, iteramos sobre cada letra da palavra, e imprimimos o caractere na tela.
+
 ## Estruturas de Repetição
-As estruturas de Repetição são **estruturas semelhantes a que vimos anteriormente**, as condicionais. Elas também possuem uma **condição**, mas ao invés de executarem um bloco de código apenas uma vez, elas **repetem um determinado bloco de código até que a condição seja falsa**.    
+As estruturas de Repetição são **estruturas semelhantes a que vimos anteriormente**, as **condicionais**. Elas também possuem uma **condição**, mas ao invés de executarem um bloco de código apenas uma vez, elas **repetem um determinado bloco de código até que a condição seja falsa**.    
 Entre as estruturas de repetição, estão dois tipos principais: o `for` (para) e o `while` (enquanto). É comum chamar as estruturas de repetição como **`loops`**, então se acostume caso veja.
 
 ### For
@@ -737,8 +790,8 @@ for <variavel> in range(inicio, fim-1, passos):
 > Outra observação que quero deixar é que a variável fim sempre irá do início até o fim-1, ou seja, se você coloca `range(1, 10)`, na verdade, vai de 1 até 9. Por isso que nos exemplos sempre adiciono + 1 no lugar de fim.
 
 > [!NOTE]
-> E por último, mais uma observação rápida. Normalmente, na definição de uma variável contadora, definimos seu nome com um padrão. Variáveis como `i`, `j`, `c` e `k` são algumas das variáveis contadoras mais utilizadas. Você pode usar estas ou pode criar suas próprias variáveis, você que decide.
-
+> E por último, mais uma observação rápida. Normalmente, na definição de uma variável contadora, definimos seas das variáveis contadoras mais utilizadas. Você pode usar estas ou pode criar suas próprias variáveis, você que decide.
+u nome com um padrão. Variáveis como `i`, `j`, `c` e `k` são algum
 Contando de 1 até 10
 
 ```py
@@ -746,7 +799,7 @@ for i in range(1, 11):
     print(i)
 ```
 
-Esse código nada mais faz do que imprimir de 1 até 10. Além de contar, podemos percorrer objetos iteráveis como arrays e strings, mas não irei demonstrar aqui porque não é esse o nosso foco.
+Esse código nada mais faz do que imprimir de 1 até 10. Além de contar, podemos percorrer objetos iteráveis como arrays e strings, que veremos daqui para frente.
 
 Perceba que a cada *iteração* (repetição), o `for` faz uma verificação. Ele se auto-pergunta: `i` é igual a `11`? Se for, ele para de executar o bloco de código na mesma hora. É por isso que se declaramos `for i in range(1, 10)`, o `i` irá valer `10`, porém para de executar na mesma hora.
 
@@ -809,6 +862,9 @@ while i < 10:
     print(i)
     i = i + 1  # Linha muito importante
 ```
+
+> [!TIP]
+> Ao invés de incrementarmos uma variável fazendo `variavel = variavel + 1`, podemos fazer simplesmente: `variavel += 1`, isso é faz a mesma coisa do que o comando anterior.
 
 Primeiro declaramos `i`, e definimos como `1`, depois vem o `while`, que tem uma condição: `i < 10`. Então imprimimos o `i` e logo após **INCREMENTAMOS** o `i` em +1. Essa linha é importante porque sem ela ocorreria justamente o Loop infinito.
 

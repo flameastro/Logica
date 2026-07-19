@@ -717,60 +717,6 @@ Vamos entender o código. Declaramos as variáveis `idade` e `tem_carteira`, com
 > [!NOTE]
 > Lembre-se de que podemos colocar quantas estruturas condicionais e de qualquer tipo aqui.
 
-## Listas
-As listas nada mais são do que uma variável que armazena múltiplos valores. Vamos supor que é necessário fazer a soma de 10 notas de alunos. Sem as listas, poderia ficar algo como:
-
-
-```py
-# Declarando as variáveis
-nota1 = 5
-nota2 = 2
-nota3 = 9
-nota4 = 10
-nota5 = 6
-nota6 = 3
-nota7 = 8
-nota8 = 8
-nota9 = 2
-nota10 = 0
-
-# Somando as variáveis
-soma = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10)
-
-# Exibir para o usuário
-print(f"A soma é {soma}")
-```
-
-Esse tipo de declaração não é boa, pois não é fácil de entender, e também ocupa um espaço desnecessário no algoritmo. Para isso que existem as listas. Com elas podemos declarar uma variável e depois adicionar valores a ela, assim:
-
-```py
-# Armazenando todos os valores numa única lista, chamada notas
-notas = [5, 2, 9, 10, 6, 3, 8, 8, 2, 0]
-
-# Somando as variáveis
-soma = 0
-for nota in notas:
-    soma += nota
-
-# Exibir para o usuário
-print(f"A soma é {soma}")
-```
-
-Entendendo o código acima, podemos ver que declaramos uma variável `soma` e depois declaramos uma lista `notas` com os valores que queremos somar. Depois, declaramos uma variável `soma` e definimos como `0`. Depois, declaramos um `for` que vai percorrer cada nota na lista, e adicionando o valor da nota à variável `soma`. Por fim, imprimimos a soma.
-
-Esse jeito é muito mais fácil de entender, e também é mais eficiente, pois não precisamos declarar uma variável para cada nota.
-
-Além de iterar sobre listas, podemos iterar sobre strings (caracteres). Para isso, utilizamos a mesma sintaxe que vimos anteriormente com a lista, porém a única diferença é que agora, nós estamos iterando sobre um caractere, e não sobre uma lista.
-
-```py
-palavra = "computador"
-
-for letra in palavra:
-    print(letra)
-```
-
-Agora, iteramos sobre cada letra da palavra, e imprimimos o caractere na tela.
-
 ## Estruturas de Repetição
 As estruturas de Repetição são **estruturas semelhantes a que vimos anteriormente**, as **condicionais**. Elas também possuem uma **condição**, mas ao invés de executarem um bloco de código apenas uma vez, elas **repetem um determinado bloco de código até que a condição seja falsa**.    
 Entre as estruturas de repetição, estão dois tipos principais: o `for` (para) e o `while` (enquanto). É comum chamar as estruturas de repetição como **`loops`**, então se acostume caso veja.
@@ -896,6 +842,105 @@ while True:
 ```
 
 Esse loop é colocado como `True` propositalmente para executar o bloco de código dentro do `while` "infinitas" vezes, até que algo o pare.
+
+## Listas
+As listas nada mais são do que uma variável que armazena múltiplos valores. Vamos supor que é necessário fazer a soma de 10 notas de alunos. Sem as listas, poderia ficar algo como:
+
+```py
+# Declarando as variáveis
+nota1 = 5
+nota2 = 2
+nota3 = 9
+nota4 = 10
+nota5 = 6
+nota6 = 3
+nota7 = 8
+nota8 = 8
+nota9 = 2
+nota10 = 0
+
+# Somando as variáveis
+soma = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10)
+
+# Exibir para o usuário
+print(f"A soma é {soma}")
+```
+
+Esse tipo de declaração não é boa, pois não é fácil de entender, e também ocupa um espaço desnecessário no algoritmo. Para isso que existem as listas. Com elas podemos declarar uma variável e depois adicionar valores a ela, assim:
+
+```py
+# Armazenando todos os valores numa única lista, chamada notas
+notas = [5, 2, 9, 10, 6, 3, 8, 8, 2, 0]
+
+# Somando as variáveis
+soma = 0
+for nota in notas:
+    soma += nota
+
+# Exibir para o usuário
+print(f"A soma é {soma}")
+```
+
+Entendendo o código acima, podemos ver que declaramos uma variável `soma` e depois declaramos uma lista `notas` com os valores que queremos somar. Depois, declaramos uma variável `soma` e definimos como `0`. Depois, declaramos um `for` que vai percorrer cada nota na lista, e adicionando o valor da nota à variável `soma`. Por fim, imprimimos a soma.
+
+Esse jeito é muito mais fácil de entender, e também é mais eficiente, pois não precisamos declarar uma variável para cada nota.
+
+Além de iterar sobre listas, podemos iterar sobre strings (caracteres). Para isso, utilizamos a mesma sintaxe que vimos anteriormente com a lista, porém a única diferença é que agora, nós estamos iterando sobre um caractere, e não sobre uma lista.
+
+```py
+palavra = "computador"
+
+for letra in palavra:
+    print(letra)
+```
+
+Agora, iteramos sobre cada letra da palavra, e imprimimos o caractere na tela.
+
+### Acessando elementos de uma lista
+Sintaxe para acessar elementos de uma lista:
+
+```py
+lista[início:fim:passos]
+```
+
+Além de iterar sobre listas, podemos acessar elementos de uma lista. É como se quisessemos acessar um elemento específico, não toda a lista. Isso permite que podemos acessar valores individualmente, como se fosse uma variável comum.
+
+> [!IMPORTANT]
+> O índice de uma lista começa em 0, e não em 1.
+
+Vamos supor que você queira acessar o primeiro elemento de uma lista. Para isso, basta usar o índice `0` da lista. Isso porque o índice da lista começa em 0, isso na maioria das linguagens de programação.
+
+Vamos para um exemplo prático: Vamos criar uma lista de 5 notas, e depois acessar o primeiro elemento da lista.
+
+```py
+notas = [5, 2, 9, 10, 6]
+
+nota = notas[0]
+
+print(f"A nota é {nota}")  # A nota é 5
+```
+
+Isso é muito importante, pois agora podemos acessar elementos de uma lista individualmente, isso é muito flexível!
+
+Podemos acessar os elementos de uma lista de várias maneiras.
+
+Não apenas de forma individual, mas também podemos "fatiar" uma lista, ou seja, pegar vários elementos de uma só vez.
+
+```py
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numeros[0:1])  # [1]
+print(numeros[0:2])  # [1, 2]
+print(numeros[0:6])  # [1, 2, 3, 4, 5, 6]
+```
+
+Também podemos usar passos para acessar elementos de uma lista.
+
+```py
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numeros[0:10:2])  # [1, 3, 5, 7, 9]
+print(numeros[0:10:3])  # [1, 4, 7]
+print(numeros[::-1])  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
 
 ## Funções
 Funções são **blocos de código que podem ser reutilizados**. Guarde essa palavra: **Reutilização**. Com funções, podemos **reutilizar um determinado bloco de código quantas vezes quisermos**. Aqui, não abordarei conceitos avançados de funções como **recursividade**, **yield**, **return**, **escopo** e **callbacks**. A ideia é entender lógica.

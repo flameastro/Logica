@@ -1089,6 +1089,384 @@ Um algoritmo que resolve um problema não significa que ele seja eficiente, só 
 * Verificar se esta outra forma é mais eficiente
 * Aplicar novamente o ciclo.
 
+# Resolvendo um algoritmo na prática
+Vamos fazer três exercícios de programação. Vou colocar aqui todo o meu pensamento por trás da resolução.
+
+> [!IMPORTANT]
+> Você não precisa seguir rigidamente os 4 pilares do pensamento computacional em ordem.
+
+## Problema 01
+### Enunciado
+```
+Peça ao usuário para digitar dois números inteiros.
+
+Seu programa deve informar qual deles é o maior. Se forem iguais, informe que os dois números são iguais.
+
+Exemplo
+Entrada: 8, 3
+Saída: O maior número é 8.
+```
+
+### Notas
+Vamos entender o problema. Vou resumir o que o enunciado está pedindo e decartar o que é inútil.
+
+- O usuário deve digitar dois números
+- O programa deve informar qual é o maior número
+
+Agora ficou mais fácil de entender. O enunciado está simplesmente pedindo para digitar dois números e avaliar qual é o maior.
+
+Vamos decompor isso ainda mais (não seria necessário, porque já está bem abstraído, mas vamos lá)
+
+- O usuário deve digitar o primeiro número
+- O usuário deve digitar o segundo número
+- O programa deve avaliar qual é o maior e mostrar ao usuário
+
+Como é o nosso primeiro algoritmo, não sabemos nenhum padrão, então pulamos essa parte.
+
+Acho que não temos nada para abstrair nesse caso, então vamos pular essa parte também.
+
+Então, vou criar uma representação do algoritmo em linguagem natural, ficaria assim:
+```txt
+Pedir ao usuário o primeiro número
+Pedir ao usuário o segundo número
+Se o primeiro número for maior que o segundo, então mostre na tela que ele é maior
+Senão se o segundo número for maior que o primeiro, então mostre na tela que ele é maior
+Senão mostre na tela que ambos são iguais.
+```
+
+### Algoritmo
+Chegou a hora de implementar nosso algoritmo. Em python, ele ficaria assim:
+
+```py
+# Pedindo os dois números
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+
+# Verificando qual o maior
+if (numero1 > numero2):
+    print(f"O maior número é {numero1}")
+elif (numero1 < numero2):
+    print(f"O maior número é {numero2}")
+else:
+    print("Ambos são iguais")
+```
+
+## Problema 02
+### Enunciado
+```txt
+Peça ao usuário para digitar 3 notas (valores decimais)
+
+Calcule a média das três notas.
+Se a média for:
+
+maior ou igual a 7, exiba "Aprovado";
+entre 5 e 6.9, exiba "Recuperação";
+menor que 5, exiba "Reprovado".
+
+Além da situação, mostre a média calculada.
+
+Exemplo
+Entrada: 8, 6, 7
+Saída: Média: 7.0, Aprovado
+```
+
+### Notas
+Vamos entender.
+
+Precisamos que o usuário digite 3 notas, depois precisamos calcular a média das três notas e exibir a média e dizer se está aprovado ou reprovado.
+
+Mas, como calculamos a média?  
+Para calcular a média, precisamos somar todas as 3 notas e dividi-la por 3 (quantidade de notas). Depois precisamos fazer as verificações do estado do aluno.
+
+Sabemos de algum padrão? Vamos dizer que não.
+
+Podemos abstrair algo? Por enquanto, não.
+
+Podemos criar uma representação, por enquanto:
+
+```txt
+Pedir as três notas
+Calcular a média
+Exibir a média
+Exibir aprovado, recuperado ou em recuperação
+```
+
+Precisamos também lembrar da tabela que o enunciado nos deu:
+```txt
+maior ou igual a 7, exiba "Aprovado";
+entre 5 e 6.9, exiba "Recuperação";
+menor que 5, exiba "Reprovado".
+```
+
+### Algoritmos
+Como não nos resta dúvidas, podemos implementar já:
+
+```py
+# Pedir as três notas
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+# Calculando a média
+media = (nota1 + nota2 + nota3) / 3  # Esses parentesis são importantes. Isso se chama ordem de precedência.
+
+# Exibindo a média
+print(f"Média: {media}")
+
+# Exibindo o status de aprovado/reprovado/em recuperação
+# maior ou igual a 7, exiba "Aprovado";
+# entre 5 e 6.9, exiba "Recuperação";
+# menor que 5, exiba "Reprovado".
+if (media >= 7):
+    print("Aprovado")
+elif (media >= 5):  # Aqui poderiamos adicionar também: media < 7, mas não é necessário nesse caso
+    print("Recuperação")
+else:
+    print("Reprovado")
+```
+
+## Problema 03
+### Enunciado
+```txt
+Crie um programa que peça ao usuário um nome de usuário e uma senha.
+
+As credenciais corretas são:
+
+Usuário: admin
+Senha: 123456
+
+O programa deve permitir até 3 tentativas.
+
+Se acertar, exiba: Login realizado com sucesso!
+Se errar as três tentativas: Conta bloqueada.
+```
+
+### Notas
+Esse problema já é mais extenso. Mas vamos resolver por partes.  
+Primeiro, entendendo:
+
+* O usuário deve nos dar um nome e uma senha;  
+* Devemos verificar se o nome a senha são `admin` e `123456`, respectivamente;
+* O usuário tem apenas 3 tentativas;
+* Caso ele acerte o nome e a senha entre as 3 tentativas, então devemos mostrar `Login realizado com sucesso!`, caso contrário `Conta bloqueada.`.
+
+Você percebeu que, entendendo o problema e dividindo ele em partes menores, nos dá uma clareza muito melhor do que se deve fazer? Apenas fazendo esses dois passos?
+
+Já fizemos uma pequena parte desse exercício anteriormente: Quando pedimos ao usuário o nome (`user`) e a senha (`password`) e também fizemos uma verificação. Então podemos nos aproveitar disso bastante.
+
+Mas podemos fazer uma abstração. O enunciado diz que deve ter 3 tentativas, mas vamos de início fazer um pouco diferente. Vamos ignorar essas três tentativas de primeira e vamos dar apenas uma tentativa, quero dizer, apenas fazer o programa sem tentativas nenhuma.
+
+```py
+# Pedindo o nome e a senha
+nome = input("Digite o seu nome de usuário: ")
+senha = input("Digite a sua senha: ")
+
+# Verificando
+if (nome == "admin" and senha == "123456"):
+    print("Login realizado com sucesso!")
+else:
+    print("Conta bloqueada")
+```
+
+Pronto, fizemos um pequeno esboço do algoritmo já. Agora falta adicionar as 3 tentativas. Para isso, podemos utilizar o `while True`, e declarar uma variável `tentativas` e definir como `0`, e a cada loop do `while`, o valor dessa variável se incrementa, e se chegar até `3`, para a execução do algoritmo.
+
+### Algoritmo
+Partindo para a solução final:
+```py
+tentativas = 0
+
+while True:
+    # Incrementando as tentativas
+    tentativas += 1
+
+    # Pedindo o nome e a senha
+    nome = input("Digite o seu nome de usuário: ")
+    senha = input("Digite a sua senha: ")
+
+    # Verificando
+    if (nome == "admin" and senha == "123456"):
+        # Se o login der certo, exibe ao usuário e para de executar o loop
+        print("Login realizado com sucesso!")
+        break
+    else:
+        # Exibe as tentativas restantes
+        print(f"Ops, login incorreto. Tentativas restantes: {3 - tentativas}")
+
+    # Se as tentativas forem igual a 3, exibe na tela Conta bloqueada e para a execução do loop.
+    if tentativas == 3:
+        print("Conta bloqueada")
+        break
+```
+
+Pronto, quebramos o problema em pequenas partes e resolvemos com calma.
+
+## Problema 04
+### Enunciado
+```txt
+Escreva um algoritmo que receba uma palavra e informe quantas vogais (a, e, i, o, u) ela possui.
+
+Exemplo
+Entrada: computador
+Saída: 4
+
+Desafio: Ignore se as letras são maiúsculas ou minúsculas.
+```
+
+### Notas
+Vamos entender o problema.
+
+O algoritmo deve receber uma palavra, depois devemos fazer uma contagem das vogais (a, e, i, o, u), ignorando se a letra for maiúscula ou minúscula. Vamos abstrair essa parte de ignorar maiúscula e minúscula por enquanto. Vamos focar apenas no principal.
+
+Mas, como podemos contar as vogais? Para isso, precisamos percorrer cada letra da palavra. Eu não ensinei isso, porém vamos ver como funciona agora. A ideia é basicamente a mesma, utilizaremos um loop `for`, desse jeito:
+
+```py
+for letra in palavra:
+    <bloco de código>
+```
+
+Assim, cada letra da palavra será percorrida, assim podemos fazer a contagem das vogais.
+
+```txt
+Receber palavra do usuário
+Para cada letra na palavra:
+    Se a letra for igual a a:
+        Conte + 1
+    Se a letra for igual a e:
+        Conte + 1
+    Se a letra for igual a i:
+        Conte + 1
+    Se a letra for igual a o:
+        Conte + 1
+    Se a letra for igual a u:
+        Conte + 1
+Exiba a contagem
+```
+
+Olhando para o algoritmo acima, podemos perceber que ele resolve o problema, mas de uma maneira um pouco verbosa demais. Isso porque utilizamos várias condicionais. Poderiamos ter apenas uma condicional, utilizando listas.
+
+Como vimos anteriormente, podemos iterar sobre listas. Podemos nos aproveitar disso para resolver esse problema.
+
+```txt
+Receber palavra do usuário
+Para cada letra na palavra:
+    Se a letra for igual a a ou e ou i ou o ou u:
+        Conte + 1
+Exiba a contagem
+```
+
+Podemos observar que agora temos apenas uma condicional, diminuindo nosso código. Nosso algoritmo ficaria assim:
+
+```py
+palavra = input("Digite uma palavra: ")
+contagem = 0
+
+for letra in palavra:
+    if letra in ["a", "e", "i", "o", "u"]:
+        contagem += 1
+
+print(f"Contagem: {contagem}")
+```
+
+Pronto, resolvemos o problema, de uma forma abstraída. Mas vamos voltar e relembrar o que o enunciado nos pede a respeito do desafio. Desafio: "*Ignore se as letras são maiúsculas ou minúsculas.*". Ou seja, devemos continuar fazendo a contagem, mas ignorando se as letras são maiúsculas ou minúsculas. No algoritmo que fizemos anteriormente, verificamos apenas se a letra é minúscula.
+
+A pergunta que devemos fazer é: Como podemos ignorar letras maiúsculas ou minúsculas? Vamos supor que eu não saiba a resposta. Que tal fazer uma pesquina no Google? Pois saiba que essa é uma das coisas que os programadores mais fazem: **Pesquisam**.
+
+Fazendo uma rápida pesquisa: "*Como podemos ignorar letras maiúsculas ou minúsculas em python?*" [Encontrei uma resposta no StackOverflow](https://pt.stackoverflow.com/questions/339306/ignorar-se-%C3%A9-mai%C3%BAscula-e-min%C3%BAscula-na-string)
+
+Resumindo, devemos colocar [variável].lower() (nesse caso, letra.lower()). Isso converte a letra para minúscula.
+
+Então, depois da pesquisa, chegamos ao algoritmo.
+
+### Algoritmo
+```py
+palavra = input("Digite uma palavra: ")
+contagem = 0
+
+for letra in palavra:
+    if letra.lower() in ["a", "e", "i", "o", "u"]:
+        contagem += 1
+
+print(f"Contagem: {contagem}")
+```
+
+## Problema 05
+### Enunciado
+```
+Faça um programa que leia um número inteiro e avalie se o usuário acertou dentro de um número aleatório de 1 a 100. O usuário tem tentativas ilimitadas. A cada loop, mostre quantas tentativas o usuário já fez.
+
+Se o usuário acertar, exiba: Você acertou!
+Se o usuário chutar um valor alto, exiba: Chute mais baixo
+Se o usuário chutar um valor baixo, exiba: Chute mais alto
+```
+
+### Notas
+Entendendo, devemos fazer um programa que receba um número inteiro e avalie se o usuário acertou dentro de um número aleatório de 1 a 100. O usuário tem tentativas ilimitadas. Mas antes, podemos
+
+* Receber o número do usuário
+* Verificar se o usuário acertou o número aleatório dentro de 1 a 100
+* Se sim: "Você acertou!"
+* Se não Se o chute for muito alto: "Chute mais baixo"
+* Senão Se o chute for muito baixo: "Chute mais alto"
+
+Mas a dúvida que fica é: Como geramos um número aleatório dentro do python?
+
+Fiz uma pesquisa no Google: "*como gerar numero aleatorio em python*".
+
+De acordo com [um usuário do StackOverflow](https://pt.stackoverflow.com/questions/76428/como-gerar-n%C3%BAmeros-aleat%C3%B3rios-em-python), para gerar um número aleatório, precisamos importar uma biblioteca chamada *random* e depois pegar o método .randint(). Ficaria desse jeito:
+
+```py
+import random
+numero = random.randint(1, 100)  # Gera números inteiros aleatórios entre 1 a 100
+```
+
+Vamos abstrair um pouco o problema e fazer sem repetições por enquanto, o usuário terá apenas uma tentativa.
+```py
+chute = int(input("Insira um número entre 1 a 100: "))
+numero = random.randint(1, 100)
+
+if (chute == numero):
+    print("Você acertou!")
+elif (chute > numero):
+    print("Chute mais baixo")
+elif (chute < numero):
+    print("Chute mais alto")
+```
+
+O algoritmo que fizemos acima ainda tem algumas faltas de detalhes. Um deles é que o programa não se repete então o usuário terá apenas um chance, e o segundo é que o usuário pode digitar um número que não esteja entre `1` a `100`, então devemos limitar. Para fazer isso, podemos usar o `while`, desse jeito:
+
+```py
+chute = int(input("Insira um número entre 1 a 100: "))
+while (chute < 1 or chute > 100):
+    print("Número fora do alcance de 1 a 100. Tente novamente")
+    chute = int(input("Insira um número entre 1 a 100: "))
+```
+
+Então enquanto o chute do usuário for menor que 1 ou maior que 100, perguntamos a ele novamente o valor do `chute`.  Agora só nos resta fazer a repetição.
+
+### Algoritmo
+
+```py
+import random
+# Temos que definir o número escolhido fora de repetição, se não a cada loop o número seria sobrescrito
+numero = random.randint(1, 100)
+
+while True:
+    chute = int(input("Insira um número entre 1 a 100: "))
+    while (chute < 1 or chute > 100):
+        print("Número fora do alcance de 1 a 100. Tente novamente")
+        chute = int(input("Insira um número entre 1 a 100: "))
+
+    if (chute == numero):
+        print("Você acertou!")
+        break  # Para o loop se acertar
+    elif (chute > numero):
+        print("Chute mais baixo")
+    elif (chute < numero):
+        print("Chute mais alto")
+```
+
+
+
 ---
 
 # ⭐ Saiba mais

@@ -1090,7 +1090,7 @@ Um algoritmo que resolve um problema não significa que ele seja eficiente, só 
 * Aplicar novamente o ciclo.
 
 # Resolvendo um algoritmo na prática
-Vamos fazer três exercícios de programação. Vou colocar aqui todo o meu pensamento por trás da resolução.
+Vamos fazer alguns exercícios de programação. Vou colocar aqui todo o meu pensamento por trás da resolução.
 
 > [!IMPORTANT]
 > Você não precisa seguir rigidamente os 4 pilares do pensamento computacional em ordem.

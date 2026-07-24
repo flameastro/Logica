@@ -2,5 +2,5 @@ algoritmo "primeiro"
 var
 
 inicio
-  Escreva("Olá, Mundo!")
+    Escreva("Olá, Mundo!")
 fimalgoritmo

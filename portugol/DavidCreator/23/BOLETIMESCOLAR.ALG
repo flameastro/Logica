@@ -1,31 +1,31 @@
 algoritmo "boletimEscolar"
-// Sabendo-se que a média de aprovação em uma disciplina é 6,
-// escreva um algoritmo que leia uma lista de 10 médias de alunos.
-// Logo a seguir, apresente na tela a quantidade de alunos que obtiveram aprovação e a
+// Sabendo-se que a mï¿½dia de aprovaï¿½ï¿½o em uma disciplina ï¿½ 6,
+// escreva um algoritmo que leia uma lista de 10 mï¿½dias de alunos.
+// Logo a seguir, apresente na tela a quantidade de alunos que obtiveram aprovaï¿½ï¿½o e a
 // quantidade de alunos que reprovaram na disciplina.
 var contador, aprovados, reprovados: inteiro
     nota: real
 
 inicio
-      aprovados <- 0
-      reprovados <- 0
+    aprovados <- 0
+    reprovados <- 0
 
-      Para contador <- 1 ate 10 faca
-         Escreval("---- ALUNO ", contador, " ----")
-         Escreva("MÉDIA: ")
-         Leia(nota)
-         
-         se (nota >= 6) entao
-            aprovados <- aprovados + 1
-         senao
-            reprovados <- reprovados + 1
-         fimse
-         
-         LimpaTela
-      fimpara
-      
-      Escreval("-------- R E S U L T A D O S --------")
-      Escreval("ALUNOS APROVADOS: ", aprovados)
-      Escreval("ALUNOS REPROVADOS: ", reprovados)
-      Escreval("-------------------------------------")
+    Para contador <- 1 ate 10 faca
+    Escreval("---- ALUNO ", contador, " ----")
+    Escreva("Mï¿½DIA: ")
+    Leia(nota)
+
+    se (nota >= 6) entao
+    aprovados <- aprovados + 1
+    senao
+    reprovados <- reprovados + 1
+    fimse
+
+    LimpaTela
+    fimpara
+
+    Escreval("-------- R E S U L T A D O S --------")
+    Escreval("ALUNOS APROVADOS: ", aprovados)
+    Escreval("ALUNOS REPROVADOS: ", reprovados)
+    Escreval("-------------------------------------")
 fimalgoritmo

@@ -1,17 +1,17 @@
 algoritmo "divisaoExata"
-// Elabore um algoritmo que leia dois números e responda se a divisão do primeiro
-//pelo segundo é exata (o resto da divisão deve ser igual a 0). Se for, o algoritmo
-//deve imprimir a mensagem “A divisão de (1o numero) por (2o número) é exata”.
+// Elabore um algoritmo que leia dois nï¿½meros e responda se a divisï¿½o do primeiro
+//pelo segundo ï¿½ exata (o resto da divisï¿½o deve ser igual a 0). Se for, o algoritmo
+//deve imprimir a mensagem ï¿½A divisï¿½o de (1o numero) por (2o nï¿½mero) ï¿½ exataï¿½.
 var numero1, numero2: inteiro
 
 inicio
-      escreva("Insira o valor do número 1: ")
-      leia(numero1)
-      
-      escreva("Insira o valor do número 2: ")
-      leia(numero2)
-      
-      se (numero1 % numero2 = 0) entao
-         escreva("A divisão de ", numero1, " por ", numero2, " é exata")
-      fimse
+    escreva("Insira o valor do nï¿½mero 1: ")
+    leia(numero1)
+    
+    escreva("Insira o valor do nï¿½mero 2: ")
+    leia(numero2)
+    
+    se (numero1 % numero2 = 0) entao
+    escreva("A divisï¿½o de ", numero1, " por ", numero2, " ï¿½ exata")
+    fimse
 fimalgoritmo

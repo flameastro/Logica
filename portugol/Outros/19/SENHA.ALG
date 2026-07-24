@@ -1,16 +1,16 @@
 algoritmo "senha"
-// Elabore um algoritmo para testar se uma senha digita é igual a “admin”.
-//Se a senha estiver correta escreva “Acesso permitido”, do contrario emita a mensagem
-//“Você não tem acesso ao sistema”.
+// Elabore um algoritmo para testar se uma senha digita ï¿½ igual a ï¿½adminï¿½.
+//Se a senha estiver correta escreva ï¿½Acesso permitidoï¿½, do contrario emita a mensagem
+//ï¿½Vocï¿½ nï¿½o tem acesso ao sistemaï¿½.
 var senha: caractere
 
 inicio
-      escreva("Insira a senha: ")
-      leia(senha)
-      
-      se (senha = "admin") entao
-         escreva("Acesso permitido")
-      senao
-         escreva("Você não tem acesso ao sistema")
-      fimse
+    escreva("Insira a senha: ")
+    leia(senha)
+    
+    se (senha = "admin") entao
+    escreva("Acesso permitido")
+    senao
+    escreva("Vocï¿½ nï¿½o tem acesso ao sistema")
+    fimse
 fimalgoritmo

@@ -5,27 +5,27 @@ var valor, contador: inteiro
     menor, maior: real
 
 inicio
-      // Declara as variáveis menor e maior
-      maior <- -99^3
-      menor <- 99^3
+    // Declara as variï¿½veis menor e maior
+    maior <- -99^3
+    menor <- 99^3
 
-      // Conta de 1 ate 10
-      Para contador <- 1 ate 10 faca
-         // Pede o valor
-         Escreva("INSIRA O VALOR ", contador, ": ")
-         Leia(valor)
-         
-         // se o valor for maior que a variável maior, maior recebe a variável valor
-         se (valor > maior) entao
-            maior <- valor
-         fimse
-         
-         // se o valor for menor que a variável menor, menor recebe a variável valor
-         se (valor < menor) entao
-            menor <- valor
-         fimse
-      fimpara
-      
-      Escreval("O menor número inserido foi", menor)
-      Escreval("O maior número inserido foi", maior)
+    // Conta de 1 ate 10
+    Para contador <- 1 ate 10 faca
+    // Pede o valor
+    Escreva("INSIRA O VALOR ", contador, ": ")
+    Leia(valor)
+    
+    // se o valor for maior que a variï¿½vel maior, maior recebe a variï¿½vel valor
+    se (valor > maior) entao
+    maior <- valor
+    fimse
+    
+    // se o valor for menor que a variï¿½vel menor, menor recebe a variï¿½vel valor
+    se (valor < menor) entao
+    menor <- valor
+    fimse
+    fimpara
+    
+    Escreval("O menor nï¿½mero inserido foi", menor)
+    Escreval("O maior nï¿½mero inserido foi", maior)
 fimalgoritmo

@@ -1,20 +1,20 @@
 algoritmo "distanciaMaxima"
-// Escreva um algoritmo que leia a quantidade de combustível
-// abastecido em um automóvel em litros, bem como,
-// a distância que o automóvel percorre por litro abastecido.
-// O algoritmo deverá calcular e mostrar a distância máxima que o automóvel poderá atingir.
+// Escreva um algoritmo que leia a quantidade de combustï¿½vel
+// abastecido em um automï¿½vel em litros, bem como,
+// a distï¿½ncia que o automï¿½vel percorre por litro abastecido.
+// O algoritmo deverï¿½ calcular e mostrar a distï¿½ncia mï¿½xima que o automï¿½vel poderï¿½ atingir.
 var combustivel, distanciaPorLitro, distanciaMaxima: inteiro
 
 inicio
-      // Pede a quantidade de combustível
-      Escreva("QUANTIDADE DE COMBUSTIVEL: ")
-      Leia(combustivel)
+    // Pede a quantidade de combustï¿½vel
+    Escreva("QUANTIDADE DE COMBUSTIVEL: ")
+    Leia(combustivel)
 
-      // Pede a distância por litro
-      Escreva("QUANTOS KM O AUTOMÓVEL É CAPAZ DE PERCORRER A CADA LITRO? ")
-      Leia(distanciaPorLitro)
-      
-      // Calcula a distanciaMaxima e escreve para o usuário
-      distanciaMaxima <- combustivel *distanciaPorLitro
-      Escreva("A DISTÂNCIA MÁXIMA QUE O AUTÓMOVEL PODERÁ PERCORRER É DE ", distanciaMaxima, " KM")
+    // Pede a distï¿½ncia por litro
+    Escreva("QUANTOS KM O AUTOMï¿½VEL ï¿½ CAPAZ DE PERCORRER A CADA LITRO? ")
+    Leia(distanciaPorLitro)
+
+    // Calcula a distanciaMaxima e escreve para o usuï¿½rio
+    distanciaMaxima <- combustivel *distanciaPorLitro
+    Escreva("A DISTï¿½NCIA Mï¿½XIMA QUE O AUTï¿½MOVEL PODERï¿½ PERCORRER ï¿½ DE ", distanciaMaxima, " KM")
 fimalgoritmo

@@ -1,20 +1,20 @@
 algoritmo "numerosIguaisOuDiferentes"
-// Ler 3 números e dizer se são iguais ou diferentes
+// Ler 3 nï¿½meros e dizer se sï¿½o iguais ou diferentes
 var numero1, numero2, numero3: inteiro
 
 inicio
-      Escreva("NÚMERO 1: ")
-      Leia(numero1)
-      
-      Escreva("NÚMERO 2: ")
-      Leia(numero2)
-      
-      Escreva("NÚMERO 2: ")
-      Leia(numero3)
-      
-      se (numero1 = numero2) e (numero2 = numero3) entao
-         Escreva("São números IGUAIS")
-      senao
-         Escreva("São números DIFERENTES")
-      fimse
+    Escreva("Nï¿½MERO 1: ")
+    Leia(numero1)
+    
+    Escreva("Nï¿½MERO 2: ")
+    Leia(numero2)
+    
+    Escreva("Nï¿½MERO 2: ")
+    Leia(numero3)
+    
+    se (numero1 = numero2) e (numero2 = numero3) entao
+    Escreva("Sï¿½o nï¿½meros IGUAIS")
+    senao
+    Escreva("Sï¿½o nï¿½meros DIFERENTES")
+    fimse
 fimalgoritmo

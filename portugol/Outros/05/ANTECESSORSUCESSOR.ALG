@@ -1,11 +1,11 @@
 algoritmo "AntecessorSucessor"
-// Elabore um algoritmo que leia um número inteiro e imprima seus sucessor e seu antecessor.
+// Elabore um algoritmo que leia um nï¿½mero inteiro e imprima seus sucessor e seu antecessor.
 var numero: inteiro
 
 inicio
-      escreva("Número: ")
-      leia(numero)
-      
-      escreval("Sucessor: ", numero + 1)
-      escreval("ANtecessor: ", numero - 1)
+    escreva("Nï¿½mero: ")
+    leia(numero)
+    
+    escreval("Sucessor: ", numero + 1)
+    escreval("ANtecessor: ", numero - 1)
 fimalgoritmo

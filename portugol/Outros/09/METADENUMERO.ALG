@@ -1,15 +1,15 @@
 algoritmo "metadeNumero"
-// Elabore um algoritmo que leia um número, e se ele for maior do que 20, imprimir
-// a metade desse número.
+// Elabore um algoritmo que leia um nï¿½mero, e se ele for maior do que 20, imprimir
+// a metade desse nï¿½mero.
 var numero: inteiro
 
 inicio
-      escreva("Insira qualquer número: ")
-      leia(numero)
-      
-      se (numero > 20) entao
-         escreva(numero / 2)
-      senao
-         escreva(numero)
-      fimse
+    escreva("Insira qualquer nï¿½mero: ")
+    leia(numero)
+    
+    se (numero > 20) entao
+    escreva(numero / 2)
+    senao
+    escreva(numero)
+    fimse
 fimalgoritmo

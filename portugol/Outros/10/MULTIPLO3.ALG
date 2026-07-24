@@ -1,15 +1,15 @@
 algoritmo "multiplo3"
-// 1. Elabore um algoritmo que leia um número e imprima uma das mensagens: é
-// múltiplo de 3, ou, não é múltiplo de 3.
+// 1. Elabore um algoritmo que leia um nï¿½mero e imprima uma das mensagens: ï¿½
+// mï¿½ltiplo de 3, ou, nï¿½o ï¿½ mï¿½ltiplo de 3.
 var numero: inteiro
 
 inicio
-      escreva("Insira um número qualquer, inteiro: ")
-      leia(numero)
-      
-      se (numero % 3 = 0) entao
-         escreva("Múltiplo de 3")
-      senao
-         escreva("Não é múltiplo de 3")
-      fimse
+    escreva("Insira um nï¿½mero qualquer, inteiro: ")
+    leia(numero)
+    
+    se (numero % 3 = 0) entao
+    escreva("Mï¿½ltiplo de 3")
+    senao
+    escreva("Nï¿½o ï¿½ mï¿½ltiplo de 3")
+    fimse
 fimalgoritmo

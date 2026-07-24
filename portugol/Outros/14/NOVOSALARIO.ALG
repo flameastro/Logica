@@ -1,14 +1,14 @@
 algoritmo "novoSalario"
-// Elabore um algoritmo que leia o valor do salário mínimo e o valor do salário de uma pessoa. Calcular
-// e imprimir quantos salários mínimos essa pessoa ganha.
+// Elabore um algoritmo que leia o valor do salï¿½rio mï¿½nimo e o valor do salï¿½rio de uma pessoa. Calcular
+// e imprimir quantos salï¿½rios mï¿½nimos essa pessoa ganha.
 var salario, salarioMinimo: real
 
 inicio
-      escreva("Qual é o salário mínimo? R$")
-      leia(salarioMinimo)
-      
-      escreva("Qual é o seu salário? R$")
-      leia(salario)
-      
-      escreva("Você ganha ", salario / salarioMinimo, " salários mínimos")
+    escreva("Qual ï¿½ o salï¿½rio mï¿½nimo? R$")
+    leia(salarioMinimo)
+    
+    escreva("Qual ï¿½ o seu salï¿½rio? R$")
+    leia(salario)
+    
+    escreva("Vocï¿½ ganha ", salario / salarioMinimo, " salï¿½rios mï¿½nimos")
 fimalgoritmo

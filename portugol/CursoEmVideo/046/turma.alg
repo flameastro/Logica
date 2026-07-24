@@ -6,31 +6,31 @@ var nome: vetor[1..4] de caractere
     contador: inteiro
 
 inicio
-      // Conta de 1 até 4
-      Para contador <- 1 ate 4 faca
-         // Pede o nome do aluno
-         Escreva("NOME DO ALUNO: ")
-         Leia(nome[contador])
+    // Conta de 1 até 4
+    Para contador <- 1 ate 4 faca
+    // Pede o nome do aluno
+    Escreva("NOME DO ALUNO: ")
+    Leia(nome[contador])
 
-         // Pede a primeira nota
-         Escreva("NOTA 1 DE ", nome[contador], ": ")
-         Leia(nota1[contador])
+    // Pede a primeira nota
+    Escreva("NOTA 1 DE ", nome[contador], ": ")
+    Leia(nota1[contador])
 
-         // Pede a segunda nota
-         Escreva("NOTA 2 DE ", nome[contador], ": ")
-         Leia(nota2[contador])
+    // Pede a segunda nota
+    Escreva("NOTA 2 DE ", nome[contador], ": ")
+    Leia(nota2[contador])
 
-         // Calcula e guarda a média
-         media[contador] <- (nota1[contador] + nota2[contador]) / 2
-      fimpara
+    // Calcula e guarda a média
+    media[contador] <- (nota1[contador] + nota2[contador]) / 2
+    fimpara
 
-      Limpatela
+    Limpatela
 
-      // Exibe os alunos e suas respectivas médias
-      Escreval("  LISTAGEM DE ALUNOS  ")
-      Escreval("----------------------")
+    // Exibe os alunos e suas respectivas médias
+    Escreval("    LISTAGEM DE ALUNOS    ")
+    Escreval("----------------------")
 
-      Para contador <- 1 ate 4 faca
-         Escreval(nome[contador], media[contador])
-      fimpara
+    Para contador <- 1 ate 4 faca
+    Escreval(nome[contador], media[contador])
+    fimpara
 fimalgoritmo

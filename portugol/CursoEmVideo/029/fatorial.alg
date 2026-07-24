@@ -6,19 +6,19 @@ algoritmo "fatorial"
 var contador, numero, resultado: inteiro
 
 inicio
-      // Variáveis necessárias
-      resultado <- 1
-      contador <- 0
+    // Variáveis necessárias
+    resultado <- 1
+    contador <- 0
 
-      // Pede ao usuário o número desejado e guarda na variável numero
-      Escreva("Por favor, insira o número que deseja saber o fatorial: ")
-      Leia(numero)
+    // Pede ao usuário o número desejado e guarda na variável numero
+    Escreva("Por favor, insira o número que deseja saber o fatorial: ")
+    Leia(numero)
 
-      Repita // A cada repetiçao...
-            resultado <- resultado * numero // O resultado multiplica ele mesmo pelo número atual - que decrementa a cada repetiçao
-            numero <- numero - 1 // O número decrementa
-            contador <- contador + 1 // O contador decrementa
-      Ate (numero < 1) // Repete atá o número for menor que 1 (0)
+    Repita // A cada repetiçao...
+    resultado <- resultado * numero // O resultado multiplica ele mesmo pelo número atual - que decrementa a cada repetiçao
+    numero <- numero - 1 // O número decrementa
+    contador <- contador + 1 // O contador decrementa
+    Ate (numero < 1) // Repete atá o número for menor que 1 (0)
 
-      Escreva("O fatorial de ", contador, " é ", resultado)
+    Escreva("O fatorial de ", contador, " é ", resultado)
 fimalgoritmo

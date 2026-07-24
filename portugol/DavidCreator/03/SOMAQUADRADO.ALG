@@ -1,14 +1,14 @@
 algoritmo "somaQuadrado"
-// Desenvolva um algoritmo que receba dois valores numéricos inteiros, calcule e mostre a soma do quadrado desses dois números.
+// Desenvolva um algoritmo que receba dois valores numï¿½ricos inteiros, calcule e mostre a soma do quadrado desses dois nï¿½meros.
 var n1, n2, soma: inteiro
 
 inicio
-      Escreva("NÚMERO 1: ")
-      Leia(n1)
+    Escreva("Nï¿½MERO 1: ")
+    Leia(n1)
 
-      Escreva("NÚMERO 2: ")
-      Leia(n2)
-      
-      soma <- (n1 * 2) + (n2 * 2)
-      Escreva("A soma dos quadrados dos números é ", soma)
+    Escreva("Nï¿½MERO 2: ")
+    Leia(n2)
+    
+    soma <- (n1 * 2) + (n2 * 2)
+    Escreva("A soma dos quadrados dos nï¿½meros ï¿½ ", soma)
 fimalgoritmo

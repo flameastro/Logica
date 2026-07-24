@@ -1,90 +1,90 @@
 algoritmo "cardapioLanchonete"
-// O cardápio de uma lanchonete é o seguinte:
+// O cardï¿½pio de uma lanchonete ï¿½ o seguinte:
 
-//     LANCHE        CÓDIGO        VALOR
-//Cachorro Quente      101          1,20
-//Bauru Simples        102          1,30
-//Bauru Com Ovo        103          1,50
-//Hambúrger            104          1,20
-//Cheeseburger         105          1,30
-//Refrigerante         106          1,00
-//Escrever um algoritmo que leia o código do item pedido e a quantidade.
+//    LANCHE    Cï¿½DI    VALOR
+//Cachorro Quente    101    1,20
+//Bauru Simples    102    1,30
+//Bauru Com Ovo    103    1,50
+//Hambï¿½rg    1     1,20
+//Cheeseburger    105    1,30
+//Refrigerante    106    1,00
+//Escrever um algoritmo que leia o cï¿½digo do item pedido e a quantidade.
 
 //Calcule o valor a ser pago por aquele lanche.
-//Considere que a cada execução somente será calculado um item.
-//Caso não seja informado algum código da lista,
-//deve-se informar que o código do lanche é inválido.
+//Considere que a cada execuï¿½ï¿½o somente serï¿½ calculado um item.
+//Caso nï¿½o seja informado algum cï¿½digo da lista,
+//deve-se informar que o cï¿½digo do lanche ï¿½ invï¿½lido.
 var codigo: inteiro
     preco: real
     pedidoInvalido: logico
     
-// Adiciona o procedimento de aguardar (fictício)
+// Adiciona o procedimento de aguardar (fictï¿½cio)
 Procedimento aguardar()
 var milisegundos: inteiro
 
 inicio
-      enquanto milisegundos < 15000 faca
-         milisegundos <- milisegundos + 1
-      fimenquanto
+    enquanto milisegundos < 15000 faca
+    milisegundos <- milisegundos + 1
+    fimenquanto
 fimprocedimento
 
 inicio
-      // Define pedidoInvalido como Falso
-      pedidoInvalido <- Falso
+    // Define pedidoInvalido como Falso
+    pedidoInvalido <- Falso
 
-      // Exibe as informações do lanche com seu respectivo código
-      Escreval("     LANCHE        CÓDIGO")
-      Escreval("Cachorro Quente      101")
-      Escreval("Bauru Simples        102")
-      Escreval("Bauru Com Ovo        103")
-      Escreval("Hambúrger            104")
-      Escreval("Cheeseburger         105")
-      Escreval("Refrigerante         106")
-      Escreva("Qual lanche deseja pedir? [código]: ")
-      Leia(codigo)
-      
-      // Atribui o preço de acordo com o código selecionado
-      se (codigo = 101) entao
-         preco <- 1.20
-      senao
-         se (codigo = 102) entao
-            preco <- 1.30
-         senao
-            se (codigo = 103) entao
-               preco <- 1.50
-            senao
-               se (codigo = 104) entao
-                  preco <- 1.20
-               senao
-                  se (codigo = 105) entao
-                     preco <- 1.30
-                  senao
-                     se (codigo = 106) entao
-                        preco <- 1
-                     senao
-                        pedidoInvalido <- Verdadeiro
-                     fimse
-                  fimse
-               fimse
-            fimse
-         fimse
-      fimse
-      
-      // Mostra os resultados
-      Escreval("-------------------------------------------")
-      Escreval("   R   E   S   U   L   T   A   D   O   S   ")
+    // Exibe as informaï¿½ï¿½es do lanche com seu respectivo cï¿½digo
+    Escreval("    LANCHE    Cï¿½DIGO")
+    Escreval("Cachorro Quente    101")
+    Escreval("Bauru Simples    102")
+    Escreval("Bauru Com Ovo    103")
+    Escreval("Hambï¿½rg    104")
+    Escreval("Cheeseburger    105")
+    Escreval("Refrigerante    106")
+    Escreva("Qual lanche deseja pedir? [cï¿½digo]: ")
+    Leia(codigo)
+    
+    // Atribui o preï¿½o de acordo com o cï¿½digo selecionado
+    se (codigo = 101) entao
+    preco <- 1.20
+    senao
+    se (codigo = 102) entao
+    preco <- 1.30
+    senao
+    se (codigo = 103) entao
+     preco <- 1.50
+    senao
+     se (codigo = 104) entao
+    preco <- 1.20
+     senao
+    se (codigo = 105) entao
+     preco <- 1.30
+    senao
+     se (codigo = 106) entao
+     preco <- 1
+     senao
+     pedidoInvalido <- Verdadeiro
+     fimse
+    fimse
+     fimse
+    fimse
+    fimse
+    fimse
+    
+    // Mostra os resultados
+    Escreval("-------------------------------------------")
+    Escreval("    R    E    S    U    L    T    A    D    O    S    ")
 
-      // Verifica se o pedido é inválido ou não
-      se (pedidoInvalido) entao
-         Escreval("SEU PEDIDO É INVÁLIDO")
-         Escreval("MOTIVO: CÓDIGO INEXISTENTE")
-      senao
-         Escreval("SEU LANCHE ESTÁ SENDO PREPARADO")
-         Escreval("AGUARDE CERCA DE 5 SEGUNDOS...")
-         aguardar()
-         Escreval("O TOTAL DO LANCHE É DE R$", preco)
-         Escreval("Bom Apetite!!")
-      fimse
+    // Verifica se o pedido ï¿½ invï¿½lido ou nï¿½o
+    se (pedidoInvalido) entao
+    Escreval("SEU PEDIDO ï¿½ INVï¿½LIDO")
+    Escreval("MOTIVO: Cï¿½DIGO INEXISTENTE")
+    senao
+    Escreval("SEU LANCHE ESTï¿½ SENDO PREPARADO")
+    Escreval("AGUARDE CERCA DE 5 SEGUNDOS...")
+    aguardar()
+    Escreval("O TOTAL DO LANCHE ï¿½ DE R$", preco)
+    Escreval("Bom Apetite!!")
+    fimse
 
-      Escreval("-------------------------------------------")
+    Escreval("-------------------------------------------")
 fimalgoritmo

@@ -1,6 +1,6 @@
 algoritmo "variaveis"
 var
-  nome: caractere
+    nome: caractere
 
 inicio
     nome <- "Felipe"

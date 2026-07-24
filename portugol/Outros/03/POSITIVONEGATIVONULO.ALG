@@ -1,18 +1,18 @@
 algoritmo "positivoNegativoNulo"
-// Pedir um número ao usuário e dizer se ele é positivo, negativo ou nulo
+// Pedir um nï¿½mero ao usuï¿½rio e dizer se ele ï¿½ positivo, negativo ou nulo
 var numero: inteiro
 
 inicio
-      Escreva("NÚMERO INTEIRO: ")
-      Leia(numero)
-      
-      se (numero > 0) entao
-         Escreva("O número é POSITIVO")
-      senao
-         se (numero < 0) entao
-            Escreva("O número é NEGATIVO")
-         senao
-            Escreva("O número é NULO")
-         fimse
-      fimse
+    Escreva("Nï¿½MERO INTEIRO: ")
+    Leia(numero)
+    
+    se (numero > 0) entao
+    Escreva("O nï¿½mero ï¿½ POSITIVO")
+    senao
+    se (numero < 0) entao
+    Escreva("O nï¿½mero ï¿½ NEGATIVO")
+    senao
+    Escreva("O nï¿½mero ï¿½ NULO")
+    fimse
+    fimse
 fimalgoritmo

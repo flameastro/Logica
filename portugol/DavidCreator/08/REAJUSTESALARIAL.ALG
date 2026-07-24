@@ -1,16 +1,16 @@
 algoritmo "reajusteSalarial"
 var
-   salario, salarioAjustado, reajuste: real
+    salario, salarioAjustado, reajuste: real
 
 inicio
-   // Declara o reajuste como 15%
-   reajuste <- 15
+    // Declara o reajuste como 15%
+    reajuste <- 15
 
-   // Pede ao usuário o salário atual
-   Escreva("Salário atual: ")
-   Leia(salario)
+    // Pede ao usuï¿½rio o salï¿½rio atual
+    Escreva("Salï¿½rio atual: ")
+    Leia(salario)
 
-   // Calcula o novo salário com o reajuste de 15% e exibe na tela
-   salarioAjustado <- salario + (salario * (reajuste / 100))
-   Escreva("Novo salário: ", salarioAjustado)
+    // Calcula o novo salï¿½rio com o reajuste de 15% e exibe na tela
+    salarioAjustado <- salario + (salario * (reajuste / 100))
+    Escreva("Novo salï¿½rio: ", salarioAjustado)
 fimalgoritmo

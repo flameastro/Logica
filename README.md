@@ -39,7 +39,7 @@ Sintaxe foca na gramática, ou nas regras de uma instrução, e lógica foca no 
 Refere-se ao recuo no início de uma determinada linha de código, representando uma hierarquia visual. Quanto mais indentação, mais o código vai para a direita.
 
 <div align="center">
-    <img width="500" src="assets/images/indentacao.png">
+    <img width="500" src="assets/images/glossario/indentacao.png">
 </div>
 
 Repare que cada indentação, representa que aquele bloco de código está dentro de uma estrutura, nesse caso, o `if`.
@@ -84,12 +84,13 @@ O **Scratch** é uma linguagem de **programação visual de blocos de arrastar e
 Saiba mais na seção [Como representar algoritmos](#formas-de-representação-de-algoritmos)
 
 # Lógica de programação
+A lógica de programação é a forma como pensamos para resolver um problema computacional
 
 ## Os 4 pilares
 Na lógica de programação, temos uma subárea que chamamos de **Pensamento Computacional**, responsável por dividir um problema em 4 pilares menores, que quando dominados, dão a capacidade ao desenvolvedor a **resolver problemas** de uma forma mais efetiva. A seguir, serão apresentados esses quatro pilares: **Decomposição**, **Reconhecimento de Padrões**, **Abstração** e **Algoritmos**
 
 <div align="center">
-    <a href="https://pt.wikipedia.org/wiki/Pensamento_computacional"><img width="750" alt="Os 4 pilares do pensamento computacional" src="assets/images/os-quatro-pilares-do-pc.png" /></a>
+    <a href="https://pt.wikipedia.org/wiki/Pensamento_computacional"><img width="750" alt="Os 4 pilares do pensamento computacional" src="assets/images/logica-de-programacao/os-quatro-pilares-do-pc.png" /></a>
 </div>
 
 Recomendo a leitura *[deste artigo (em inglês)](https://dev.to/dev_frank/how-to-think-like-a-programmer-29a8)*, dizendo mais sobre como **pensar como um programador** - uma habilidade que é **destaque**, que separa programadores que apenas **decoram [sintaxe](#sintaxe)** de aqueles que pensam em como **resolver problemas**.
@@ -103,7 +104,7 @@ Recomendo a leitura *[deste artigo (em inglês)](https://dev.to/dev_frank/how-to
 É a habilidade de **dividir um problema grande em problemas menores**. Essa é a habilidade mais *importante* de um programador. Consiste em simplesmente pegar um **problema maior** e **transformá-lo** em um **subproblema menor** de acordo com algumas **perguntas** e **análises**.
 
 <div align="center">
-    <img width="750" alt="decomposição" src="assets/images/decomposicao.png" />
+    <img width="750" alt="decomposição" src="assets/images/logica-de-programacao/quatro-pilares/decomposicao.png" />
 </div>
 
 Na imagem acima, temos um **quadrado maior** preenchido de azul, representando o **problema maior**, e nas setas temos **quadrados menores** representando os **problemas menores**, ou os **subproblemas**. A *decomposição* é basicamente isso.   
@@ -137,7 +138,7 @@ Agora ficou mais fácil de entender, porque o problema pode ser visto não mais 
 Você provavelmente já deve ter visto aquela aula de matemática sobre **decomposição de números**. Vamos relembrar como é e sua relação com a decomposição do *pensamento computacional*.
 
 <div align="center">
-    <img width="750" alt="decomposição 2" src="assets/images/decomposicao2.png" />
+    <img width="500" alt="decomposição 2" src="assets/images/logica-de-programacao/quatro-pilares/decomposicao-matematica.png" />
 </div>
 
 A imagem acima representa uma *decomposição de um número*. Isso serve igualmente para a decomposição do pensamento computacional. Se somarmos `1000 + 500 + 90 + 6`, o resultado será `1596`.
@@ -149,7 +150,7 @@ A *decomposição* acontece quando você **divide um problema em problemas menor
 É a habilidade de **reconhecer padrões**, ou seja, **identificar similaridades de problemas já resolvidos antes**. Essa habilidade exige *prática*, porque para você *identificar padrões* de *problemas anteriores*... Você tem que ter feito algum *problema anterior* para tentar encontrar **similaridades** em um outro problema. 
 
 <div align="center">
-    <img width="750" alt="reconhecimento de padrões" src="assets/images/reconhecimento-de-padroes.png" />
+    <img width="750" alt="reconhecimento de padrões" src="assets/images/logica-de-programacao/quatro-pilares/reconhecimento-de-padroes.png" />
 </div>
 
 No exemplo acima, podemos ver que todos os *três veículos* (**carro, bicicleta e moto**) possuem algo em comum: **rodas**. Então se nós criássemos um *carro*, uma *bicicleta* ou uma *moto*, poderíamos utilizar nossa *memória* para **reconhecer um padrão** que já foi resolvido anteriormente - a **roda**. Isso nos permite **resolver problemas** de uma maneira mais **rápida** porque já sabemos exatamente o que fazer, e não será necessário *pensar novamente*.
@@ -160,7 +161,7 @@ No exemplo acima, podemos ver que todos os *três veículos* (**carro, bicicleta
 É a habilidade de **focar apenas nos aspectos úteis/importantes**. Por exemplo, Na **criação de um bolo**, a **cor da panela não importa**; Mas **verificar se os ingredientes do bolo ainda estão dentro da validade é importante**; Num *algoritmo*, a abstração é muito útil porque você pode se perguntar: *Será que minha instrução está pouco abstraída ou muito abstraída? Ou seja, será que a instrução que eu coloquei está clara demais, ou ainda preciso ser ainda mais detalhado?*
 
 <div align="center">
-    <img width="750" alt="abstração" src="assets/images/abstracao.png" />
+    <img width="750" alt="abstração" src="assets/images/logica-de-programacao/quatro-pilares/abstracao.png" />
 </div>
 
 Visualize a imagem acima. Agora se pergunte: *Será que, um passageiro do carro, precisaria verificar esses detalhes para visualizar um carro?* Quando você imagina um carro, você imagina ele *pronto*, ou pensa em cada *parafuso*, em cada *banco*, em cada *janela*, em cada *pneu*, ou no *motor*?
@@ -208,7 +209,7 @@ Algoritmos são **sequências de passos ordenados e finitos que resolvem um prob
 Vamos ver um exemplo de algoritmo: **A criação de um bolo**
 
 <div align="center">
-    <img width="750" alt="algoritmos" src="assets/images/algoritmo.png" />
+    <img width="750" alt="algoritmos" src="assets/images/logica-de-programacao/quatro-pilares/algoritmo.png" />
 </div>
 
 No exemplo acima, podemos observar que os ingredientes obtidos (**ovo**, **açúcar**, **leite**, **fermento** e **farinha de trigo**) levam à **resolução do problema** (*fazer um bolo*). É claro que nesse caso, abstraímos bastante o algoritmo. Não levamos em consideração uma **panela**, um **fogão**, uma **colher**, uma **xícara**, etc, etc, etc... Mas o importante aqui é pegar a ideia: O **algoritmo é uma sequência de passos**, esse é o resumo mais sucinto possível de um algoritmo.
@@ -258,7 +259,7 @@ Aqui vão algumas formas de representação:
 O exemplo mais famoso de *pseudo-linguagem* no Brasil é o [**Portugol versão VisuAlg/Português Estruturado**](https://pt.wikipedia.org/wiki/Portugol). Veja um exemplo bem simples da pseudo-linguagem abaixo.
 
 <div align="center">
-    <img width="500" alt="portugol" src="assets/images/examples/exemplo-portugol.png" />
+    <img width="500" alt="portugol" src="assets/images/algoritmos/formas-de-representacao/portugol.png" />
 </div>
 
 Perceba a [sintaxe](#sintaxe) do Portugol. Ele utiliza palavras como *algoritmo*, *var*, *inicio*, ...  
@@ -280,7 +281,7 @@ O Fluxograma é uma **representação visual** de um algoritmo. São utilizadas 
 #### Exemplo de fluxograma
 
 <div align="center">
-    <img width="250" alt="fluxograma" src="assets/images/examples/exemplo-fluxograma.png" />
+    <img width="250" alt="fluxograma" src="assets/images/algoritmos/formas-de-representacao/fluxograma.png" />
 </div>
 
 ### Descrição Narrativa ou linguagem natural
@@ -296,7 +297,7 @@ A descrição narrativa é uma forma **textual** de se representar um algoritmo.
 #### Exemplo de descrição narrativa
 
 <div align="center">
-    <img width="500" alt="Descrição Narrativa" src="assets/images/examples/exemplo-descricao-narrativa.png" />
+    <img width="500" alt="Descrição Narrativa" src="assets/images/algoritmos/formas-de-representacao/descricao-narrativa.png" />
 </div>
 
 ---
@@ -317,7 +318,7 @@ idade = 23
 ```
 
 <div align="center">
-    <img width="500" src="assets/images/declarando-variavel.png">
+    <img width="500" src="assets/images/conceitos/variaveis/declaracao-de-variavel.png">
 </div>
 
 Como podemos ver, `idade` é o nome da variável, e `23` é o valor que ela guarda.  
@@ -328,7 +329,7 @@ nome_da_variavel = valor_da_variavel
 ```
 
 <div align="center">
-    <img width="500" src="assets/images/nome_valor.png">
+    <img width="500" src="assets/images/conceitos/variaveis/sintaxe.png">
 </div>
 
 Agora, mais exemplos de declaração de variáveis:
@@ -342,7 +343,7 @@ saldo = 76500.54  # Usamos o ponto (.) ao invés da vírgula (,) para representa
 Perceba que sempre utilizo o padrão **[snake_case](https://en.wikipedia.org/wiki/Snake_case)**, um padrão recomendado para o python, em que você **substitui os espaços do nome de uma variável (se ela tiver) por underlines (_)**.
 
 <div align="center">
-    <img width="500" src="assets/images/snake_case.png">
+    <img width="500" src="assets/images/conceitos/variaveis/snake_case.png">
     <p><a href="https://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/#Snake-case">Fonte</a></p>
 </div>
 
@@ -356,6 +357,10 @@ VELOCIDADE_DA_LUZ = 299792458
 
 ## Tipos de dados
 Os tipos de dados representam o **tipo que o valor** de uma variável possui. Você lembra da sintaxe da declaração de uma variável, que vimos anteriormente? O `valor_da_variavel` que apresentei anteriormente, **possui obrigatoriamente um tipo**. Pode ser `caractere`, `número` ou `lógico`. A seguir: O que cada tipo significa.
+
+<div align="center">
+    <img width="500" src="assets/images/conceitos/tipos-de-dados/tipos.png">
+</div>
 
 ### Caractere
 Representa um **texto**, uma **frase** ou qualquer outra coisa que seja **relacionados a texto**. Alguns exemplos são:
@@ -410,7 +415,7 @@ tem_pet = False
 Existem diversos operadores: Os **aritméticos**, os de **comparação**, e os **lógicos**. Eles possuem esse nome porque **operam com dois valores**, chamados de **operandos**. Veremos cada um a seguir.
 
 <div align="center">
-    <img width="500" src="assets/images/operador-operandos.png">
+    <img width="500" src="assets/images/conceitos/operadores/operador-operandos.png">
 </div>
 
 ### Operadores aritméticos
@@ -537,7 +542,7 @@ São estruturas que executam um bloco de código **se uma condição for satisfe
 ### Simples
 
 <div align="center">
-    <img width="500" src="assets/images/condicao-simples.png">
+    <img width="500" src="assets/images/conceitos/condicionais/simples.png">
 </div>
 
 É o tipo **mais simples** de condicional. Ela só pode ter um `if`. Funciona desse jeito:
@@ -589,7 +594,7 @@ Mas aqui temos uma limitação. E se por exemplo, quisessemos dizer ao usuário 
 ### Composta
 
 <div align="center">
-    <img width="500" src="assets/images/condicao-composta.png">
+    <img width="500" src="assets/images/conceitos/condicionais/composta.png">
 </div>
 
 O tipo composto apresenta apenas **dois fluxos que sempre serão executados**. Ou será executado o `bloco de código 1` ou o `bloco de código 2`.
@@ -650,7 +655,7 @@ Mas ainda tem um tipo que é mais poderoso que o tipo composto, que veremos a se
 ### Encadeada
 
 <div align="center">
-    <img width="500" src="assets/images/condicao-encadeada.png">
+    <img width="500" src="assets/images/conceitos/condicionais/encadeada.png">
 </div>
 
 O tipo encadeada é um tipo que possui **diversas verificações**. Antes tinhamos apenas duas opções, mas com o tipo encadeada, nossas possibilidades de condicionais se expandirão.
@@ -704,7 +709,7 @@ A seguir, vamos verificar um outro tipo de estrutura condicional: a **[aninhada]
 ### Aninhada
 
 <div align="center">
-    <img width="500" src="assets/images/condicao-aninhada.png">
+    <img width="500" src="assets/images/conceitos/condicionais/aninhada.png">
 </div>
 
 Esse tipo se chama `aninhada` justamente porque conseguimos **aninhar** outras estruturas condicionais dentro dela, como se fosse um ninho mesmo. Podemos aninhar qualquer um dos **quatro tipos** que vimos: a **[simples](#simples)**, a **[composta](#composta)**, a **[encadeada](#encadeada)** e a **[aninhada](#aninhada)**, que veremos a seguir.
@@ -715,14 +720,14 @@ Veja a seguir a comparação das *matrioskas* com um código python usando o tip
 
 #### Matrioska
 <div align="center">
-    <img width="500" src="assets/images/matrioska.png">
+    <img width="500" src="assets/images/conceitos/condicionais/matrioska.png">
 </div>
 
 Como podemos ver, o tipo encadeado é muito semelhante às *matrioskas*, porque uma condição está **sob outra**.  
 Um exemplo em Python seria:
 
 <div align="center">
-    <img width="500" src="assets/images/if-matrioska.png">
+    <img width="500" src="assets/images/conceitos/condicionais/if-matrioska.png">
 </div>
 
 ```py
@@ -751,7 +756,7 @@ Entre as estruturas de repetição, estão dois tipos principais: o `for` (para)
 ### For
 
 <div align="center">
-    <img width="500" src="assets/images/loop-for.png">
+    <img width="500" src="assets/images/conceitos/loops/for.png">
 </div>
 
 O for é uma estrutura de repetição que é **mais simples** na sua sintaxe. Esse tipo de repetição é mais comum utilizar quando nós **sabemos previamente quantas vezes precisamos repetir um bloco de código**. Outra diferença é que não **precisamos declarar uma variável previamente** para executar o for.
@@ -826,7 +831,7 @@ Então podemos ler dessa maneira: *Para 1 até 60, imprima `i`, e se `i` for igu
 ### While
 
 <div align="center">
-    <img width="500" src="assets/images/loop-while.png">
+    <img width="500" src="assets/images/conceitos/loops/while.png">
 </div>
 
 O while é uma estrutura de repetição mais "**parruda**" e mais **direta**. Usamos ela quando não temos **previamente o número de repetições que será executado**. Por isso que é usado geralmente o `while True`, que é um comando para executar infinitamente o bloco de código dentro do while. Mas ainda sim podemos usar números inteiros igual no `for`, porém devemos declarar a variável antes do `while`.
@@ -883,7 +888,7 @@ Esse loop é colocado como `True` propositalmente para executar o bloco de códi
 ## Listas
 
 <div align="center">
-    <img width="500" src="assets/images/lista.png">
+    <img width="500" src="assets/images/conceitos/listas/lista.png">
 </div>
 
 As listas nada mais são do que uma variável que armazena múltiplos valores. Vamos supor que é necessário fazer a soma de 10 notas de alunos. Sem as listas, poderia ficar algo como:
@@ -987,7 +992,7 @@ print(numeros[::-1])  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ## Funções
 
 <div align="center">
-    <img width="500" src="assets/images/funcao.png">
+    <img width="500" src="assets/images/conceitos/funcoes/funcao.png">
 </div>
 
 Funções são **blocos de código que podem ser reutilizados**. Guarde essa palavra: **Reutilização**. Com funções, podemos **reutilizar um determinado bloco de código quantas vezes quisermos**. Aqui, não abordarei conceitos avançados de funções como **recursividade**, **yield**, **return**, **escopo** e **callbacks**. A ideia é entender lógica.
@@ -1045,7 +1050,7 @@ Criamos a função metade, que cria uma variável `metade_numero`, que calcula a
 ## Entrada de valores
 
 <div align="center">
-    <img width="500" src="assets/images/entrada-de-valores.png">
+    <img width="500" src="assets/images/conceitos/entrada/entrada-de-valores.png">
 </div>
 
 
@@ -1141,6 +1146,10 @@ Um algoritmo que resolve um problema não significa que ele seja eficiente, só 
 * Pensar se existe outra forma de resolver o mesmo problema
 * Verificar se esta outra forma é mais eficiente
 * Aplicar novamente o ciclo.
+
+<div align="center">
+    <img width="500" src="assets/images/resolvendo-problemas.png">
+</div>
 
 # Resolvendo um algoritmo na prática
 Vamos fazer alguns exercícios de programação. Vou colocar aqui todo o meu pensamento por trás da resolução.

@@ -258,7 +258,7 @@ Aqui vão algumas formas de representação:
 O exemplo mais famoso de *pseudo-linguagem* no Brasil é o [**Portugol versão VisuAlg/Português Estruturado**](https://pt.wikipedia.org/wiki/Portugol). Veja um exemplo bem simples da pseudo-linguagem abaixo.
 
 <div align="center">
-    <img width="750" alt="portugol" src="assets/images/examples/exemplo-portugol.png" />
+    <img width="500" alt="portugol" src="assets/images/examples/exemplo-portugol.png" />
 </div>
 
 Perceba a [sintaxe](#sintaxe) do Portugol. Ele utiliza palavras como *algoritmo*, *var*, *inicio*, ...  
@@ -280,7 +280,7 @@ O Fluxograma é uma **representação visual** de um algoritmo. São utilizadas 
 #### Exemplo de fluxograma
 
 <div align="center">
-    <img width="750" alt="fluxograma" src="assets/images/examples/exemplo-fluxograma.png" />
+    <img width="250" alt="fluxograma" src="assets/images/examples/exemplo-fluxograma.png" />
 </div>
 
 ### Descrição Narrativa ou linguagem natural
@@ -296,7 +296,7 @@ A descrição narrativa é uma forma **textual** de se representar um algoritmo.
 #### Exemplo de descrição narrativa
 
 <div align="center">
-    <img width="750" alt="Descrição Narrativa" src="assets/images/examples/exemplo-descricao-narrativa.png" />
+    <img width="500" alt="Descrição Narrativa" src="assets/images/examples/exemplo-descricao-narrativa.png" />
 </div>
 
 ---
@@ -316,12 +316,20 @@ Vamos supor que queremos armazenar uma variável chamada idade, e com qualquer v
 idade = 23
 ```
 
+<div align="center">
+    <img width="500" src="assets/images/declarando-variavel.png">
+</div>
+
 Como podemos ver, `idade` é o nome da variável, e `23` é o valor que ela guarda.  
 Observe que a **declaração de uma variável** segue a seguinte [sintaxe](#sintaxe):
 
 ```py
 nome_da_variavel = valor_da_variavel
 ```
+
+<div align="center">
+    <img width="500" src="assets/images/nome_valor.png">
+</div>
 
 Agora, mais exemplos de declaração de variáveis:
 ```py
@@ -527,6 +535,11 @@ Sempre **retorna o valor contrário**. `True` vira `False`, e `False` vira `True
 São estruturas que executam um bloco de código **se uma condição for satisfeita**, ou seja, **verdadeira**.
 
 ### Simples
+
+<div align="center">
+    <img width="500" src="assets/images/condicao-simples.png">
+</div>
+
 É o tipo **mais simples** de condicional. Ela só pode ter um `if`. Funciona desse jeito:
 
 ```py
@@ -574,6 +587,11 @@ Nesse caso, a saída será `Olá, admin!`, porque as **duas condições são sat
 Mas aqui temos uma limitação. E se por exemplo, quisessemos dizer ao usuário que ele não era admin? É aí que partimos para outro tipo de estrutura condicional: A **[composta](#composta)**.
 
 ### Composta
+
+<div align="center">
+    <img width="500" src="assets/images/condicao-composta.png">
+</div>
+
 O tipo composto apresenta apenas **dois fluxos que sempre serão executados**. Ou será executado o `bloco de código 1` ou o `bloco de código 2`.
 
 ```py
@@ -630,6 +648,11 @@ Vamos analisar o código. Primeiro declaramos a variável como `valor_produto`, 
 Mas ainda tem um tipo que é mais poderoso que o tipo composto, que veremos a seguir: A [encadeada](#encadeada)
 
 ### Encadeada
+
+<div align="center">
+    <img width="500" src="assets/images/condicao-encadeada.png">
+</div>
+
 O tipo encadeada é um tipo que possui **diversas verificações**. Antes tinhamos apenas duas opções, mas com o tipo encadeada, nossas possibilidades de condicionais se expandirão.
 
 ```py
@@ -679,7 +702,12 @@ Perceba que nessa estrutura que defini, **não possui um `else`**, já que ele *
 A seguir, vamos verificar um outro tipo de estrutura condicional: a **[aninhada](#aninhada)**.
 
 ### Aninhada
-Esse tipo se chama `aninhada` justamente porque conseguimos **aninhar** outras estruturas condicionais dentro dela. Podemos aninhar qualquer um dos **quatro tipos** que vimos: a **[simples](#simples)**, a **[composta](#composta)**, a **[encadeada](#encadeada)** e a **[aninhada](#aninhada)**, que veremos a seguir.
+
+<div align="center">
+    <img width="500" src="assets/images/condicao-aninhada.png">
+</div>
+
+Esse tipo se chama `aninhada` justamente porque conseguimos **aninhar** outras estruturas condicionais dentro dela, como se fosse um ninho mesmo. Podemos aninhar qualquer um dos **quatro tipos** que vimos: a **[simples](#simples)**, a **[composta](#composta)**, a **[encadeada](#encadeada)** e a **[aninhada](#aninhada)**, que veremos a seguir.
 
 Imagine a **estrutura aninhada** como aquelas bonecas russas (*matrioska*) que **uma cabe dentro da outra**, basicamente é isso que uma estrutura de tipo [aninhada](#aninhada) é.
 
@@ -690,13 +718,12 @@ Veja a seguir a comparação das *matrioskas* com um código python usando o tip
     <img width="500" src="assets/images/matrioska.png">
 </div>
 
+Como podemos ver, o tipo encadeado é muito semelhante às *matrioskas*, porque uma condição está **sob outra**.  
+Um exemplo em Python seria:
 
 <div align="center">
     <img width="500" src="assets/images/if-matrioska.png">
 </div>
-
-Como podemos ver, o tipo encadeado é muito semelhante às *matrioskas*, porque uma condição está **sob outra**.  
-Um exemplo em Python seria:
 
 ```py
 idade = 20
@@ -722,6 +749,11 @@ As estruturas de Repetição são **estruturas semelhantes a que vimos anteriorm
 Entre as estruturas de repetição, estão dois tipos principais: o `for` (para) e o `while` (enquanto). É comum chamar as estruturas de repetição como **`loops`**, então se acostume caso veja.
 
 ### For
+
+<div align="center">
+    <img width="500" src="assets/images/loop-for.png">
+</div>
+
 O for é uma estrutura de repetição que é **mais simples** na sua sintaxe. Esse tipo de repetição é mais comum utilizar quando nós **sabemos previamente quantas vezes precisamos repetir um bloco de código**. Outra diferença é que não **precisamos declarar uma variável previamente** para executar o for.
 
 ```py
@@ -792,6 +824,11 @@ Então definimos `limite` com `60`, e declaramos a `metade` como `limite` dividi
 Então podemos ler dessa maneira: *Para 1 até 60, imprima `i`, e se `i` for igual a `metade` do `limite`, para de executar*.
 
 ### While
+
+<div align="center">
+    <img width="500" src="assets/images/loop-while.png">
+</div>
+
 O while é uma estrutura de repetição mais "**parruda**" e mais **direta**. Usamos ela quando não temos **previamente o número de repetições que será executado**. Por isso que é usado geralmente o `while True`, que é um comando para executar infinitamente o bloco de código dentro do while. Mas ainda sim podemos usar números inteiros igual no `for`, porém devemos declarar a variável antes do `while`.
 
 ```py
@@ -844,6 +881,11 @@ while True:
 Esse loop é colocado como `True` propositalmente para executar o bloco de código dentro do `while` "infinitas" vezes, até que algo o pare.
 
 ## Listas
+
+<div align="center">
+    <img width="500" src="assets/images/lista.png">
+</div>
+
 As listas nada mais são do que uma variável que armazena múltiplos valores. Vamos supor que é necessário fazer a soma de 10 notas de alunos. Sem as listas, poderia ficar algo como:
 
 ```py
@@ -943,6 +985,11 @@ print(numeros[::-1])  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
 ## Funções
+
+<div align="center">
+    <img width="500" src="assets/images/funcao.png">
+</div>
+
 Funções são **blocos de código que podem ser reutilizados**. Guarde essa palavra: **Reutilização**. Com funções, podemos **reutilizar um determinado bloco de código quantas vezes quisermos**. Aqui, não abordarei conceitos avançados de funções como **recursividade**, **yield**, **return**, **escopo** e **callbacks**. A ideia é entender lógica.
 
 ```py
@@ -996,6 +1043,12 @@ metade(21)
 Criamos a função metade, que cria uma variável `metade_numero`, que calcula a metade do número do argumento da função na sua chamada e imprime essa metade. A saída ficaria `2.5`, `6` e `10.5`
 
 ## Entrada de valores
+
+<div align="center">
+    <img width="500" src="assets/images/entrada-de-valores.png">
+</div>
+
+
 As entradas de valores nos permite receber dados através do usuário. Até agora, definimos os valores das nossas próprias variáveis, mas podemos deixar isso para o usuário escolher, deixando as coisas mais interativas.
 
 Para receber dados (entrada) por meio da escolha do usuário, utilizamos o comando `input()`, e dentro dos parênteses a mensagem que iremos exibir para o usuário. Veja um exemplo simples
@@ -1465,13 +1518,11 @@ while True:
         print("Chute mais alto")
 ```
 
-
-
 ---
 
 # ⭐ Saiba mais
 
-## Python
+## 🐍 Python
 
 * [Gustavo Guanabara - Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
 * [Gustavo Guanabara - Mundo 2](https://www.youtube.com/watch?v=nJkVHusJp6E)
@@ -1480,24 +1531,24 @@ while True:
 * [Python - roadmap.sh](https://roadmap.sh/python)
 * [CS50 Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
 
-## Jogos para aprender programação
+## 🎮 Jogos para aprender programação
 
-### Android
+### 📱 Android
 * [7 Billion Humans](https://play.google.com/store/apps/details?id=com.tomorrowcorporation.sevenbillionhumans&hl=en)
 * [while True: learn()](https://play.google.com/store/apps/details?id=com.nival.wtlm&hl=en)
 
-### Web
+### 🕸️ Web
 * [Pensar como Dev](https://pensarcomo.dev/)
 * [Blockly Games](https://blockly.games/)
 * [Scratch](https://scratch.mit.edu/)
 * [CodeCombat](https://codecombat.com/)
 
-### Desktop
+### 💻 Desktop
 * [The Farmer Was Replaced](https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/)
 * [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/)
 * [while True: learn()](https://store.steampowered.com/app/619150/while_True_learn/)
 
-## Praticar programação
+## ✍🏻 Praticar programação
 * [CodeWars](https://www.codewars.com/)
 * [BeeCrowd](https://judge.beecrowd.com/)
 * [LeetCode](https://leetcode.com/)
@@ -1506,7 +1557,7 @@ while True:
 
 ---
 
-## Pensamento Computacional
+## 🧠 Pensamento Computacional
 
 ### 📰 Artigos
 
@@ -1527,6 +1578,7 @@ while True:
 * [[YouTube] - Curso - Lógica de Programação](https://www.youtube.com/playlist?list=PLfdDa19nz5SpJMLiGkRSctLH7QBr44goY)
 * [[YouTube] - Curso de Algoritmos e Lógica de Programação](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 * [[YouTube] - Curso Lógica de Programação 2026 – Aprenda em 3 Horas (De Verdade!)](https://www.youtube.com/watch?v=epf-WQdVis0&t=9760s)
+* [[Youtube] - Curso de Lógica de Programação do Zero para Iniciantes](https://www.youtube.com/playlist?list=PLLaQioUGFzGMELNttW9gXP87WuoLjpozR)
 
 ### 📖 Livros
 * [Algoritmos e estrutura de Dados I](assets/books/Algoritmos%20e%20estrutura%20de%20Dados%20I.pdf)

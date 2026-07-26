@@ -90,7 +90,7 @@ A lógica de programação é a forma como pensamos para resolver um problema co
 Na lógica de programação, temos uma subárea que chamamos de **Pensamento Computacional**, responsável por dividir um problema em 4 pilares menores, que quando dominados, dão a capacidade ao desenvolvedor a **resolver problemas** de uma forma mais efetiva. A seguir, serão apresentados esses quatro pilares: **Decomposição**, **Reconhecimento de Padrões**, **Abstração** e **Algoritmos**
 
 <div align="center">
-    <a href="https://pt.wikipedia.org/wiki/Pensamento_computacional"><img width="750" alt="Os 4 pilares do pensamento computacional" src="assets/images/logica-de-programacao/os-quatro-pilares-do-pc.png" /></a>
+    <img width="750" src="assets/images/logica-de-programacao/os-quatro-pilares.png">
 </div>
 
 Recomendo a leitura *[deste artigo (em inglês)](https://dev.to/dev_frank/how-to-think-like-a-programmer-29a8)*, dizendo mais sobre como **pensar como um programador** - uma habilidade que é **destaque**, que separa programadores que apenas **decoram [sintaxe](#sintaxe)** de aqueles que pensam em como **resolver problemas**.

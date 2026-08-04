@@ -36,7 +36,7 @@ Repositório onde publico **exercícios para melhorar a lógica de programação
   - [Listas](#listas)
   - [Funções](#funções)
   - [Entrada de valores](#entrada-de-valores)
-- [💡 Como resolver problemas complexos na prática](#-como-resolver-problemas-complexos-na-prática-️)
+- [💡 Como resolver problemas complexos na prática](#-como-resolver-problemas-complexos-na-prática)
   - [Entenda o problema](#entenda-o-problema)
   - [Decomponha o problema em partes menores](#decomponha-o-problema-em-partes-menores)
   - [Reconheça os padrões](#reconheça-os-padrões)
@@ -54,7 +54,7 @@ Repositório onde publico **exercícios para melhorar a lógica de programação
   - [Scratch](#-scratch)
   - [Python](#-python)
   - [Jogos para aprender programação](#-jogos-para-aprender-programação)
-  - [Praticar programação](#️-praticar-programação)
+  - [Praticar programação](#-praticar-programação)
   - [Pensamento Computacional](#-pensamento-computacional)
 
 ---
@@ -1477,7 +1477,7 @@ Escreva um programa que:
 
 ---
 
-# 💡 Como resolver problemas complexos na prática ✍🏻
+# 💡 Como resolver problemas complexos na prática
 A parte mais importante de um desenvolvedor: Como resolver problemas?  
 Esse é um assunto muito delicado e que deve ser constantemente aprimorado, uma vez que os iniciantes costumam focar na sintaxe ao invés da lógica.  
 Segue um guia de como resolver problemas, englobando os conceitos aprendidos anteriormente.
@@ -1949,7 +1949,7 @@ while True:
 * [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/)
 * [while True: learn()](https://store.steampowered.com/app/619150/while_True_learn/)
 
-## ✍🏻 Praticar programação
+## 📝 Praticar programação
 * [CodeWars](https://www.codewars.com/)
 * [BeeCrowd](https://judge.beecrowd.com/)
 * [LeetCode](https://leetcode.com/)

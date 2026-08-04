@@ -6,6 +6,59 @@ Repositório onde publico **exercícios para melhorar a lógica de programação
 
 ---
 
+## Navegação
+
+- [📖 Glossário](#glossário)
+  - [Ambiguidade](#ambiguidade)
+  - [Sintaxe](#sintaxe)
+  - [Indentação](#indentação)
+- [📂 Estrutura do repositório](#estrutura-do-repositório)
+  - [descricao-narrativa](#descricao-narrativa)
+  - [fluxograma](#fluxograma)
+  - [portugol](#portugol)
+  - [scratch](#scratch)
+- [🧠 Lógica de programação](#lógica-de-programação)
+  - [Os 4 pilares](#os-4-pilares)
+    - [Decomposição](#decomposição)
+    - [Reconhecimento de padrões](#reconhecimento-de-padrões)
+    - [Abstração](#abstração)
+    - [Algoritmos](#algoritmos)
+- [🧩 Formas de representação de algoritmos](#formas-de-representação-de-algoritmos)
+  - [Pseudo-linguagem ou Pseudo-código](#pseudo-linguagem-ou-pseudo-código)
+  - [Fluxograma](#fluxograma-1)
+  - [Descrição Narrativa](#descrição-narrativa-ou-linguagem-natural)
+- [💻 Conceitos de lógica de programação](#conceitos-de-lógica-de-programação)
+  - [Variáveis e constantes](#variáveis-e-constantes)
+  - [Tipos de dados](#tipos-de-dados)
+  - [Operadores](#operadores)
+  - [Estruturas Condicionais](#estruturas-condicionais)
+  - [Estruturas de Repetição](#estruturas-de-repetição)
+  - [Listas](#listas)
+  - [Funções](#funções)
+  - [Entrada de valores](#entrada-de-valores)
+- [💡 Como resolver problemas complexos na prática](#-como-resolver-problemas-complexos-na-prática-️)
+  - [Entenda o problema](#entenda-o-problema)
+  - [Decomponha o problema em partes menores](#decomponha-o-problema-em-partes-menores)
+  - [Reconheça os padrões](#reconheça-os-padrões)
+  - [Abstraia as partes menos importantes](#abstraia-as-partes-menos-importantes)
+  - [Crie um algoritmo](#crie-um-algoritmo)
+  - [Implemente o algoritmo](#implemente-o-algoritmo)
+  - [Refaça o algoritmo caso necessário](#refaça-o-algoritmo-caso-necessário)
+- [🛠️ Resolvendo um algoritmo na prática](#resolvendo-um-algoritmo-na-prática)
+  - [Problema 01 — Maior número](#problema-01)
+  - [Problema 02 — Média de notas](#problema-02)
+  - [Problema 03 — Login com tentativas](#problema-03)
+  - [Problema 04 — Contagem de vogais](#problema-04)
+  - [Problema 05 — Jogo de adivinhação](#problema-05)
+- [⭐ Saiba mais](#-saiba-mais)
+  - [Scratch](#-scratch)
+  - [Python](#-python)
+  - [Jogos para aprender programação](#-jogos-para-aprender-programação)
+  - [Praticar programação](#️-praticar-programação)
+  - [Pensamento Computacional](#-pensamento-computacional)
+
+---
+
 ## Glossário
 
 ### `Ambiguidade`

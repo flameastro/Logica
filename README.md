@@ -355,6 +355,39 @@ GRAVIDADE = 9.8
 VELOCIDADE_DA_LUZ = 299792458
 ```
 
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Declarando variáveis
+Declare variáveis para armazenar as seguintes informações sobre você, usando o padrão snake_case:
+
+* Seu nome
+* Sua idade
+* Sua altura (em metros, use ponto para decimais)
+
+#### Exercício 2 — Encontre o erro
+O código abaixo tem alguns problemas de declaração - você consegue identificar e corrigi-los?
+
+```py
+Nome Completo = "Maria Silva"
+idade = 23,
+2quantidade-produtos = 10
+PRECO_unitario = 15.90
+```
+
+Dica: pense em nomes com **espaço**, uso de **vírgula vs. ponto**, nomes **começando com número** e o padrão **snake_case**.
+
+#### Exercício 3 — Variáveis ou constantes?
+Para cada situação abaixo, diga se o valor deveria ser guardado como variável ou constante, e escreva a linha de código correspondente:
+
+* O número de dias em uma semana (7)
+* O saldo atual de uma conta bancária
+* A taxa de imposto fixa de um sistema de vendas (ex: 0.05)
+* A quantidade de itens no carrinho de compras de um cliente
+
+</details>
+
 ## Tipos de dados
 Os tipos de dados representam o **tipo que o valor** de uma variável possui. Você lembra da sintaxe da declaração de uma variável, que vimos anteriormente? O `valor_da_variavel` que apresentei anteriormente, **possui obrigatoriamente um tipo**. Pode ser `caractere`, `número` ou `lógico`. A seguir: O que cada tipo significa.
 
@@ -410,6 +443,50 @@ idade = 27
 saldo = 4556.34
 tem_pet = False
 ```
+
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Identifique o tipo
+
+Para cada variável abaixo, diga se o valor é do tipo **caractere**, **inteiro**, **flutuante** ou **lógico**:
+
+```py
+estado = "Rio de Janeiro"
+temperatura = 37.5
+numero_de_irmaos = 3
+chovendo = False
+codigo_postal = "12345-678"
+media_final = 7.0
+esta_matriculado = True
+quantidade_de_alunos = 32
+```
+
+#### Exercício 2 — Corrija o tipo
+
+O código abaixo tenta representar cada informação, mas alguns valores foram escritos com o tipo errado (ex: número como texto, ou vírgula no lugar de ponto). Reescreva o código corrigindo os tipos:
+
+```py
+idade = "15"
+altura = 1,75
+esta_chovendo = "True"
+nome_aluno = Carlos
+nota_prova = "9.5"
+```
+
+#### Exercício 3 — Criando variáveis com os 4 tipos
+
+Imagine que você está criando um pequeno sistema para cadastrar um produto de uma loja. Declare **uma variável para cada tipo de dado** (caractere, inteiro, flutuante e lógico), representando:
+
+- O nome do produto (caractere)
+- A quantidade em estoque (inteiro)
+- O preço do produto (flutuante)
+- Se o produto está disponível para venda (lógico)
+
+Depois, escreva um `print()` exibindo cada variável junto com uma frase explicando o que ela representa (ex: `"O produto tem X unidades em estoque"`).
+
+</details>
 
 ## Operadores
 Existem diversos operadores: Os **aritméticos**, os de **comparação**, e os **lógicos**. Eles possuem esse nome porque **operam com dois valores**, chamados de **operandos**. Veremos cada um a seguir.
@@ -535,6 +612,62 @@ Sempre **retorna o valor contrário**. `True` vira `False`, e `False` vira `True
 
 `not True` -> `False`
 `not False` -> `True`
+
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Operadores aritméticos
+
+Calcule o resultado de cada operação abaixo (sem rodar no computador, tente resolver mentalmente primeiro):
+
+```py
+10 + 4
+10 - 4
+10 * 4
+10 / 4
+10 // 4
+10 % 4
+10 ** 2
+```
+
+Depois, escreva um pequeno código em Python que declare duas variáveis, `a = 17` e `b = 5`, e exiba (com `print()`) o resultado das 7 operações aritméticas entre elas.
+
+#### Exercício 2 — Verdadeiro ou falso?
+
+Para cada comparação abaixo, diga se o resultado é `True` ou `False`:
+
+```py
+8 > 10
+8 >= 8
+15 != 15
+7 < 20
+6 == 6.0
+9 <= 3
+```
+
+Depois, crie duas variáveis, `idade_minima = 18` e `idade_pessoa = 16`, e escreva uma comparação que verifique se `idade_pessoa` é maior ou igual a `idade_minima`.
+
+#### Exercício 3 — Combinando operadores lógicos
+
+Considere as variáveis abaixo:
+
+```py
+tem_carteira = True
+tem_18_anos = True
+esta_chovendo = False
+tem_guarda_chuva = False
+```
+
+Responda o que cada expressão abaixo retorna (`True` ou `False`), montando a tabela verdade mentalmente:
+
+1. `tem_carteira and tem_18_anos`
+2. `esta_chovendo and tem_guarda_chuva`
+3. `esta_chovendo or tem_guarda_chuva`
+4. `not tem_carteira`
+5. `(tem_carteira and tem_18_anos) or esta_chovendo`
+
+</details>
 
 ## Estruturas Condicionais
 São estruturas que executam um bloco de código **se uma condição for satisfeita**, ou seja, **verdadeira**.
@@ -749,6 +882,50 @@ Vamos entender o código. Declaramos as variáveis `idade` e `tem_carteira`, com
 > [!NOTE]
 > Lembre-se de que podemos colocar quantas estruturas condicionais e de qualquer tipo aqui.
 
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Condicional simples e composta
+
+Escreva um programa que:
+
+1. Declare uma variável `nota = 6.5`
+2. Use uma condicional **composta** (`if`/`else`) para verificar se o aluno foi **aprovado** (nota maior ou igual a 7) ou **reprovado** (nota menor que 7), imprimindo a mensagem correspondente
+
+Depois, teste seu código mentalmente mudando a nota para `8.0` e para `4.0`, e diga qual seria a saída em cada caso.
+
+#### Exercício 2 — Condicional encadeada
+
+Uma loja dá desconto de acordo com o valor da compra:
+
+- Compras acima de R$500: **20%** de desconto
+- Compras entre R$200 e R$500 (inclusive): **10%** de desconto
+- Compras abaixo de R$200: **sem desconto**
+
+Escreva um programa usando `if`, `elif` e `else` que:
+
+1. Declare uma variável `valor_compra = 350`
+2. Verifique em qual faixa de desconto a compra se encaixa e imprima uma mensagem dizendo a porcentagem de desconto aplicada (ex: `"Você ganhou 10% de desconto!"`)
+
+#### Exercício 3 — Condicional aninhada
+
+Um cinema segue as seguintes regras de entrada:
+
+- Se a pessoa tiver **menos de 12 anos**, só pode entrar **acompanhada de um adulto**
+- Se tiver **12 anos ou mais**, pode entrar sozinha
+
+Escreva um programa que:
+
+1. Declare duas variáveis: `idade = 10` e `acompanhado_de_adulto = False`
+2. Use uma estrutura condicional **aninhada** para verificar:
+   - Se `idade` for menor que 12: verifique se está acompanhado. Se sim, imprima `"Pode entrar, está acompanhado"`. Se não, imprima `"Não pode entrar sem um adulto"`
+   - Se `idade` for maior ou igual a 12: imprima `"Pode entrar sozinho"`
+
+Depois, mude os valores das variáveis para simular os **três cenários possíveis** e escreva qual seria a saída de cada um.
+
+</details>
+
 ## Estruturas de Repetição
 As estruturas de Repetição são **estruturas semelhantes a que vimos anteriormente**, as **condicionais**. Elas também possuem uma **condição**, mas ao invés de executarem um bloco de código apenas uma vez, elas **repetem um determinado bloco de código até que a condição seja falsa**.    
 Entre as estruturas de repetição, estão dois tipos principais: o `for` (para) e o `while` (enquanto). É comum chamar as estruturas de repetição como **`loops`**, então se acostume caso veja.
@@ -885,6 +1062,42 @@ while True:
 
 Esse loop é colocado como `True` propositalmente para executar o bloco de código dentro do `while` "infinitas" vezes, até que algo o pare.
 
+
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Usando o `for`
+
+Escreva três programas usando `for` e `range()`:
+
+1. Conte de 1 até 20, imprimindo cada número
+2. Conte de 100 até 0, decrescendo de 5 em 5 (dica: pense em como usar o `passos` negativo)
+3. Declare uma variável `limite = 30` e imprima apenas os números **ímpares** de 1 até esse limite (dica: use `range` combinado com um `if` que verifica o resto da divisão por 2)
+
+#### Exercício 2 — Usando o `while`
+
+Escreva um programa usando `while` que:
+
+1. Declare uma variável `saldo = 1000`
+2. A cada repetição, subtraia `100` do saldo e imprima o valor atual
+3. O loop deve parar quando o saldo chegar a `0` ou menos
+
+Depois, responda: por que é **obrigatório** decrementar a variável `saldo` dentro do `while`? O que aconteceria se você esquecesse dessa linha?
+
+#### Exercício 3 — Combinando `for`/`while` com condicionais
+
+Escreva um programa que simule a busca por um número "sorteado":
+
+1. Declare uma variável `numero_sorteado = 7`
+2. Use um `for` que vai de 1 até 10
+3. Para cada número do loop, imprima `"Tentando: X"` (onde X é o número atual)
+4. Se o número atual for igual a `numero_sorteado`, imprima `"Encontrei o número!"` e pare o loop com `break`
+
+Depois, reescreva o **mesmo programa**, mas agora usando um `while` no lugar do `for` (lembre-se de declarar e incrementar a variável contadora manualmente).
+
+</details>
+
 ## Listas
 
 <div align="center">
@@ -989,6 +1202,48 @@ print(numeros[0:10:3])  # [1, 4, 7]
 print(numeros[::-1])  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
+
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Criando e percorrendo listas
+
+Escreva um programa que:
+
+1. Declare uma lista chamada `precos` com os valores `[15.90, 8.50, 22.00, 5.75, 30.00]`
+2. Use um `for` para percorrer a lista e imprimir cada preço
+3. Some todos os valores da lista em uma variável `total` e, no final, imprima `f"O total é R${total}"`
+
+Depois, some ao código uma condicional dentro do `for` que imprime `"Preço alto!"` sempre que o preço for maior que `20`.
+
+#### Exercício 2 — Acessando elementos por índice
+
+Dada a lista abaixo:
+
+```py
+frutas = ["maçã", "banana", "uva", "melancia", "abacaxi", "morango"]
+```
+
+Sem rodar o código, responda:
+
+1. Qual o valor de `frutas[0]`?
+2. Qual o valor de `frutas[3]`?
+3. Qual o valor de `frutas[-1]`? (dica: pense em como o `[::-1]` inverte a lista — índices negativos contam a partir do final)
+4. O que `frutas[1:4]` retorna?
+5. O que `frutas[::2]` retorna?
+
+#### Exercício 3 — Combinando listas, laços e condicionais
+
+Escreva um programa que:
+
+1. Declare uma lista `idades = [12, 18, 25, 9, 17, 30, 15]`
+2. Use um `for` para percorrer a lista
+3. Para cada idade, verifique se a pessoa é **maior de idade** (>= 18) ou **menor de idade** (< 18), imprimindo uma mensagem para cada uma (ex: `"25 anos: maior de idade"`)
+4. Ao final do loop, imprima quantas pessoas da lista são maiores de idade (use um contador que incrementa dentro do `if`)
+
+</details>
+
 ## Funções
 
 <div align="center">
@@ -1047,12 +1302,57 @@ metade(21)
 
 Criamos a função metade, que cria uma variável `metade_numero`, que calcula a metade do número do argumento da função na sua chamada e imprime essa metade. A saída ficaria `2.5`, `6` e `10.5`
 
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Criando funções simples
+
+Escreva três funções:
+
+1. `saudacao()` — sem parâmetros, que imprime `"Bem-vindo ao curso!"`
+2. `dobro(numero)` — recebe um número e imprime o dobro dele
+3. `apresentar(nome, idade)` — recebe dois parâmetros e imprime `f"Meu nome é {nome} e tenho {idade} anos"`
+
+Depois, chame cada função pelo menos duas vezes com argumentos diferentes.
+
+#### Exercício 2 — Encontre o erro
+
+O código abaixo tem problemas na definição e/ou chamada das funções. Identifique os erros e reescreva o código corrigido:
+
+```py
+def calcular_area(base, altura)
+    area = base * altura
+    print(area)
+
+calcular_area()
+
+def saudacao:
+    print("Olá!")
+
+Saudacao()
+```
+
+*Dica: pense nos dois-pontos (`:`), nos parênteses, na quantidade de argumentos passados na chamada e em como o Python diferencia maiúsculas de minúsculas.*
+
+#### Exercício 3 — Combinando função, laço e condicional
+
+Escreva uma função chamada `classificar_idade(idade)` que:
+
+1. Recebe um parâmetro `idade`
+2. Se a idade for menor que 12, imprime `"Criança"`
+3. Se a idade for entre 12 (inclusive) e 18 (não inclusive), imprime `"Adolescente"`
+4. Se a idade for 18 ou mais, imprime `"Adulto"`
+
+Depois, crie uma lista `idades = [5, 14, 22, 9, 17, 40]` e use um `for` para chamar a função `classificar_idade` para **cada idade da lista**.
+
+</details>
+
 ## Entrada de valores
 
 <div align="center">
     <img width="500" src="assets/images/conceitos/entrada/entrada-de-valores.png">
 </div>
-
 
 As entradas de valores nos permite receber dados através do usuário. Até agora, definimos os valores das nossas próprias variáveis, mas podemos deixar isso para o usuário escolher, deixando as coisas mais interativas.
 
@@ -1088,6 +1388,39 @@ Se o usuário digitar `16`, por exemplo, e der Enter, então a saída será `Sua
 peso = float(input("Digite o seu peso: "))
 print(f"Seu peso é {peso}")
 ```
+
+### Exercícios
+<details>
+<summary>Clique para expandir</summary>
+
+#### Exercício 1 — Usando `input()` básico
+
+Escreva um programa que:
+
+1. Peça ao usuário o nome, usando `input()`
+2. Peça ao usuário a cidade onde mora, usando `input()`
+3. Imprima uma frase juntando as duas informações, do tipo: `f"{nome} mora em {cidade}"`
+
+#### Exercício 2 — Entrada de números
+
+Escreva um programa que:
+
+1. Peça ao usuário dois números, usando `input()` — lembre-se de converter para `int()` ou `float()`, dependendo do tipo de número
+2. Some os dois números e guarde o resultado em uma variável `soma`
+3. Imprima o resultado no formato: `f"A soma de {numero1} e {numero2} é {soma}"`
+
+Depois, responda: o que aconteceria se você **esquecesse** de usar `int()` ou `float()` antes do `input()` e tentasse somar os dois valores diretamente? (dica: pense no tipo de dado que o `input()` retorna por padrão)
+
+#### Exercício 3 — Combinando entrada com condicional
+
+Escreva um programa que:
+
+1. Peça ao usuário a idade, convertendo para `int()`
+2. Use uma condicional para verificar se a pessoa pode tirar carteira de motorista (idade maior ou igual a 18)
+3. Se puder, imprima `"Você já pode tirar carteira de motorista!"`
+4. Se não puder, calcule e imprima quantos anos faltam para completar 18 anos, no formato: `f"Faltam {anos_faltantes} anos para você poder tirar carteira"`
+
+</details>
 
 ---
 
@@ -1531,6 +1864,12 @@ while True:
 
 # ⭐ Saiba mais
 
+## 😺 Scratch
+
+* [[Scratch Brasil] - Introdução ao Scratch](https://youtube.com/playlist?list=PLBap2-Jn2j2iBXbc6h79_1gPym0W6-QmM)
+* [[Códigos Lucas Leal] - Aprendendo scratch em apenas 1 vídeo: um guia completo](https://youtu.be/8DhQG27oLPs)
+* [[Bóson Treinamentos] - Lógica de Programação com Scratch](https://youtube.com/playlist?list=PLucm8g_ezqNqTtmGghrC2fk9rqM2lkn9O)
+
 ## 🐍 Python
 
 * [Gustavo Guanabara - Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
@@ -1564,8 +1903,6 @@ while True:
 * [HackerRank](https://www.hackerrank.com/)
 * [CodeForces](https://codeforces.com/)
 
----
-
 ## 🧠 Pensamento Computacional
 
 ### 📰 Artigos
@@ -1577,17 +1914,18 @@ while True:
 
 ### 📽️ Vídeos
 
-* [[YouTube] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)
-* [[YouTube] - Aprendendo a Pensar Como Um Programador! 👨‍💻💡](https://www.youtube.com/watch?v=Lkm3-hA2TZo)
-* [[YouTube] - Como Pensar Como Um Programador - Desvendando o Mundo da Lógica e Resolução de Problemas](https://www.youtube.com/watch?v=Jrt5-pTKv7U)
-* [(Espanhol) [YouTube] - Curso COMPLETO de LÓGICA DE PROGRAMACIÓN Desde Cero](https://www.youtube.com/watch?v=TdITcVD64zI&t=1s)
-* [[YouTube] - Curso de Lógica de programação](https://www.youtube.com/playlist?list=PLfzRxaru7YPtu8TPQChFnLN9rGXoXfNUQ)
-* [[YouTube] - Curso Completo de Lógica de Programação com Português Estruturado do Zero ao Avançado](https://www.youtube.com/watch?v=XzkZO2qjgec&t=17958s)
-* [[YouTube] - Lógica da Programação - Curso Completo - 2026](https://www.youtube.com/watch?v=Og8dQstQcf0&t=244s)
-* [[YouTube] - Curso - Lógica de Programação](https://www.youtube.com/playlist?list=PLfdDa19nz5SpJMLiGkRSctLH7QBr44goY)
-* [[YouTube] - Curso de Algoritmos e Lógica de Programação](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
-* [[YouTube] - Curso Lógica de Programação 2026 – Aprenda em 3 Horas (De Verdade!)](https://www.youtube.com/watch?v=epf-WQdVis0&t=9760s)
-* [[Youtube] - Curso de Lógica de Programação do Zero para Iniciantes](https://www.youtube.com/playlist?list=PLLaQioUGFzGMELNttW9gXP87WuoLjpozR)
+* [[RocketSeat] - Como melhorar minha lógica de programação? | #Root 28](https://www.youtube.com/watch?v=LA2L4OsYrY0)
+* [[Programação Web] - Aprendendo a Pensar Como Um Programador! 👨‍💻💡](https://www.youtube.com/watch?v=Lkm3-hA2TZo)
+* [[Celso Kitamura] - Como Pensar Como Um Programador - Desvendando o Mundo da Lógica e Resolução de Problemas](https://www.youtube.com/watch?v=Jrt5-pTKv7U)
+* [[MoureDev] - (Espanhol) Curso COMPLETO de LÓGICA DE PROGRAMACIÓN Desde Cero](https://www.youtube.com/watch?v=TdITcVD64zI&t=1s)
+* [[Cataline] - Curso de Lógica de programação](https://www.youtube.com/playlist?list=PLfzRxaru7YPtu8TPQChFnLN9rGXoXfNUQ)
+* [[Bóson Treinamentos] - Curso Completo de Lógica de Programação com Português Estruturado do Zero ao Avançado](https://www.youtube.com/watch?v=XzkZO2qjgec&t=17958s)
+* [[Hello Codes] - Lógica da Programação - Curso Completo - 2026](https://www.youtube.com/watch?v=Og8dQstQcf0&t=244s)
+* [[Sharpax] - Curso - Lógica de Programação](https://www.youtube.com/playlist?list=PLfdDa19nz5SpJMLiGkRSctLH7QBr44goY)
+* [[Curso em Vídeo] - Curso de Algoritmos e Lógica de Programação](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
+* [[Dev Aprender] - Curso Lógica de Programação 2026 – Aprenda em 3 Horas (De Verdade!)](https://www.youtube.com/watch?v=epf-WQdVis0&t=9760s)
+* [[Cida Castello] - Curso de Lógica de Programação do Zero para Iniciantes](https://www.youtube.com/playlist?list=PLLaQioUGFzGMELNttW9gXP87WuoLjpozR)
+* [[Professor Edson Maia] - Algoritmos e Lógica de Programação](https://youtube.com/playlist?list=PLnex8IkmReXwS_yANKynWj29M_VIWztfS)
 
 ### 📖 Livros
 * [Algoritmos e estrutura de Dados I](assets/books/Algoritmos%20e%20estrutura%20de%20Dados%20I.pdf)
